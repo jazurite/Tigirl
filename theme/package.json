@@ -1,0 +1,38 @@
+{
+  "name": "@tigirl/theme",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "shopify theme dev -s z00wyj-jy",
+    "serve:scss": "gulp watch",
+    "sass:compile": "gulp sass",
+    "pull:live": "shopify theme pull -s z00wyj-jy -l",
+    "pull:dev": "shopify theme pull -s z00wyj-jy -t DEV",
+    "pull:local": "shopify theme pull -s z00wyj-jy -d",
+    "pull": "shopify theme pull -s z00wyj-jy",
+    "push": "shopify theme push -s z00wyj-jy",
+    "push:dev": "shopify theme push -s z00wyj-jy -t DEV",
+    "push:staging": "shopify theme push -s z00wyj-jy -t STAGING"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "concurrently": "^7.3.0",
+    "cssnano": "^5.1.13",
+    "cssnano-preset-advanced": "^5.3.8",
+    "gulp": "^4.0.2",
+    "gulp-cached": "^1.1.1",
+    "gulp-cached-sass": "^0.0.5",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-flatten": "^0.4.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-purgecss": "^4.1.3",
+    "gulp-sass": "^5.1.0",
+    "postcss": "^8.4.16",
+    "sass": "^1.77.6",
+    "tailwindcss": "^3.3.1"
+  }
+}

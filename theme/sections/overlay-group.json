@@ -1,0 +1,72 @@
+{
+  "type": "custom.overlay",
+  "name": "Overlay group",
+  "sections": {
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "blocks": {
+        "offer_banner_Ec9aJJ": {
+          "type": "offer_banner",
+          "settings": {
+            "layout": "full_width",
+            "icon_width": 24,
+            "subheading": "Subheading",
+            "content": "<p>Share a discount code, promote a sale or free shipping offer...<\/p>",
+            "button_text": "Button text",
+            "button_link": "",
+            "button_copy_on_click": false,
+            "background": "#eef3fd",
+            "text_color": "#0033dd"
+          }
+        }
+      },
+      "block_order": [
+        "offer_banner_Ec9aJJ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_cart_note": false,
+        "show_shipping_estimator": false,
+        "show_shipping_text": true,
+        "show_terms_of_service_checkbox": false,
+        "show_view_cart_button": false,
+        "show_checkout_button": true,
+        "enable_cross_sell": true,
+        "cross_sell_title": "có thể bạn sẽ thích"
+      }
+    },
+    "search-drawer": {
+      "type": "search-drawer",
+      "settings": {
+        "color_scheme": "",
+        "popular_searches_title": "Tìm kiếm nhiều nhất",
+        "popular_searches_menu": "featured-collections",
+        "featured_products_title": "gợi ý cho bạn",
+        "featured_products": [
+          "dummy-product-1",
+          "dummy-product-3",
+          "dummy-product-2"
+        ]
+      }
+    },
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "settings": {
+        "color_scheme": "",
+        "apparition_delay": 5,
+        "show_only_on_index": true,
+        "hide_for_account_holders": true,
+        "show_only_once": true,
+        "title": "Signup for our newsletter",
+        "button_text": "Subscribe",
+        "content": "Describe what your customers will receive when subscribing to your newsletter.",
+        "conditions": "By entering your address, you confirm that you have read our privacy policy."
+      }
+    }
+  },
+  "order": [
+    "cart-drawer",
+    "search-drawer",
+    "newsletter-popup"
+  ]
+}

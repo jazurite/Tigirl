@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "layout": "plain",
+        "show_description": true,
+        "collection_title_size": "h2",
+        "content_position": "place-self-center",
+        "background_color_scheme": "",
+        "image_size": "auto",
+        "quick_navigation_menu": "collection-navigation"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "color_scheme": "",
+        "products_per_page": 36,
+        "products_per_row_mobile": 2,
+        "products_per_row_desktop": 4,
+        "show_product_card_size_selector": false,
+        "quick_links_menu": "",
+        "filter_layout": "sidebar",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_filter_values_count": false,
+        "open_filters_by_default": false,
+        "swatch_selector_size": "sm"
+      }
+    },
+    "featured_collections_B3whxw": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_6KpJL9": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "products_count": 8,
+            "title": "Best sellers",
+            "content": "{{ block.settings.collection.description }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_6KpJL9"
+      ],
+      "name": "t:sections.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "stack_products_mobile": true,
+        "stack_products_desktop": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "tabs_alignment": "start",
+        "tabs_icon": "none",
+        "show_view_all_button": false,
+        "show_scrolling_bar": true
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "featured_collections_B3whxw"
+  ]
+}

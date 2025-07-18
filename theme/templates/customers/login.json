@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-customers-login",
+      "blocks": {
+        "fields": {
+          "type": "fields",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "fields"
+      ],
+      "settings": {
+        "image_color_scheme": "",
+        "content_color_scheme": "",
+        "background_image": "shopify:\/\/shop_images\/STUDIOS_6499_a4559a2c-24f8-4e5c-9de5-01e2888f9a0d.png"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

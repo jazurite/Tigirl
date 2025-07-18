@@ -1,0 +1,1030 @@
+{
+  "sections": {
+    "dynamic_grid_9igFPE": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_QJqRpb": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_FCD37Q": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "SUMMER ✺",
+                "show_text_vertically": false,
+                "font_size_desktop": 15,
+                "font_size_mobile": 15,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_FCD37Q"
+          ]
+        },
+        "dynamic_grid_item_JxnWqb": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 3,
+            "desktop_column_start": 6,
+            "desktop_column_end": 12,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 3,
+            "mobile_row_start": 9,
+            "mobile_column_start": 1,
+            "mobile_column_end": 6,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_g4jXRz": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Giữa bộn bề công việc và những ngày thường, Tigirl mang đến trang phục linh hoạt – thoải mái khi vận động, dịu dàng khi nghỉ ngơi.<\/p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_g4jXRz"
+          ]
+        },
+        "dynamic_grid_item_FHhhbR": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "right",
+            "desktop_row_start": 4,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_nVqjMx": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "<em>2025<\/em>",
+                "show_text_vertically": false,
+                "font_size_desktop": 15,
+                "font_size_mobile": 15,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "none",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_nVqjMx"
+          ]
+        },
+        "dynamic_grid_item_YmGHdx": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 7,
+            "desktop_column_start": 1,
+            "desktop_column_end": 2,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_RzdxCp": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6820.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_RzdxCp"
+          ]
+        },
+        "dynamic_grid_item_zTw7Lg": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 7,
+            "desktop_column_start": 3,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_7zCg8W": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6741.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_7zCg8W"
+          ]
+        },
+        "dynamic_grid_item_nYXKy4": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 7,
+            "desktop_column_start": 5,
+            "desktop_column_end": 6,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 12,
+            "mobile_column_start": 1,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_qHapYi": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6664.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_qHapYi"
+          ]
+        },
+        "dynamic_grid_item_U7ENWb": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "right",
+            "desktop_row_start": 7,
+            "desktop_column_start": 12,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 8,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_zAhJXq": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6383.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_zAhJXq"
+          ]
+        },
+        "dynamic_grid_item_zcfwDV": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 10,
+            "desktop_column_start": 3,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_JxWf3n": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6835.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_JxWf3n"
+          ]
+        },
+        "dynamic_grid_item_8idTdb": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 10,
+            "desktop_column_start": 7,
+            "desktop_column_end": 8,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_WV3Y46": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6475.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_WV3Y46"
+          ]
+        },
+        "dynamic_grid_item_TGEdzJ": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 10,
+            "desktop_column_start": 9,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_rKy3re": {
+              "type": "image-with-caption",
+              "name": "t:blocks.image.name",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6620.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_rKy3re"
+          ]
+        },
+        "dynamic_grid_item_dQ6pVR": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 13,
+            "desktop_column_start": 1,
+            "desktop_column_end": 2,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_8HVLxG": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6539.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_8HVLxG"
+          ]
+        },
+        "dynamic_grid_item_xRQKa3": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 13,
+            "desktop_column_start": 3,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_NYrcAC": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6712.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_NYrcAC"
+          ]
+        },
+        "dynamic_grid_item_KdyfFD": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 13,
+            "desktop_column_start": 5,
+            "desktop_column_end": 6,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_FaFYWB": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6449.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_FaFYWB"
+          ]
+        },
+        "dynamic_grid_item_8mpe9Q": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 13,
+            "desktop_column_start": 9,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_nLH8pg": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/dummy-product-5.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_nLH8pg"
+          ]
+        },
+        "dynamic_grid_item_C8zUk3": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 16,
+            "desktop_column_start": 1,
+            "desktop_column_end": 2,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_bQbLFA": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6781.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_bQbLFA"
+          ]
+        },
+        "dynamic_grid_item_ipBtCd": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 16,
+            "desktop_column_start": 3,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_ctCRNG": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6673.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_ctCRNG"
+          ]
+        },
+        "dynamic_grid_item_WaHWpp": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 16,
+            "desktop_column_start": 7,
+            "desktop_column_end": 8,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_UEEX6H": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6526.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_UEEX6H"
+          ]
+        },
+        "dynamic_grid_item_ULXDQ3": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 16,
+            "desktop_column_start": 13,
+            "desktop_column_end": 14,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_nWTfib": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6844_faefc707-301e-44c5-b1d1-66d913292ec9.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_nWTfib"
+          ]
+        },
+        "dynamic_grid_item_XBcbbq": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 16,
+            "desktop_column_start": 15,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_PFEzGP": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6604_e3e730f8-fb71-4537-bb0b-52ab35d52fe4.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_PFEzGP"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_QJqRpb",
+        "dynamic_grid_item_JxnWqb",
+        "dynamic_grid_item_FHhhbR",
+        "dynamic_grid_item_YmGHdx",
+        "dynamic_grid_item_zTw7Lg",
+        "dynamic_grid_item_nYXKy4",
+        "dynamic_grid_item_U7ENWb",
+        "dynamic_grid_item_zcfwDV",
+        "dynamic_grid_item_8idTdb",
+        "dynamic_grid_item_TGEdzJ",
+        "dynamic_grid_item_dQ6pVR",
+        "dynamic_grid_item_xRQKa3",
+        "dynamic_grid_item_KdyfFD",
+        "dynamic_grid_item_8mpe9Q",
+        "dynamic_grid_item_C8zUk3",
+        "dynamic_grid_item_ipBtCd",
+        "dynamic_grid_item_WaHWpp",
+        "dynamic_grid_item_ULXDQ3",
+        "dynamic_grid_item_XBcbbq"
+      ],
+      "name": "t:sections.dynamic_grid.name",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 8,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "dynamic_grid_4XCwTz": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_3fVaMt": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 5,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_EghN9b": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": ". Bộ sưu tập kết hợp sự mềm mại và bản lĩnh, lấy cảm hứng từ những không gian đời thường – nơi các cô gái được là chính mình.",
+                "show_text_vertically": false,
+                "font_size_desktop": 4,
+                "font_size_mobile": 10,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_EghN9b"
+          ]
+        },
+        "dynamic_grid_item_mjUgzb": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 9,
+            "mobile_column_start": 1,
+            "mobile_column_end": 6,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "subheading_4DNdzA": {
+              "type": "subheading",
+              "name": "t:blocks.subheading.name",
+              "settings": {
+                "text": "Có thể bạn sẽ thích"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "subheading_4DNdzA"
+          ]
+        },
+        "dynamic_grid_item_jhgMAR": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 3,
+            "desktop_column_end": 8,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 12,
+            "mobile_column_start": 1,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_jHmw7M": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6737.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_jHmw7M"
+          ]
+        },
+        "dynamic_grid_item_KtmJEf": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 9,
+            "desktop_column_end": 14,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 8,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_apXzKG": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6441.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_apXzKG"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_3fVaMt",
+        "dynamic_grid_item_mjUgzb",
+        "dynamic_grid_item_jhgMAR",
+        "dynamic_grid_item_KtmJEf"
+      ],
+      "name": "t:sections.dynamic_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "layout": "plain",
+        "show_description": true,
+        "collection_title_size": "h2",
+        "content_position": "place-self-center",
+        "background_color_scheme": "",
+        "image_size": "auto",
+        "quick_navigation_menu": "collection-navigation"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "products_per_page": 36,
+        "products_per_row_mobile": 2,
+        "products_per_row_desktop": 4,
+        "show_product_card_size_selector": false,
+        "quick_links_menu": "",
+        "filter_layout": "sidebar",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_filter_values_count": false,
+        "open_filters_by_default": false,
+        "swatch_selector_size": "sm"
+      }
+    },
+    "featured_collections_B3whxw": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_6KpJL9": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "products_count": 8,
+            "title": "Best sellers",
+            "content": "{{ block.settings.collection.description }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_6KpJL9"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "stack_products_mobile": true,
+        "stack_products_desktop": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "tabs_alignment": "start",
+        "tabs_icon": "none",
+        "show_view_all_button": false,
+        "show_scrolling_bar": true
+      }
+    },
+    "text_with_fixed_background_TbVq4J": {
+      "type": "text-with-fixed-background",
+      "blocks": {
+        "title_F4MPrk": {
+          "type": "title",
+          "settings": {
+            "content_position": "md:place-self-center",
+            "subheading": "",
+            "title": "Nhẹ nhàng bên ngoài, thoải mái thật sự bên trong.",
+            "heading_tag": "h1",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_F4MPrk"
+      ],
+      "name": "t:sections.text_with_fixed_background.name",
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify:\/\/shop_images\/parallax-background-5.png",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "featured_links_w3T7df": {
+      "type": "featured-links",
+      "blocks": {
+        "link_gfAJ9k": {
+          "type": "link",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dummy-collection-1.png",
+            "title": "Dresses",
+            "content": "",
+            "url": "shopify:\/\/collections\/dresses",
+            "heading_tag": "display-m",
+            "background_hover": "#faf2ee",
+            "text_color_hover": ""
+          }
+        },
+        "link_4MURr7": {
+          "type": "link",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dummy-collection-2.png",
+            "title": "SETS",
+            "content": "",
+            "url": "shopify:\/\/collections\/sets",
+            "heading_tag": "display-m",
+            "background_hover": "#faf2ee",
+            "text_color_hover": ""
+          }
+        },
+        "link_eVWG9F": {
+          "type": "link",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dummy-collection-3.png",
+            "title": "TOPS",
+            "content": "",
+            "url": "shopify:\/\/collections\/tops",
+            "heading_tag": "display-m",
+            "background_hover": "#faf2ee",
+            "text_color_hover": ""
+          }
+        },
+        "link_9H3ecH": {
+          "type": "link",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dummy-collection-4.png",
+            "title": "BOTTOMS",
+            "content": "",
+            "url": "shopify:\/\/collections\/bottoms",
+            "heading_tag": "display-m",
+            "background_hover": "#faf2ee",
+            "text_color_hover": ""
+          }
+        }
+      },
+      "block_order": [
+        "link_gfAJ9k",
+        "link_4MURr7",
+        "link_eVWG9F",
+        "link_9H3ecH"
+      ],
+      "name": "t:sections.featured_links.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "title": "KHÁM PHÁ BỘ SƯU TẬP",
+        "layout": "list",
+        "show_dividers": true,
+        "change_colors_on_hover": true
+      }
+    }
+  },
+  "order": [
+    "dynamic_grid_9igFPE",
+    "dynamic_grid_4XCwTz",
+    "banner",
+    "main",
+    "featured_collections_B3whxw",
+    "text_with_fixed_background_TbVq4J",
+    "featured_links_w3T7df"
+  ]
+}

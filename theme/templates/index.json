@@ -1,0 +1,1124 @@
+{
+  "sections": {
+    "slideshow_rwmxqG": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_image_slide_BNxYiF": {
+          "type": "_slideshow-image-slide",
+          "name": "Hero Banner",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/STUDIOS_6359.png",
+            "slide_link": "",
+            "content_max_width": 1340,
+            "mobile_content_position": "place-self-end-start",
+            "desktop_content_position": "sm:place-self-end-start",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          },
+          "blocks": {
+            "heading_7thVDT": {
+              "type": "heading",
+              "settings": {
+                "text": "Trong nhà hay ngoài phố <em>Vẫn là Tigirl<\/em>",
+                "heading_size": "display-m",
+                "html_tag": "h1",
+                "indent": "none",
+                "highlight_effect": "underline",
+                "highlight_accent_color": "#ffffff",
+                "highlight_text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "rich_text_7PXxA3": {
+              "type": "rich-text",
+              "name": "t:blocks.rich_text.name",
+              "settings": {
+                "text": "<p>Bộ sưu tập mới từ Tigirl kết hợp hoàn hảo giữa thẩm mỹ và sự thoải mái, dành cho những cô gái hiện đại – yêu sự tinh tế, nhẹ nhàng nhưng vẫn đầy cuốn hút.Dễ dàng mặc ở nhà, ngoài phố hay trong những khoảnh khắc riêng tư.<\/p>",
+                "content_width": "md"
+              },
+              "blocks": {}
+            },
+            "button_4TNcDz": {
+              "type": "button",
+              "name": "t:blocks.button.name",
+              "settings": {
+                "text": "Xem thêm",
+                "url": "",
+                "open_in_new_tab": false,
+                "style": "solid",
+                "background": "",
+                "text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_7thVDT",
+            "rich_text_7PXxA3",
+            "button_4TNcDz"
+          ]
+        },
+        "slideshow_image_slide_tXedBH": {
+          "type": "_slideshow-image-slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-center",
+            "desktop_content_position": "sm:place-self-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          },
+          "blocks": {
+            "heading_BXqHGd": {
+              "type": "heading",
+              "settings": {
+                "text": "Slide 2",
+                "heading_size": "display-m",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_BXqHGd"
+          ]
+        },
+        "slideshow-controls": {
+          "type": "_slideshow-controls",
+          "static": true,
+          "settings": {
+            "controls_style": "line",
+            "controls_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "slideshow_image_slide_BNxYiF",
+        "slideshow_image_slide_tXedBH"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "image_size": "fill",
+        "transition_type": "perspective",
+        "autoplay": true,
+        "pause_auto_rotate_on_hover": true,
+        "cycle_speed": 6,
+        "background": "#000000"
+      }
+    },
+    "featured_product_list_jpGxNP": {
+      "type": "featured-product-list",
+      "name": "t:sections.featured_product_list.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "product_list": [
+          "bleu",
+          "muse",
+          "sena",
+          "clea",
+          "bea",
+          "stella"
+        ],
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "intro_color_scheme": "scheme-2",
+        "intro_image": "shopify:\/\/shop_images\/dummy-product-4_8aa70c58-e84a-43e8-8c14-5f5683930c10.png",
+        "intro_title": "SUMMER 2025",
+        "intro_title_tag": "h5",
+        "intro_content": "",
+        "intro_button_text": "XEM TẤT CẢ",
+        "intro_button_link": "",
+        "intro_button_style": "outline"
+      }
+    },
+    "featured_links_xLzHnk": {
+      "type": "featured-links",
+      "blocks": {
+        "link_VXLFBx": {
+          "type": "link",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dummy-collection-1.png",
+            "title": "<strong>DRESSES<\/strong>",
+            "content": "",
+            "url": "shopify:\/\/collections\/dresses",
+            "heading_tag": "display-m",
+            "background_hover": "#faf2ee",
+            "text_color_hover": ""
+          }
+        },
+        "link_LY8fhM": {
+          "type": "link",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dummy-collection-2.png",
+            "title": "<strong>SETS<\/strong>",
+            "content": "",
+            "url": "shopify:\/\/collections\/sets",
+            "heading_tag": "display-m",
+            "background_hover": "#faf2ee",
+            "text_color_hover": ""
+          }
+        },
+        "link_naq4yi": {
+          "type": "link",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dummy-collection-3.png",
+            "title": "<strong>TOPS<\/strong>",
+            "content": "",
+            "url": "shopify:\/\/collections\/tops",
+            "heading_tag": "display-m",
+            "background_hover": "#faf2ee",
+            "text_color_hover": ""
+          }
+        },
+        "link_N44HCn": {
+          "type": "link",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dummy-collection-4.png",
+            "title": "<strong>BOTTOMS<\/strong>",
+            "content": "",
+            "url": "shopify:\/\/collections\/bottoms",
+            "heading_tag": "display-m",
+            "background_hover": "#faf2ee",
+            "text_color_hover": ""
+          }
+        }
+      },
+      "block_order": [
+        "link_VXLFBx",
+        "link_LY8fhM",
+        "link_naq4yi",
+        "link_N44HCn"
+      ],
+      "name": "t:sections.featured_links.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "title": "Khám phá bộ sưu tập",
+        "layout": "list",
+        "show_dividers": true,
+        "change_colors_on_hover": true
+      }
+    },
+    "scrolling_content_ynHGiT": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9mazBM": {
+          "type": "text",
+          "settings": {
+            "text": "Welcome to our shop",
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "text_mdbKqm": {
+          "type": "text",
+          "settings": {
+            "text": "Discover our products",
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9mazBM",
+        "text_mdbKqm"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "scrolling_speed": 0.3,
+        "scroll_direction": "start-to-end",
+        "section_rotation": 0,
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 5,
+        "text_font_size_desktop": 2,
+        "section_vertical_spacing_mobile": 18,
+        "section_vertical_spacing_desktop": 24,
+        "item_horizontal_spacing_mobile": 40,
+        "item_horizontal_spacing_desktop": 80
+      }
+    },
+    "dynamic_grid_LVa4iq": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_cDdjmJ": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 2,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_BYJWG8": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/dummy-product-5.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_BYJWG8"
+          ]
+        },
+        "dynamic_grid_item_AhBjQ6": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 3,
+            "desktop_column_end": 12,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_8xtmBU": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "SUMMER",
+                "show_text_vertically": false,
+                "font_size_desktop": 15,
+                "font_size_mobile": 15,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_8xtmBU"
+          ]
+        },
+        "dynamic_grid_item_Jnbj39": {
+          "type": "_dynamic-grid-item",
+          "name": "Grid item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 2,
+            "desktop_column_start": 12,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": -3,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 8,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "button_R3EGK6": {
+              "type": "button",
+              "name": "t:blocks.button.name",
+              "settings": {
+                "text": "Xem bộ sưu tập",
+                "url": "",
+                "open_in_new_tab": true,
+                "style": "solid",
+                "background": "#ffffff",
+                "text_color": "#1c1c1c"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "button_R3EGK6"
+          ]
+        },
+        "dynamic_grid_item_bxGaWE": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 15,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 7,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_HNpPcR": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/dummy-collection-4.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_HNpPcR"
+          ]
+        },
+        "dynamic_grid_item_nnnCaE": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 4,
+            "desktop_column_end": 5,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 7,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_zDymdC": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/dummy-collection-3.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_zDymdC"
+          ]
+        },
+        "dynamic_grid_item_JQUyJX": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 3,
+            "desktop_column_start": 6,
+            "desktop_column_end": 12,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 5,
+            "mobile_column_start": 3,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_MLipLX": {
+              "type": "_dynamic-grid-heading",
+              "name": "t:blocks.heading.name",
+              "settings": {
+                "text": "<em>2025<\/em>",
+                "show_text_vertically": false,
+                "font_size_desktop": 15,
+                "font_size_mobile": 15,
+                "font_size_line_height": 1.4,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "none",
+                "highlight_accent_color": "",
+                "highlight_text_color": "#ffffff"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_MLipLX"
+          ]
+        },
+        "dynamic_grid_item_bVA6Eq": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 12,
+            "desktop_column_end": 14,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 5,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_ezTDzD": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/dummy-thumbnail-1.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_ezTDzD"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_cDdjmJ",
+        "dynamic_grid_item_AhBjQ6",
+        "dynamic_grid_item_Jnbj39",
+        "dynamic_grid_item_bxGaWE",
+        "dynamic_grid_item_nnnCaE",
+        "dynamic_grid_item_JQUyJX",
+        "dynamic_grid_item_bVA6Eq"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "allow_transparent_header": true,
+        "background_image": "shopify:\/\/shop_images\/parallax-background.png",
+        "show_background_image_parallax": true,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 8,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "products_with_image_3eBqKK": {
+      "type": "products-with-image",
+      "blocks": {
+        "subheading_LakGrC": {
+          "type": "subheading",
+          "settings": {
+            "text": "SUMMER LOOK",
+            "position": "top_left"
+          }
+        },
+        "heading_cy7Wk3": {
+          "type": "heading",
+          "settings": {
+            "text": "CÁ TÍNH & <em>MỀM MẠI<\/em>",
+            "heading_tag": "h1",
+            "position": "middle_left",
+            "highlight_effect": "marker",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_ibe7XQ": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Đồ ngủ của Tigirl là sự hòa quyện giữa nét cá tính hiện đại và vẻ mềm mại nữ tính. Thiết kế tinh tế, chất liệu nhẹ nhàng ôm trọn cơ thể, tôn lên phong cách riêng mà vẫn giữ trọn sự thoải mái. <\/p>",
+            "position": "middle_left"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LakGrC",
+        "heading_cy7Wk3",
+        "richtext_ibe7XQ"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "products": [
+          "muse"
+        ],
+        "image": "shopify:\/\/shop_images\/STUDIOS_6855.png",
+        "overlay_color": "rgba(0,0,0,0)",
+        "overlay_opacity": 0,
+        "desktop_product_layout": "carousel",
+        "mobile_product_layout": "grid",
+        "mobile_products_per_row": "2"
+      }
+    },
+    "reading_text_M4WmRp": {
+      "type": "reading-text",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "image": "shopify:\/\/shop_images\/parallax-background-2.png",
+        "subheading": "VỀ TIGIRL",
+        "content": "Tigirl là đồ ngủ cho những cô gái nhỏ nhưng bản lĩnh – mềm mại để nghỉ ngơi, vững vàng để là chính mình. Lấy cảm hứng từ Tiga – chú hổ nhỏ tinh nghịch, Tigirl nói “không” với giả tạo, “có” với tử tế và tự do lớn lên theo cách của bạn.",
+        "button_text": "",
+        "button_link": "",
+        "heading_tag": "h2",
+        "mobile_text_position": "place-self-center",
+        "desktop_text_position": "sm:place-self-center",
+        "content_width": "full",
+        "reading_speed": "1.5",
+        "separate_button": false,
+        "text_opacity": 20,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "links_with_image_bKNdUc": {
+      "type": "links-with-image",
+      "blocks": {
+        "link_zYXMN7": {
+          "type": "link",
+          "settings": {
+            "image_caption": "",
+            "title": "Category 1",
+            "content": "",
+            "url": "",
+            "heading_tag": "h3"
+          }
+        },
+        "link_K7KJnA": {
+          "type": "link",
+          "settings": {
+            "image_caption": "",
+            "title": "Category 2",
+            "content": "",
+            "url": "",
+            "heading_tag": "h3"
+          }
+        },
+        "link_cgYTmq": {
+          "type": "link",
+          "settings": {
+            "image_caption": "",
+            "title": "Category 3",
+            "content": "",
+            "url": "",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "link_zYXMN7",
+        "link_K7KJnA",
+        "link_cgYTmq"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image_position": "end",
+        "title": "Our categories",
+        "separate_subheading": true,
+        "text_alignment": "left"
+      }
+    },
+    "countdown_GU43gg": {
+      "type": "countdown",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "image": "shopify:\/\/shop_images\/STUDIOS_6613.png",
+        "image_position": "split",
+        "image_size": "md",
+        "add_image_spacing": true,
+        "subheading": "",
+        "title": "Grand opening <em>10% OFF<\/em>",
+        "heading_tag": "h1",
+        "content": "<p>Shop our selection of exclusive products at reduced price during the Special Sale. Hurry up!<\/p>",
+        "button_text": "Khám phá ngay",
+        "button_url": "",
+        "button_style": "outline",
+        "expiration_date": "2025-07-25",
+        "expiration_behavior": "leave",
+        "timer_size": "h1",
+        "show_timer_borders": true,
+        "animate_timer_numbers": true,
+        "caption_text": "Don't Miss It",
+        "caption_scrolling": true,
+        "caption_text_color": "#ffffff"
+      }
+    },
+    "rich_text_yAdqi4": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_iLFtJ7": {
+          "type": "subheading",
+          "settings": {
+            "text": "Muse & Noir"
+          }
+        },
+        "heading_4LmtPg": {
+          "type": "heading",
+          "settings": {
+            "text": "Muse & Noir – One design - two vibes",
+            "heading_tag": "h3",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_pUYEx3": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Chất liệu xô xốp cotton nhẹ bay, thoáng mát Form buộc dây kết hợp cùng viền ren tinh tế tạo nên sự nữ tính có chọn lọc.Muse thì nhẹ và thơ, Noir thì trầm và sắc – đều là lựa chọn cho những cô gái không muốn bị đóng khung vào một kiểu.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iLFtJ7",
+        "heading_4LmtPg",
+        "richtext_pUYEx3"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "before_after_pF4L6L": {
+      "type": "before-after",
+      "blocks": {
+        "before_diHiXz": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify:\/\/shop_images\/STUDIOS_6507.png",
+            "text": "muse",
+            "text_size": "h3",
+            "text_position": "start"
+          }
+        },
+        "after_YUj9kU": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify:\/\/shop_images\/STUDIOS_6457.png",
+            "text": "Noir",
+            "text_size": "h3",
+            "text_position": "start"
+          }
+        }
+      },
+      "block_order": [
+        "before_diHiXz",
+        "after_YUj9kU"
+      ],
+      "name": "t:sections.before_after.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": "stacked",
+        "add_comparison_spacing": false,
+        "subheading": "",
+        "title": "",
+        "title_tag": "h3",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    },
+    "media_blocks_bGrfMg": {
+      "type": "media-blocks",
+      "blocks": {
+        "image_with_text_nJeUef": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "",
+            "color_scheme_hover": "",
+            "image": "shopify:\/\/shop_images\/STUDIOS_6741.png",
+            "icon": "none",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "icon_position": "middle_center",
+            "subheading": "",
+            "subheading_position": "middle_center",
+            "title": "",
+            "heading_tag": "h4",
+            "heading_position": "middle_center",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "",
+            "text_position": "middle_center",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "bottom_center"
+          }
+        },
+        "image_with_text_rQtFLq": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "scheme-2",
+            "color_scheme_hover": "scheme-3",
+            "icon": "none",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "icon_position": "middle_center",
+            "subheading": "",
+            "subheading_position": "middle_center",
+            "title": "HOÀN THIỆN <em>PHONG CÁCH<\/em>, THỂ HIỆN BẢN LĨNH",
+            "heading_tag": "h2",
+            "heading_position": "middle_center",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "",
+            "text_position": "middle_center",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "bottom_center"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_nJeUef",
+        "image_with_text_rQtFLq"
+      ],
+      "name": "t:sections.media_blocks.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "heading_tag": "h4",
+        "text_alignment": "left",
+        "scrolling_title": false,
+        "scrolling_title_separator": "circle",
+        "stack_on_mobile": true,
+        "add_horizontal_spacing": true,
+        "add_border": false,
+        "column_spacing": "sm",
+        "items_per_row": 2,
+        "block_size": "auto"
+      }
+    },
+    "dynamic_grid_9GEQac": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_WPEkLW": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 7,
+            "desktop_column_start": 2,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 7,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_jVnM7f": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Thanh lịch và không thể cản phá – Tigirl mang đến những thiết kế mềm mại, ứng dụng cao, tôn dáng và dễ phối đồ.Dù là ở nhà hay xuống phố, bạn luôn tự tin là chính mình.<\/p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_jVnM7f"
+          ]
+        },
+        "dynamic_grid_item_QNw783": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 5,
+            "desktop_column_start": 3,
+            "desktop_column_end": 14,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": -5,
+            "mobile_row_start": 5,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -3,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_xHGRGX": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "<strong>CHIC AND <\/strong><em>UNSTOPPABLE<\/em>",
+                "show_text_vertically": false,
+                "font_size_desktop": 10,
+                "font_size_mobile": 11,
+                "font_size_line_height": 0.8,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "none",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_xHGRGX"
+          ]
+        },
+        "dynamic_grid_item_8LTY9Y": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 2,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 5,
+            "desktop_vertical_adjustment": 1,
+            "mobile_row_start": 2,
+            "mobile_column_start": 2,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -5,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_cKE4cn": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6500.png",
+                "caption": "",
+                "max_width": 80,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_cKE4cn"
+          ]
+        },
+        "dynamic_grid_item_jqiPPn": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 5,
+            "desktop_column_end": 7,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 2,
+            "mobile_column_start": 4,
+            "mobile_column_end": 5,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -4,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_a6QLzL": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6682.png",
+                "caption": "",
+                "max_width": 80,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_a6QLzL"
+          ]
+        },
+        "dynamic_grid_item_tQxeGH": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 8,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": -3.5,
+            "desktop_vertical_adjustment": 1,
+            "mobile_row_start": 2,
+            "mobile_column_start": 6,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -7,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_n4hRe8": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6795.png",
+                "caption": "",
+                "max_width": 80,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_n4hRe8"
+          ]
+        },
+        "dynamic_grid_item_3p3zzB": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 10,
+            "desktop_column_end": 12,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 1,
+            "mobile_row_start": 8,
+            "mobile_column_start": 5,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -2,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_bUewVG": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6532.png",
+                "caption": "",
+                "max_width": 80,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_bUewVG"
+          ]
+        },
+        "dynamic_grid_item_CYFz3g": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 13,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": -3,
+            "desktop_vertical_adjustment": 5,
+            "mobile_row_start": 8,
+            "mobile_column_start": 5,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -2,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_BY9EXV": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6741.png",
+                "caption": "",
+                "max_width": 80,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_BY9EXV"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_WPEkLW",
+        "dynamic_grid_item_QNw783",
+        "dynamic_grid_item_8LTY9Y",
+        "dynamic_grid_item_jqiPPn",
+        "dynamic_grid_item_tQxeGH",
+        "dynamic_grid_item_3p3zzB",
+        "dynamic_grid_item_CYFz3g"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": false,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    }
+  },
+  "order": [
+    "slideshow_rwmxqG",
+    "featured_product_list_jpGxNP",
+    "featured_links_xLzHnk",
+    "scrolling_content_ynHGiT",
+    "dynamic_grid_LVa4iq",
+    "products_with_image_3eBqKK",
+    "reading_text_M4WmRp",
+    "links_with_image_bKNdUc",
+    "countdown_GU43gg",
+    "rich_text_yAdqi4",
+    "before_after_pF4L6L",
+    "media_blocks_bGrfMg",
+    "dynamic_grid_9GEQac"
+  ]
+}

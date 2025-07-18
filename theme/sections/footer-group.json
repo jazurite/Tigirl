@@ -1,0 +1,133 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "trust-icons": {
+      "type": "trust-icons",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-truck",
+            "custom_icon": "shopify:\/\/shop_images\/truck.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "title": "Miễn Phí Giao Hàng",
+            "content": "Áp dụng cho đơn hàng từ 500.000đ"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/alert-message-laptop_1.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 20,
+            "title": "Chăm Sóc Khách Hàng",
+            "content": "Hỗ trợ tận tâm, phản hồi nhanh chóng, đồng hành cùng bạn mọi lúc cần thiết."
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/protection.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "title": "An Toàn & Thoải Mái",
+            "content": "Sản phẩm của Tigirl cam kết an toàn"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/package_f2bb9693-821b-4c9c-b16b-c9d6c1ed3d99.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 20,
+            "title": "Đóng Gói",
+            "content": "Với Tigirl sản phẩm đến tay bạn như một món quà"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "item_heading_style": "subheading"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_Cper6t": {
+          "type": "text",
+          "settings": {
+            "title": "CÔNG TY TNHH TIGIRL",
+            "content": "<p><strong>Địa chỉ:<\/strong> Số 03-05 Đường Nguyễn Cơ Thạch, Phường An Khánh, TP. Hồ Chí Minh<br\/><br\/><strong>Tổng đài<\/strong>: 0961798805<\/p><p><strong>Emal: <\/strong> tigirl.official@gmail.com<\/p>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "collapse_on_mobile": true,
+            "show_menu_title": true,
+            "menu_title": "Chính Sách và Bảo"
+          }
+        },
+        "links_D8KE63": {
+          "type": "links",
+          "settings": {
+            "menu": "guidelines",
+            "collapse_on_mobile": true,
+            "show_menu_title": true,
+            "menu_title": "Hướng Dẫn"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>Đăng ký để nhận voucher giảm 10% tổng giá trị đơn hàng<\/p>",
+            "disclaimer_text": "<p>By signing up to our newsletter, you agree with our privacy policy.<\/p>"
+          }
+        },
+        "scrolling_logo_4MbdFK": {
+          "type": "scrolling_logo",
+          "settings": {
+            "layout": "full_width",
+            "image": "{{ shop.brand.logo }}",
+            "image_width": 45,
+            "mobile_image_width": 65
+          }
+        }
+      },
+      "block_order": [
+        "text_Cper6t",
+        "links",
+        "links_D8KE63",
+        "newsletter",
+        "scrolling_logo_4MbdFK"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "trust-icons",
+    "footer"
+  ]
+}

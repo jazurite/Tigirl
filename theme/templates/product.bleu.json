@@ -1,0 +1,717 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "uppercase_title": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "separate_options": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "swatch_selector_size": "lg",
+            "block_selector_style": "outline",
+            "variant_image_options": "color",
+            "size_chart_page": "bleu-size-chart"
+          }
+        },
+        "product_variations_LfMnn6": {
+          "type": "product_variations",
+          "disabled": true,
+          "settings": {
+            "option_name": "",
+            "option_value_metafield": "",
+            "products": [],
+            "selector_style": "swatch",
+            "swatch_selector_size": "lg"
+          }
+        },
+        "countdown_rHXaFU": {
+          "type": "countdown",
+          "settings": {
+            "text": "Grand opening 10% OFF",
+            "background": "#fff1f2",
+            "text_color": "#be123c",
+            "expiration_date": "2025-07-21",
+            "expiration_behavior": "hide"
+          }
+        },
+        "modal_NqgcFd": {
+          "type": "modal",
+          "settings": {
+            "dialog_type": "modal",
+            "button_title": "Xem tính năng",
+            "button_style": "link",
+            "stretch_button": false,
+            "button_background": "",
+            "button_text_color": "",
+            "modal_title": "Modal title",
+            "modal_content": "<p>Write some content that will appear in a modal<\/p>",
+            "modal_size": "sm"
+          }
+        },
+        "modal_dRnwhw": {
+          "type": "modal",
+          "settings": {
+            "dialog_type": "modal",
+            "button_title": "vận chuyển và trả hàng",
+            "button_style": "link",
+            "stretch_button": false,
+            "button_background": "",
+            "button_text_color": "",
+            "modal_title": "Modal title",
+            "modal_content": "<p>Write some content that will appear in a modal<\/p>",
+            "modal_size": "sm"
+          }
+        },
+        "text_fVQ99k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Everywear by Tigirl Trong nhà hay ngoài phố – vẫn là chính mình<\/p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "show_quantity_selector": false,
+            "add_quantity_selector_spacing": true,
+            "atc_button_style": "solid",
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "product_variations_LfMnn6",
+        "countdown_rHXaFU",
+        "modal_NqgcFd",
+        "modal_dRnwhw",
+        "text_fVQ99k",
+        "buy_buttons"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": false,
+        "transparent_header_use_primary_colors": true,
+        "add_top_spacing": true,
+        "show_sticky_add_to_cart": true,
+        "product_media_size": 50,
+        "content_alignment": "left",
+        "desktop_media_layout": "carousel",
+        "desktop_carousel_controls": "lines",
+        "mobile_controls": "lines",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "media_blocks_UnYbTM": {
+      "type": "media-blocks",
+      "blocks": {
+        "image_with_text_UaB7by": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "scheme-009b8991-2d40-4518-81e1-d0baf5e6c211",
+            "color_scheme_hover": "scheme-3",
+            "image": "shopify:\/\/shop_images\/STUDIOS_6490.png",
+            "icon": "none",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "icon_position": "middle_center",
+            "subheading": "",
+            "subheading_position": "middle_center",
+            "title": "",
+            "heading_tag": "h4",
+            "heading_position": "middle_center",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "",
+            "text_position": "middle_center",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        },
+        "image_with_text_wFBQKP": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "scheme-4",
+            "color_scheme_hover": "",
+            "image": "shopify:\/\/shop_images\/STUDIOS_6499.png",
+            "icon": "none",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "icon_position": "middle_center",
+            "subheading": "",
+            "subheading_position": "middle_center",
+            "title": "",
+            "heading_tag": "h4",
+            "heading_position": "middle_center",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "",
+            "text_position": "middle_center",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_UaB7by",
+        "image_with_text_wFBQKP"
+      ],
+      "name": "t:sections.media_blocks.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "heading_tag": "h4",
+        "text_alignment": "left",
+        "scrolling_title": false,
+        "scrolling_title_separator": "circle",
+        "stack_on_mobile": true,
+        "add_horizontal_spacing": false,
+        "add_border": false,
+        "column_spacing": "none",
+        "items_per_row": 2,
+        "block_size": "auto"
+      }
+    },
+    "media_blocks_JYAWGU": {
+      "type": "media-blocks",
+      "blocks": {
+        "image_with_text_8AyDMH": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "scheme-1",
+            "color_scheme_hover": "scheme-3",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/arrow-all-direction.svg",
+            "icon_width": 48,
+            "mobile_icon_width": 24,
+            "icon_position": "top_left",
+            "subheading": "",
+            "subheading_position": "middle_center",
+            "title": "Chất vải",
+            "heading_tag": "h2",
+            "heading_position": "bottom_left",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "<p>Xô xốp cotton in họa tiết chấm bi – chất liệu mềm nhẹ, thoáng khí, có texture gợn tự nhiên tạo độ bay nhẹ.Không co giãn nhưng rất dễ mặc, thấm hút tốt, phù hợp cho những ngày cần sự thoải mái mà vẫn có thần thái.<\/p>",
+            "text_position": "bottom_left",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        },
+        "image_with_text_T9qbXW": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "scheme-1",
+            "color_scheme_hover": "scheme-3",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/like.svg",
+            "icon_width": 48,
+            "mobile_icon_width": 24,
+            "icon_position": "top_left",
+            "subheading": "",
+            "subheading_position": "middle_center",
+            "title": "Tone thiết kế",
+            "heading_tag": "h2",
+            "heading_position": "bottom_left",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "<p>Set 2 mảnh gồm áo tay dài buộc dây và quần short cạp chun.Viền ren mảnh được phối tinh tế nhằm tạo điểm nhấn nữ tính mà không rườm.<\/p>",
+            "text_position": "bottom_left",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        },
+        "image_with_text_d6bn3M": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "scheme-1",
+            "color_scheme_hover": "scheme-3",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/arrow-all-direction.svg",
+            "icon_width": 48,
+            "mobile_icon_width": 24,
+            "icon_position": "top_left",
+            "subheading": "",
+            "subheading_position": "bottom_left",
+            "title": "Muse (hồng pastel)",
+            "heading_tag": "h2",
+            "heading_position": "bottom_left",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "<p>mềm mại, ngọt vừa phải, mang chất “nàng thơ hiện đại”.<\/p>",
+            "text_position": "bottom_left",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        },
+        "image_with_text_dTwAB9": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "scheme-1",
+            "color_scheme_hover": "scheme-3",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/like.svg",
+            "icon_width": 48,
+            "mobile_icon_width": 24,
+            "icon_position": "top_left",
+            "subheading": "",
+            "subheading_position": "middle_center",
+            "title": "Noir (xanh denim)",
+            "heading_tag": "h2",
+            "heading_position": "bottom_left",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "<p>trầm sắc, sắc sảo – đúng chất “cool girl” lặng lẽ nhưng nổi bật.<\/p>",
+            "text_position": "bottom_left",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_8AyDMH",
+        "image_with_text_T9qbXW",
+        "image_with_text_d6bn3M",
+        "image_with_text_dTwAB9"
+      ],
+      "name": "t:sections.media_blocks.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "heading_tag": "h4",
+        "text_alignment": "left",
+        "scrolling_title": false,
+        "scrolling_title_separator": "circle",
+        "stack_on_mobile": false,
+        "add_horizontal_spacing": true,
+        "add_border": true,
+        "column_spacing": "none",
+        "items_per_row": 2,
+        "block_size": "sm"
+      }
+    },
+    "text_with_media_6m9qcU": {
+      "type": "text-with-media",
+      "blocks": {
+        "heading_JQneLM": {
+          "type": "heading",
+          "settings": {
+            "text": "thiết kế quyến rũ cho nàng",
+            "heading_tag": "h1",
+            "position": "middle_center",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_JLKfHK": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Everywear by Tigirl Trong nhà hay ngoài phố – vẫn là chính mình<\/p>",
+            "position": "bottom_center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JQneLM",
+        "richtext_JLKfHK"
+      ],
+      "custom_css": [
+        ".content-box__background-media {background-color: #e5ddd6;}"
+      ],
+      "name": "t:sections.text_with_media.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "content_position": "start",
+        "content_percentage_width": 50,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "add_media_spacing": false,
+        "autoplay_video": true,
+        "primary_image": "shopify:\/\/shop_images\/STUDIOS_6500.png",
+        "secondary_media_width": 60,
+        "secondary_media_mobile_width": 60,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "dynamic_grid_ciYCkJ": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_NpWgWB": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 5,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_CtkN7X": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": ". Ra đời tại Việt Nam, Tigirl cung cấp các sản phẩm chất lượng, tiện dụng cho cuộc sống hàng ngày.",
+                "show_text_vertically": false,
+                "font_size_desktop": 4,
+                "font_size_mobile": 6,
+                "font_size_line_height": 1,
+                "html_tag": "h5",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_CtkN7X"
+          ]
+        },
+        "dynamic_grid_item_9aKYtw": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 1,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 5,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_BPViCX": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Tigirl mong muốn mang đến sự thoải mái và bản lĩnh cho các cô gái trong từng khoảnh khắc thường ngày, bằng những bộ đồ ngủ mềm mại, thiết thực – dễ mặc ở nhà, dễ yêu chính mình.<\/p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_BPViCX"
+          ]
+        },
+        "dynamic_grid_item_MTRVQx": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 12,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 8,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_6D6KGk": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/STUDIOS_6477_2.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_6D6KGk"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_NpWgWB",
+        "dynamic_grid_item_9aKYtw",
+        "dynamic_grid_item_MTRVQx"
+      ],
+      "name": "t:sections.dynamic_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "image_with_text_overlay_MjdGyy": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_Fx4pPb": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          },
+          "blocks": {}
+        },
+        "heading_r9Dm8D": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_size": "h3",
+            "html_tag": "p",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          },
+          "blocks": {}
+        },
+        "rich_text_hWhki9": {
+          "type": "rich-text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Write some text about your products or your brand.<\/p>",
+            "content_width": "sm"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "subheading_Fx4pPb",
+        "heading_r9Dm8D",
+        "rich_text_hWhki9"
+      ],
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "scheme-39d34e9e-6a0b-4b61-81a7-c8c711531024",
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/parallax-background-image-3.png",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "enable_sticky_content": true,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    },
+    "faq_JjQkN3": {
+      "type": "faq",
+      "blocks": {
+        "category_p3edz9": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_eTgncp": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_CKjt7m": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_Qp3fGb": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "category_p3edz9",
+        "question_eTgncp",
+        "question_CKjt7m",
+        "question_Qp3fGb"
+      ],
+      "name": "t:sections.faq.name",
+      "settings": {
+        "color_scheme": "",
+        "layout": "split",
+        "accordion_style": "border",
+        "question_style": "text",
+        "subheading": "",
+        "title": "Câu hỏi thường gặp",
+        "title_tag": "display-m",
+        "content": "<p>Bạn đang tìm kiếm câu trả lời nhanh chóng?Các câu hỏi thường gặp của Tigirl được cập nhật thường xuyên cho các thắc mắc phổ biến nhất của khách hàng.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "blocks": {
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "Có thể bạn sẽ thích",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "settings": {
+        "color_scheme": "",
+        "stack_products": true,
+        "recommendations_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "show_view_all_button": true,
+        "show_scrolling_bar": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_blocks_UnYbTM",
+    "media_blocks_JYAWGU",
+    "text_with_media_6m9qcU",
+    "dynamic_grid_ciYCkJ",
+    "image_with_text_overlay_MjdGyy",
+    "faq_JjQkN3",
+    "related-products"
+  ]
+}

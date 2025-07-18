@@ -1,0 +1,45 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": false,
+        "autoplay": false,
+        "cycle_speed": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "mobile_layout": "logo_center_navigation_split",
+        "desktop_layout": "drawer",
+        "logo": "shopify:\/\/shop_images\/Tigirl_Logo.png",
+        "logo_max_width": 140,
+        "logo_mobile_max_width": 100,
+        "menu": "main-menu",
+        "drawer_menu": "",
+        "secondary_menu": "navigation-sub-menu",
+        "desktop_dropdown_menu_style": "below",
+        "menu_open_trigger": "hover",
+        "desktop_icon_size": 16,
+        "drawer_show_nested_menu_indicator": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify:\/\/shop_images\/Tigirl_Logo_White.png"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
