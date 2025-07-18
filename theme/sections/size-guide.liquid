@@ -1,0 +1,115 @@
+<style>
+    .size-chart-container {
+        display: inline-grid;
+        grid-template-columns: minmax(0, 1fr) 240px;
+    }
+</style>
+{% assign sizeCharts = section.blocks | where: "type", "size-chart" %}
+
+{% for sizeChart in sizeCharts %}
+    {% assign page = sizeChart.settings.page %}
+    {% assign product = sizeChart.settings.product %}
+
+    <div id="{{ product.handle }}" class="size-chart color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
+        <div class="section-spacing section-spacing--tight">
+            <div class="container">
+                <div class="max-w-{{ section.settings.content_width }} mx-auto">
+                    <div class="section-stack">
+                        {%- if section.settings.show_title -%}
+                            <a href="{{ product.url }}">
+                                <h1 class="h2 text-center">{{ product.title }}</h1>
+                            </a>
+                        {%- endif -%}
+
+                        {%- if page.content != empty %}
+                            <div class="size-chart-container">
+                                <div class="prose">
+                                    {{- page.content -}}
+                                </div>
+
+                                {{- sizeChart.settings.picture | image_url: width: 1920 | image_tag: sizes: '240', widths: '72,144,240, 920, 1440' -}}
+                            </div>
+                        {%- endif -%}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+{% schema %}
+{
+  "name": "Size Guide",
+  "class": "shopify-section--main-page",
+  "tag": "section",
+  "blocks": [
+    {
+      "type": "size-chart",
+      "name": "Size Chart",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "image_picker",
+          "id": "picture",
+          "label": "t:sections.logo_list.blocks.logo.logo_image"
+        },
+        {
+          "type": "page",
+          "id": "page",
+          "label": "t:global.text.page"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "t:sections.main_page.show_title",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "content_width",
+      "label": "t:global.sizes.content_width",
+      "options": [
+        {
+          "value": "sm",
+          "label": "t:global.sizes.small"
+        },
+        {
+          "value": "md",
+          "label": "t:global.sizes.medium"
+        },
+        {
+          "value": "lg",
+          "label": "t:global.sizes.large"
+        },
+        {
+          "value": "xl",
+          "label": "t:global.sizes.xl"
+        },
+        {
+          "value": "2xl",
+          "label": "t:global.sizes.2xl"
+        },
+        {
+          "value": "full",
+          "label": "t:global.sizes.full_width"
+        }
+      ],
+      "default": "xl"
+    }
+  ]
+}
+{% endschema %}

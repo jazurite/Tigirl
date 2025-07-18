@@ -1,11 +1,118 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "size-guide",
+      "blocks": {
+        "size_chart_QhLnV8": {
+          "type": "size-chart",
+          "settings": {
+            "product": "sena",
+            "picture": "shopify:\/\/shop_images\/STUDIOS_6630.png",
+            "page": "sena-size-chart"
+          }
+        },
+        "size_chart_fEWdRR": {
+          "type": "size-chart",
+          "settings": {
+            "product": "clea",
+            "picture": "shopify:\/\/shop_images\/STUDIOS_6687.png",
+            "page": "clea-size-chart"
+          }
+        },
+        "size_chart_tDREfA": {
+          "type": "size-chart",
+          "settings": {
+            "product": "muse",
+            "picture": "shopify:\/\/shop_images\/STUDIOS_6507.png",
+            "page": "muse-size-chart"
+          }
+        },
+        "size_chart_YfdXFx": {
+          "type": "size-chart",
+          "settings": {
+            "product": "bleu",
+            "picture": "shopify:\/\/shop_images\/STUDIOS_6457.png",
+            "page": "bleu-size-chart"
+          }
+        },
+        "size_chart_ctK3Jc": {
+          "type": "size-chart",
+          "settings": {
+            "product": "fleur",
+            "page": "fleur-size-chart"
+          }
+        },
+        "size_chart_rQeAih": {
+          "type": "size-chart",
+          "settings": {
+            "product": "bea",
+            "picture": "shopify:\/\/shop_images\/f95f6f94a8c40855c220588b4b896fbd2e269a93.png",
+            "page": "bea-size-chart"
+          }
+        },
+        "size_chart_eNGVzP": {
+          "type": "size-chart",
+          "settings": {
+            "product": "haze",
+            "page": "haze-size-chart"
+          }
+        },
+        "size_chart_mNQncq": {
+          "type": "size-chart",
+          "settings": {
+            "product": "stella",
+            "picture": "shopify:\/\/shop_images\/8401c4dc0cb4d0be04e44430b728df7c5f82fb52.png",
+            "page": "stella-size-chart"
+          }
+        },
+        "size_chart_y63LWU": {
+          "type": "size-chart",
+          "settings": {
+            "product": "lia",
+            "picture": "shopify:\/\/shop_images\/7bc896ba9d6436f1ced3818e5a0776e9410708c9.png",
+            "page": "lia-size-chart"
+          }
+        },
+        "size_chart_jGc3L8": {
+          "type": "size-chart",
+          "settings": {
+            "product": "bay",
+            "page": "bay-size-chart"
+          }
+        },
+        "size_chart_BcFY3x": {
+          "type": "size-chart",
+          "settings": {
+            "product": "bloom",
+            "page": "blom-size-chart"
+          }
+        },
+        "size_chart_qDeN6C": {
+          "type": "size-chart",
+          "settings": {
+            "product": "papil",
+            "page": "papil-size-chart"
+          }
+        }
+      },
+      "block_order": [
+        "size_chart_QhLnV8",
+        "size_chart_fEWdRR",
+        "size_chart_tDREfA",
+        "size_chart_YfdXFx",
+        "size_chart_ctK3Jc",
+        "size_chart_rQeAih",
+        "size_chart_eNGVzP",
+        "size_chart_mNQncq",
+        "size_chart_y63LWU",
+        "size_chart_jGc3L8",
+        "size_chart_BcFY3x",
+        "size_chart_qDeN6C"
+      ],
       "settings": {
         "color_scheme": "",
         "show_title": true,
-        "content_width": "md"
+        "content_width": "2xl"
       }
     }
   },
