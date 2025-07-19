@@ -13,7 +13,7 @@
             "icon_width": 32,
             "mobile_icon_width": 24,
             "title": "Miễn Phí Giao Hàng",
-            "content": "Áp dụng cho đơn hàng từ 500.000đ"
+            "content": "Áp dụng cho tất cả đơn hàng Từ 31\/07 - 30\/10"
           }
         },
         "item-2": {
@@ -24,7 +24,7 @@
             "icon_width": 32,
             "mobile_icon_width": 20,
             "title": "Chăm Sóc Khách Hàng",
-            "content": "Hỗ trợ tận tâm, phản hồi nhanh chóng, đồng hành cùng bạn mọi lúc cần thiết."
+            "content": "Hỗ trợ tận tâm, phản hồi nhanh chóng."
           }
         },
         "item-3": {
@@ -35,7 +35,7 @@
             "icon_width": 32,
             "mobile_icon_width": 24,
             "title": "An Toàn & Thoải Mái",
-            "content": "Sản phẩm của Tigirl cam kết an toàn"
+            "content": "An toàn và dễ chịu – cam kết từ từng sản phẩm của Tigirl."
           }
         },
         "item-4": {
@@ -67,7 +67,7 @@
         "text_Cper6t": {
           "type": "text",
           "settings": {
-            "title": "CÔNG TY TNHH TIGIRL",
+            "title": "Cửa Hàng",
             "content": "<p><strong>Địa chỉ:<\/strong> Số 03-05 Đường Nguyễn Cơ Thạch, Phường An Khánh, TP. Hồ Chí Minh<br\/><br\/><strong>Tổng đài<\/strong>: 0961798805<\/p><p><strong>Emal: <\/strong> tigirl.official@gmail.com<\/p>",
             "enable_follow_on_shop": false
           }

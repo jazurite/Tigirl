@@ -9,19 +9,35 @@
           "type": "offer_banner",
           "settings": {
             "layout": "full_width",
+            "icon": "shopify:\/\/shop_images\/3d-box-corner_2.svg",
             "icon_width": 24,
-            "subheading": "Subheading",
-            "content": "<p>Share a discount code, promote a sale or free shipping offer...<\/p>",
-            "button_text": "Button text",
-            "button_link": "",
+            "subheading": "tham gia cùng tigirl",
+            "content": "<p>miễn phí vận chuyển cho hội viên<\/p>",
+            "button_text": "đăng ký ngay",
+            "button_link": "https:\/\/tigirls.com\/account",
             "button_copy_on_click": false,
             "background": "#eef3fd",
             "text_color": "#0033dd"
           }
+        },
+        "offer_image_4nmwhq": {
+          "type": "offer_image",
+          "settings": {
+            "layout": "full_width",
+            "background_image": "shopify:\/\/shop_images\/STUDIOS_6571.png",
+            "heading": "Grand opening 30.07.2025",
+            "button_text": "khám phá",
+            "button_link": "shopify:\/\/collections\/the-layers",
+            "button_style": "solid",
+            "text_color": "#1c1c1c",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
         }
       },
       "block_order": [
-        "offer_banner_Ec9aJJ"
+        "offer_banner_Ec9aJJ",
+        "offer_image_4nmwhq"
       ],
       "settings": {
         "color_scheme": "",

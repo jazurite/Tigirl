@@ -1014,37 +1014,6 @@
         "show_dividers": true,
         "change_colors_on_hover": true
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "blocks": {
-        "section-header": {
-          "type": "_section-header",
-          "static": true,
-          "settings": {
-            "subheading": "Có thể bạn sẽ thích",
-            "title": "",
-            "content": "",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "outline",
-            "text_alignment": "left",
-            "heading_size": "h3",
-            "title_icon": "none",
-            "show_scrolling_title": false
-          },
-          "blocks": {}
-        }
-      },
-      "settings": {
-        "color_scheme": "",
-        "stack_products": true,
-        "recommendations_count": 4,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "show_view_all_button": true,
-        "show_scrolling_bar": true
-      }
     }
   },
   "order": [
@@ -1054,7 +1023,6 @@
     "main",
     "featured_collections_B3whxw",
     "text_with_fixed_background_TbVq4J",
-    "featured_links_w3T7df",
-    "related-products"
+    "featured_links_w3T7df"
   ]
 }

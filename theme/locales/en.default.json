@@ -337,14 +337,14 @@
   "cart": {
     "general": {
       "title": "Cart",
-      "empty": "Your cart is empty",
+      "empty": "Oops! Giỏ hàng của bạn còn trống. \nThêm sản phẩm để bắt đầu trải nghiệm mua sắm cùng Tigirl nhé!",
       "remove_item": "Remove item {{ title }}",
       "item_count": {
         "zero": "{{ count }} items",
         "one": "{{ count }} item",
         "other": "{{ count }} items"
       },
-      "continue_shopping": "Continue shopping",
+      "continue_shopping": "bắt đầu nào",
       "weight": "Weight",
       "subtotal": "Subtotal",
       "total": "Total",
