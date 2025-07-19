@@ -3831,11 +3831,46 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   }
 }
 
+.prose--thin {
+  --prose-default-spacing: 0.25rem;
+  --prose-heading-spacing: 1rem;
+  --prose-subheading-spacing: 1rem;
+  --prose-button-spacing: 1rem;
+  --prose-media-spacing: 1.25rem;
+  --prose-adjacent-heading-spacing: .5em;
+  --prose-combination-display-heading-paragraph-spacing: 1rem;
+  --prose-combination-subheading-heading-spacing: 1rem;
+  --prose-combination-subheading-paragraph-spacing: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .prose--thin {
+    --prose-default-spacing: .5rem;
+    --prose-heading-spacing: 1.5rem;
+    --prose-subheading-spacing: 1.5rem;
+    --prose-button-spacing: 1.25rem;
+    --prose-media-spacing: 1.5rem;
+    --prose-adjacent-heading-spacing: .5em;
+    --prose-combination-display-heading-paragraph-spacing: 1.75rem;
+    --prose-combination-subheading-heading-spacing: 1.25rem;
+    --prose-combination-subheading-paragraph-spacing: 1rem;
+  }
+}
+
 .prose {
   margin-trim: block;
   overflow-wrap: anywhere;
   width: 100%;
   display: block;
+}
+
+
+.prose :where(ul, ol) li {
+  margin-block-start: var(--prose-default-spacing);
+}
+
+.prose :where(ul, ol) li:first-child {
+  margin-block-start: 0
 }
 
 .prose .vertical-text:not(:first-child) {
@@ -10229,7 +10264,6 @@ figcaption {
 }
 
 :where(ol, ul):not(.unstyled-list) li {
-  margin-block-start: 0;
   padding-inline-start: 1ch;
 }
 

@@ -21,6 +21,8 @@
       --product-grid: auto / minmax(0, {{ section.settings.product_media_size | divided_by: 100.0 }}fr) minmax(0, {{ 100.0 | minus: section.settings.product_media_size | divided_by: 100.0 }}fr);
     }
   }
+
+
 </style>
 
 <div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }}" {% if section.settings.allow_transparent_header and product.media.size > 0 %}allow-transparent-header{% endif %}>

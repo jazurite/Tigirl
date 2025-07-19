@@ -37,13 +37,6 @@
           "type": "separator",
           "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false,
-            "uppercase_title": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -74,29 +67,22 @@
             "text": "Grand opening 10% OFF",
             "background": "#fff1f2",
             "text_color": "#be123c",
-            "expiration_date": "2025-07-21",
+            "expiration_date": "2025-08-01 00:00",
             "expiration_behavior": "hide"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "uppercase_title": false
           }
         },
         "modal_NqgcFd": {
           "type": "modal",
           "settings": {
             "dialog_type": "modal",
-            "button_title": "Xem tính năng",
-            "button_style": "link",
-            "stretch_button": false,
-            "button_background": "",
-            "button_text_color": "",
-            "modal_title": "Modal title",
-            "modal_content": "<p>Write some content that will appear in a modal<\/p>",
-            "modal_size": "sm"
-          }
-        },
-        "modal_dRnwhw": {
-          "type": "modal",
-          "settings": {
-            "dialog_type": "modal",
-            "button_title": "vận chuyển và trả hàng",
+            "button_title": "hướng dẫn bảo quản",
             "button_style": "link",
             "stretch_button": false,
             "button_background": "",
@@ -109,7 +95,7 @@
         "text_fVQ99k": {
           "type": "text",
           "settings": {
-            "text": "<p>Everywear by Tigirl Trong nhà hay ngoài phố – vẫn là chính mình<\/p>"
+            "text": "<p><strong>Be Yourself Everywear<\/strong><\/p><p><strong>Everywear by Tigirl<\/strong><\/p>"
           }
         },
         "buy_buttons": {
@@ -135,12 +121,11 @@
         "rating",
         "payment_terms",
         "separator",
-        "description",
         "variant_picker",
         "product_variations_LfMnn6",
         "countdown_rHXaFU",
+        "description",
         "modal_NqgcFd",
-        "modal_dRnwhw",
         "text_fVQ99k",
         "buy_buttons"
       ],
@@ -168,9 +153,9 @@
           "type": "image_with_text",
           "settings": {
             "change_color_scheme_on_hover": false,
-            "color_scheme": "scheme-009b8991-2d40-4518-81e1-d0baf5e6c211",
+            "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-3",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6490.png",
+            "image": "shopify:\/\/shop_images\/STUDIOS_6781_d7fd634a-1b8c-454f-81a6-986b812f4356.png",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -197,7 +182,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-4",
             "color_scheme_hover": "",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6499.png",
+            "image": "shopify:\/\/shop_images\/image.png",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -248,9 +233,10 @@
         "image_with_text_8AyDMH": {
           "type": "image_with_text",
           "settings": {
-            "change_color_scheme_on_hover": false,
+            "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
-            "color_scheme_hover": "scheme-3",
+            "color_scheme_hover": "scheme-1",
+            "image": "shopify:\/\/shop_images\/27.05_TIGIRL1978_1.png",
             "icon": "none",
             "custom_icon": "shopify:\/\/shop_images\/arrow-all-direction.svg",
             "icon_width": 48,
@@ -264,7 +250,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Xô xốp cotton in họa tiết chấm bi – chất liệu mềm nhẹ, thoáng khí, có texture gợn tự nhiên tạo độ bay nhẹ.Không co giãn nhưng rất dễ mặc, thấm hút tốt, phù hợp cho những ngày cần sự thoải mái mà vẫn có thần thái.<\/p>",
+            "text": "<p>Cotton dệt eyelet (vải thun lỗ nhỏ) – mềm nhẹ, thoáng mát, họa tiết lỗ nhỏ xinh mang lại cảm giác bay bổng.<\/p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -275,77 +261,24 @@
         "image_with_text_T9qbXW": {
           "type": "image_with_text",
           "settings": {
-            "change_color_scheme_on_hover": false,
+            "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
-            "color_scheme_hover": "scheme-3",
+            "color_scheme_hover": "scheme-1",
+            "image": "shopify:\/\/shop_images\/27.05_TIGIRL1978_2.png",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/like.svg",
+            "custom_icon": "shopify:\/\/shop_images\/3d-box-corner_2.svg",
             "icon_width": 48,
             "mobile_icon_width": 24,
             "icon_position": "top_left",
             "subheading": "",
             "subheading_position": "middle_center",
-            "title": "Tone thiết kế",
+            "title": "thiết kế",
             "heading_tag": "h2",
             "heading_position": "bottom_left",
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Set 2 mảnh gồm áo tay dài buộc dây và quần short cạp chun.Viền ren mảnh được phối tinh tế nhằm tạo điểm nhấn nữ tính mà không rườm.<\/p>",
-            "text_position": "bottom_left",
-            "button_style": "solid",
-            "link_url": "",
-            "link_text": "",
-            "link_position": "middle_center"
-          }
-        },
-        "image_with_text_d6bn3M": {
-          "type": "image_with_text",
-          "settings": {
-            "change_color_scheme_on_hover": false,
-            "color_scheme": "scheme-1",
-            "color_scheme_hover": "scheme-3",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/arrow-all-direction.svg",
-            "icon_width": 48,
-            "mobile_icon_width": 24,
-            "icon_position": "top_left",
-            "subheading": "",
-            "subheading_position": "bottom_left",
-            "title": "Muse (hồng pastel)",
-            "heading_tag": "h2",
-            "heading_position": "bottom_left",
-            "scrolling_title": false,
-            "scrolling_title_separator": "none",
-            "show_text_vertically": false,
-            "text": "<p>mềm mại, ngọt vừa phải, mang chất “nàng thơ hiện đại”.<\/p>",
-            "text_position": "bottom_left",
-            "button_style": "solid",
-            "link_url": "",
-            "link_text": "",
-            "link_position": "middle_center"
-          }
-        },
-        "image_with_text_dTwAB9": {
-          "type": "image_with_text",
-          "settings": {
-            "change_color_scheme_on_hover": false,
-            "color_scheme": "scheme-1",
-            "color_scheme_hover": "scheme-3",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/like.svg",
-            "icon_width": 48,
-            "mobile_icon_width": 24,
-            "icon_position": "top_left",
-            "subheading": "",
-            "subheading_position": "middle_center",
-            "title": "Noir (xanh denim)",
-            "heading_tag": "h2",
-            "heading_position": "bottom_left",
-            "scrolling_title": false,
-            "scrolling_title_separator": "none",
-            "show_text_vertically": false,
-            "text": "<p>trầm sắc, sắc sảo – đúng chất “cool girl” lặng lẽ nhưng nổi bật.<\/p>",
+            "text": "<p>Phần trễ vai và bèo nhún tạo điểm nhấn quyến rũ – vừa đủ để thu hút, không phô trương.<\/p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -356,9 +289,7 @@
       },
       "block_order": [
         "image_with_text_8AyDMH",
-        "image_with_text_T9qbXW",
-        "image_with_text_d6bn3M",
-        "image_with_text_dTwAB9"
+        "image_with_text_T9qbXW"
       ],
       "name": "t:sections.media_blocks.name",
       "settings": {
@@ -385,8 +316,19 @@
         "heading_JQneLM": {
           "type": "heading",
           "settings": {
-            "text": "thiết kế quyến rũ cho nàng",
-            "heading_tag": "h1",
+            "text": "Lía from Tigirl",
+            "heading_tag": "h4",
+            "position": "middle_center",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "heading_YpnKpe": {
+          "type": "heading",
+          "settings": {
+            "text": "Simply Lía, simply you!",
+            "heading_tag": "h4",
             "position": "middle_center",
             "highlight_effect": "default",
             "highlight_accent_color": "",
@@ -396,13 +338,14 @@
         "richtext_JLKfHK": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Everywear by Tigirl Trong nhà hay ngoài phố – vẫn là chính mình<\/p>",
+            "text": "<p>be youRSElf EVERYWEAR The layers from tigirl<\/p>",
             "position": "bottom_center"
           }
         }
       },
       "block_order": [
         "heading_JQneLM",
+        "heading_YpnKpe",
         "richtext_JLKfHK"
       ],
       "custom_css": [
@@ -417,7 +360,7 @@
         "overlay_opacity": 20,
         "add_media_spacing": false,
         "autoplay_video": true,
-        "primary_image": "shopify:\/\/shop_images\/STUDIOS_6500.png",
+        "primary_image": "shopify:\/\/shop_images\/STUDIOS_6812.png",
         "secondary_media_width": 60,
         "secondary_media_mobile_width": 60,
         "show_secondary_media_on_mobile": true,
@@ -433,7 +376,7 @@
           "settings": {
             "visibility": "both",
             "text_alignment": "left",
-            "desktop_row_start": 1,
+            "desktop_row_start": 2,
             "desktop_column_start": 1,
             "desktop_column_end": 10,
             "desktop_horizontal_adjustment": 0,
@@ -443,16 +386,16 @@
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
-            "parallax_speed": 5,
+            "parallax_speed": 12,
             "parallax_direction": "vertical"
           },
           "blocks": {
             "dynamic_grid_heading_CtkN7X": {
               "type": "_dynamic-grid-heading",
               "settings": {
-                "text": ". Ra đời tại Việt Nam, Tigirl cung cấp các sản phẩm chất lượng, tiện dụng cho cuộc sống hàng ngày.",
+                "text": "Lấy cảm hứng từ dáng váy trễ vai nhẹ nhàng, Lía mang đến vẻ dịu dàng, cùng thiết kế hiện đại, nhẹ nhàng với điểm nhấn ren nổi bật.",
                 "show_text_vertically": false,
-                "font_size_desktop": 4,
+                "font_size_desktop": 3,
                 "font_size_mobile": 6,
                 "font_size_line_height": 1,
                 "html_tag": "h5",
@@ -466,38 +409,6 @@
           },
           "block_order": [
             "dynamic_grid_heading_CtkN7X"
-          ]
-        },
-        "dynamic_grid_item_9aKYtw": {
-          "type": "_dynamic-grid-item",
-          "settings": {
-            "visibility": "both",
-            "text_alignment": "left",
-            "desktop_row_start": 5,
-            "desktop_column_start": 1,
-            "desktop_column_end": 10,
-            "desktop_horizontal_adjustment": 0,
-            "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 4,
-            "mobile_column_start": 1,
-            "mobile_column_end": 8,
-            "mobile_horizontal_adjustment": 0,
-            "mobile_vertical_adjustment": 0,
-            "parallax_speed": 5,
-            "parallax_direction": "vertical"
-          },
-          "blocks": {
-            "rich_text_BPViCX": {
-              "type": "rich-text",
-              "settings": {
-                "text": "<p>Tigirl mong muốn mang đến sự thoải mái và bản lĩnh cho các cô gái trong từng khoảnh khắc thường ngày, bằng những bộ đồ ngủ mềm mại, thiết thực – dễ mặc ở nhà, dễ yêu chính mình.<\/p>",
-                "content_width": "sm"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "rich_text_BPViCX"
           ]
         },
         "dynamic_grid_item_MTRVQx": {
@@ -522,7 +433,7 @@
             "image_with_caption_6D6KGk": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/STUDIOS_6477_2.png",
+                "image": "shopify:\/\/shop_images\/STUDIOS_6816.png",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -537,7 +448,6 @@
       },
       "block_order": [
         "dynamic_grid_item_NpWgWB",
-        "dynamic_grid_item_9aKYtw",
         "dynamic_grid_item_MTRVQx"
       ],
       "name": "t:sections.dynamic_grid.name",
@@ -595,10 +505,10 @@
       ],
       "name": "t:sections.image_with_text_overlay.name",
       "settings": {
-        "color_scheme": "scheme-39d34e9e-6a0b-4b61-81a7-c8c711531024",
+        "color_scheme": "scheme-009b8991-2d40-4518-81e1-d0baf5e6c211",
         "allow_transparent_header": true,
         "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/parallax-background-image-3.png",
+        "image": "shopify:\/\/shop_images\/STUDIOS_6792.png",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "enable_sticky_content": true,
@@ -657,6 +567,7 @@
         "question_CKjt7m",
         "question_Qp3fGb"
       ],
+      "disabled": true,
       "name": "t:sections.faq.name",
       "settings": {
         "color_scheme": "",

@@ -62,7 +62,7 @@ Supported variables
         elsif block.type == 'description' and block.settings.collapse_content and product.description != blank and next_block.type == 'accordion'
           assign block_group_class = 'accordion-group'
           assign block_group_name = 'accordion-group'
-        elsif block.type == 'accordion' and next_block.type == 'description' and next_block.settings.collapse_content and product.description != blank 
+        elsif block.type == 'accordion' and next_block.type == 'description' and next_block.settings.collapse_content and product.description != blank
           assign block_group_class = 'accordion-group'
           assign block_group_name = 'accordion-group'
         else
@@ -89,7 +89,12 @@ Supported variables
 
           {%- when 'vendor' -%}
             {%- if product != blank -%}
-              {%- render 'vendor' with product.vendor, class: 'subheading text-subdued' -%}
+
+                {% assign collection = product.collections | first %}
+
+                <a href="{{ collection.url }}" class="vendor subheading text-subdued">
+                    {{- collection.title -}}
+                </a>
             {%- else -%}
               {%- assign placeholder_vendor = 'general.on_boarding.product_vendor' | t -%}
               {%- render 'vendor' with placeholder_vendor, class: 'subheading text-subdued' -%}
@@ -121,8 +126,8 @@ Supported variables
 
           {%- when 'badges' -%}
             {%- if product != blank -%}
-              {%- render 'product-badges', 
-                product: product, 
+              {%- render 'product-badges',
+                product: product,
                 context: 'product',
                 variant: product.selected_or_first_available_variant,
                 alignment: alignment,
@@ -189,16 +194,16 @@ Supported variables
               {%- if block.settings.collapse_content -%}
                 {%- assign accordion_title = 'product.general.description' | t -%}
 
-                {%- render 'accordion', 
-                  title: accordion_title, 
+                {%- render 'accordion',
+                  title: accordion_title,
                   custom_icon: block.settings.icon,
                   content: product_description,
-                  prose_content: true, 
+                  prose_content: true,
                   uppercase_title: block.settings.uppercase_title,
-                  block: block 
+                  block: block
                 -%}
               {%- else -%}
-                <div class="prose prose-justify-{{ alignment }}">
+                <div class="prose prose-justify-{{ alignment }}" style="font-size: 16px">
                   {{- product_description -}}
                 </div>
               {%- endif -%}
@@ -209,7 +214,7 @@ Supported variables
               {%- render 'variant-picker',
                   product: product,
                   form_id: product_form_id,
-                  context: context, 
+                  context: context,
                   alignment: alignment,
                   hide_sold_out_variants: block.settings.hide_sold_out_variants,
                   separate_options: block.settings.separate_options,
@@ -218,7 +223,7 @@ Supported variables
                   swatch_selector_size: block.settings.swatch_selector_size,
                   block_selector_style: block.settings.block_selector_style,
                   variant_image_options: block.settings.variant_image_options,
-                  size_chart_page: block.settings.size_chart_page 
+                  size_chart_page: block.settings.size_chart_page
                 -%}
             {%- endif -%}
 
@@ -267,7 +272,7 @@ Supported variables
                             else
                               assign list_classes = 'h-stack gap-4 wrap'
                             endif
-        
+
                           else
                             if swatch_selector_size == 'sm'
                               assign list_classes = 'h-stack gap-3 wrap'
@@ -419,7 +424,7 @@ Supported variables
 
           {%- when 'text' -%}
             {%- if block.settings.text != blank -%}
-              <div class="prose prose-justify-{{ alignment }}">
+              <div class="prose prose--thin prose-justify-{{ alignment }}">
                 {{- block.settings.text -}}
               </div>
             {%- endif -%}
@@ -454,37 +459,37 @@ Supported variables
                 <p class="product-countdown__text text-start">{{ block.settings.text }}</p>
               {%- endif -%}
 
-              <countdown-timer 
-                class="countdown-condensed__timer" 
-                role="timer" 
-                expires-at="{{ block.settings.expiration_date | date: '%FT%T%:z' | escape }}" 
+              <countdown-timer
+                class="countdown-condensed__timer"
+                role="timer"
+                expires-at="{{ block.settings.expiration_date | date: '%FT%T%:z' | escape }}"
                 expiration-behavior="{{ block.settings.expiration_behavior }}"
-                aria-label="{{ accessibility_text | escape }}" 
+                aria-label="{{ accessibility_text | escape }}"
               >
                 <div class="countdown-condensed__timer-item" aria-hidden="true">
                   <countdown-timer-flip type="days" class="subheading bold">00</countdown-timer-flip>
                   <span class="countdown-condensed__unit subheading subheading-xs">{{ 'sections.countdown_timer.days' | t }}</span>
                   <span class="countdown-condensed__unit-short subheading subheading-xs">D</span>
                 </div>
-        
+
                 <span class="subheading subheading-xs" aria-hidden="true">:</span>
-        
+
                 <div class="countdown-condensed__timer-item" aria-hidden="true">
                   <countdown-timer-flip type="hours" class="subheading bold">00</countdown-timer-flip>
                   <span class="countdown-condensed__unit subheading subheading-xs">{{ 'sections.countdown_timer.hours' | t }}</span>
                   <span class="countdown-condensed__unit-short subheading subheading-xs">H</span>
                 </div>
-        
+
                 <span class="subheading subheading-xs" aria-hidden="true">:</span>
-        
+
                 <div class="countdown-condensed__timer-item" aria-hidden="true">
                   <countdown-timer-flip type="minutes" class="subheading bold">00</countdown-timer-flip>
                   <span class="countdown-condensed__unit subheading subheading-xs">{{ 'sections.countdown_timer.minutes' | t }}</span>
                   <span class="countdown-condensed__unit-short subheading subheading-xs">M</span>
                 </div>
-        
+
                 <span class="subheading subheading-xs" aria-hidden="true">:</span>
-        
+
                 <div class="countdown-condensed__timer-item" aria-hidden="true">
                   <countdown-timer-flip type="seconds" class="subheading bold">00</countdown-timer-flip>
                   <span class="countdown-condensed__unit subheading subheading-xs">{{ 'sections.countdown_timer.seconds' | t }}</span>
