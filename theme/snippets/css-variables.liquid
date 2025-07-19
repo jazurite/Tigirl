@@ -109,22 +109,22 @@ note that this may have impact on different places.
      */
 
     /* Font properties */
-    --subheading-font-family: {{ settings.subheading_font.family }}, {{ settings.subheading_font.fallback_families }};
+    --subheading-font-family:  "Bai Jamjuree", sans-serif, {{ settings.subheading_font.fallback_families }};
     --subheading-font-weight: {{ settings.subheading_font.weight }};
     --subheading-font-style: {{ settings.subheading_font.style }};
     --subheading-font-size: {{ settings.subheading_font_size | minus: 1 | divided_by: 16.0 }}rem;
     --subheading-text-transform: {{ settings.subheading_text_transform }};
     --subheading-letter-spacing: {% if language_code == 'ar' %}0{% else %}{{ settings.subheading_letter_spacing | divided_by: 100.0 }}{% endif %}em;
-    --heading-font-family: {{ settings.heading_font.family }}, {{ settings.heading_font.fallback_families }};
+    --heading-font-family:  "Bai Jamjuree", sans-serif, {{ settings.heading_font.fallback_families }};
     --heading-font-weight: {{ settings.heading_font.weight }};
     --heading-font-style: {{ settings.heading_font.style }};
     --heading-text-transform: {{ settings.heading_text_transform }};
     --heading-letter-spacing: {% if language_code == 'ar' %}0{% else %}{{ settings.heading_letter_spacing | divided_by: 100.0 }}{% endif %}em;
     --heading-line-height: {{ settings.heading_line_height }};
-    --heading-italic-font-family: {{ settings.heading_italic_font.family }}, {{ settings.heading_italic_font.fallback_families }};
+    --heading-italic-font-family:  "Bai Jamjuree", sans-serif, {{ settings.heading_italic_font.fallback_families }};
     --heading-italic-font-weight: {{ settings.heading_italic_font.weight }};
     --heading-italic-font-size-multiplier: {% if settings.heading_font.family != settings.heading_italic_font.family %}{{ settings.heading_italic_font_size_multiplier }}{% else %}0{% endif %}%;
-    --text-font-family: {{ settings.text_font.family }}, {{ settings.text_font.fallback_families }};
+    --text-font-family:  "Bai Jamjuree", sans-serif, {{ settings.text_font.fallback_families }};
     --text-font-weight: {{ settings.text_font.weight }};
     --text-font-style: {{ settings.text_font.style }};
     --text-transform: {{ settings.text_font_text_transform }};
@@ -340,4 +340,7 @@ note that this may have impact on different places.
       {%- endif -%}
     {%- endfor -%}
   {%- endfor -%}
+
+
+
 </style>

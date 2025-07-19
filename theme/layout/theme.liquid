@@ -26,6 +26,10 @@
       <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
 
+
+    <link rel="stylesheet" href="{{ 'font.css' | asset_url }}">
+
+
     {%- render 'social-meta-tags' -%}
     {%- render 'microdata-schema' -%}
     {%- render 'css-variables' -%}
@@ -77,7 +81,7 @@
         to improve performance and reduce reflows.
       {%- endcomment -%}
     </span>
-    
+
     {%- if request.page_type != 'password' -%}
       {%- sections 'header-group' -%}
       {%- sections 'overlay-group' -%}

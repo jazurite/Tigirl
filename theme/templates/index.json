@@ -133,6 +133,7 @@
         "products_per_row_desktop": 4,
         "intro_color_scheme": "scheme-2",
         "intro_image": "shopify:\/\/shop_images\/dummy-product-4_8aa70c58-e84a-43e8-8c14-5f5683930c10.png",
+        "intro_image_overlay": "#00000021",
         "intro_title": "SUMMER 2025",
         "intro_title_tag": "h5",
         "intro_content": "",
@@ -148,7 +149,7 @@
           "type": "link",
           "settings": {
             "image": "shopify:\/\/shop_images\/dummy-collection-1.png",
-            "title": "<strong>DRESSES<\/strong>",
+            "title": "DRESSES",
             "content": "",
             "url": "shopify:\/\/collections\/dresses",
             "heading_tag": "display-m",
@@ -160,7 +161,7 @@
           "type": "link",
           "settings": {
             "image": "shopify:\/\/shop_images\/dummy-collection-2.png",
-            "title": "<strong>SETS<\/strong>",
+            "title": "SETS",
             "content": "",
             "url": "shopify:\/\/collections\/sets",
             "heading_tag": "display-m",
@@ -172,7 +173,7 @@
           "type": "link",
           "settings": {
             "image": "shopify:\/\/shop_images\/dummy-collection-3.png",
-            "title": "<strong>TOPS<\/strong>",
+            "title": "TOPS",
             "content": "",
             "url": "shopify:\/\/collections\/tops",
             "heading_tag": "display-m",
@@ -184,7 +185,7 @@
           "type": "link",
           "settings": {
             "image": "shopify:\/\/shop_images\/dummy-collection-4.png",
-            "title": "<strong>BOTTOMS<\/strong>",
+            "title": "BOTTOMS",
             "content": "",
             "url": "shopify:\/\/collections\/bottoms",
             "heading_tag": "display-m",
@@ -255,53 +256,19 @@
     "dynamic_grid_LVa4iq": {
       "type": "dynamic-grid",
       "blocks": {
-        "dynamic_grid_item_cDdjmJ": {
-          "type": "_dynamic-grid-item",
-          "settings": {
-            "visibility": "desktop_only",
-            "text_alignment": "left",
-            "desktop_row_start": 1,
-            "desktop_column_start": 1,
-            "desktop_column_end": 2,
-            "desktop_horizontal_adjustment": 0,
-            "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 1,
-            "mobile_column_start": 1,
-            "mobile_column_end": 2,
-            "mobile_horizontal_adjustment": 0,
-            "mobile_vertical_adjustment": 0,
-            "parallax_speed": 0,
-            "parallax_direction": "vertical"
-          },
-          "blocks": {
-            "image_with_caption_BYJWG8": {
-              "type": "image-with-caption",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/dummy-product-5.png",
-                "caption": "",
-                "max_width": 100,
-                "mobile_max_width": 100
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "image_with_caption_BYJWG8"
-          ]
-        },
         "dynamic_grid_item_AhBjQ6": {
           "type": "_dynamic-grid-item",
           "settings": {
             "visibility": "both",
             "text_alignment": "left",
             "desktop_row_start": 1,
-            "desktop_column_start": 3,
-            "desktop_column_end": 12,
+            "desktop_column_start": 1,
+            "desktop_column_end": 6,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 2,
+            "mobile_row_start": 1,
             "mobile_column_start": 1,
-            "mobile_column_end": 8,
+            "mobile_column_end": 5,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
             "parallax_speed": 0,
@@ -311,10 +278,10 @@
             "dynamic_grid_heading_8xtmBU": {
               "type": "_dynamic-grid-heading",
               "settings": {
-                "text": "SUMMER",
+                "text": "THE",
                 "show_text_vertically": false,
-                "font_size_desktop": 15,
-                "font_size_mobile": 15,
+                "font_size_desktop": 18,
+                "font_size_mobile": 30,
                 "font_size_line_height": 1,
                 "html_tag": "p",
                 "indent": "none",
@@ -329,19 +296,18 @@
             "dynamic_grid_heading_8xtmBU"
           ]
         },
-        "dynamic_grid_item_Jnbj39": {
+        "dynamic_grid_item_cDdjmJ": {
           "type": "_dynamic-grid-item",
-          "name": "Grid item",
           "settings": {
             "visibility": "both",
-            "text_alignment": "center",
+            "text_alignment": "left",
             "desktop_row_start": 2,
-            "desktop_column_start": 12,
-            "desktop_column_end": 15,
-            "desktop_horizontal_adjustment": -3,
-            "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 8,
-            "mobile_column_start": 1,
+            "desktop_column_start": 7,
+            "desktop_column_end": 8,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": -2,
+            "mobile_row_start": 1,
+            "mobile_column_start": 6,
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
@@ -349,34 +315,31 @@
             "parallax_direction": "vertical"
           },
           "blocks": {
-            "button_R3EGK6": {
-              "type": "button",
-              "name": "t:blocks.button.name",
+            "image_with_caption_BYJWG8": {
+              "type": "image-with-caption",
               "settings": {
-                "text": "Xem bộ sưu tập",
-                "url": "",
-                "open_in_new_tab": true,
-                "style": "solid",
-                "background": "#ffffff",
-                "text_color": "#1c1c1c"
+                "image": "shopify:\/\/shop_images\/STUDIOS_6663.png",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "button_R3EGK6"
+            "image_with_caption_BYJWG8"
           ]
         },
         "dynamic_grid_item_bxGaWE": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
-            "desktop_row_start": 1,
-            "desktop_column_start": 15,
-            "desktop_column_end": 16,
+            "desktop_row_start": 2,
+            "desktop_column_start": 12,
+            "desktop_column_end": 13,
             "desktop_horizontal_adjustment": 0,
-            "desktop_vertical_adjustment": 0,
+            "desktop_vertical_adjustment": -2,
             "mobile_row_start": 1,
             "mobile_column_start": 7,
             "mobile_column_end": 8,
@@ -404,16 +367,16 @@
         "dynamic_grid_item_nnnCaE": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "desktop_only",
+            "visibility": "both",
             "text_alignment": "left",
-            "desktop_row_start": 3,
-            "desktop_column_start": 4,
-            "desktop_column_end": 5,
+            "desktop_row_start": 5,
+            "desktop_column_start": 1,
+            "desktop_column_end": 2,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 4,
-            "mobile_column_start": 7,
-            "mobile_column_end": 8,
+            "mobile_row_start": 3,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
             "parallax_speed": 0,
@@ -439,14 +402,14 @@
           "type": "_dynamic-grid-item",
           "settings": {
             "visibility": "both",
-            "text_alignment": "center",
-            "desktop_row_start": 3,
-            "desktop_column_start": 6,
-            "desktop_column_end": 12,
+            "text_alignment": "left",
+            "desktop_row_start": 4,
+            "desktop_column_start": 3,
+            "desktop_column_end": 14,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
             "mobile_row_start": 5,
-            "mobile_column_start": 3,
+            "mobile_column_start": 1,
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
@@ -458,10 +421,10 @@
               "type": "_dynamic-grid-heading",
               "name": "t:blocks.heading.name",
               "settings": {
-                "text": "<em>2025<\/em>",
+                "text": "LAYERS",
                 "show_text_vertically": false,
-                "font_size_desktop": 15,
-                "font_size_mobile": 15,
+                "font_size_desktop": 18,
+                "font_size_mobile": 30,
                 "font_size_line_height": 1.4,
                 "html_tag": "p",
                 "indent": "none",
@@ -479,11 +442,11 @@
         "dynamic_grid_item_bVA6Eq": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
-            "desktop_row_start": 3,
-            "desktop_column_start": 12,
-            "desktop_column_end": 14,
+            "desktop_row_start": 5,
+            "desktop_column_start": 15,
+            "desktop_column_end": 16,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
             "mobile_row_start": 5,
@@ -509,16 +472,54 @@
           "block_order": [
             "image_with_caption_ezTDzD"
           ]
+        },
+        "dynamic_grid_item_Jnbj39": {
+          "type": "_dynamic-grid-item",
+          "name": "Grid item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 8,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 8,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -1,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "button_R3EGK6": {
+              "type": "button",
+              "name": "t:blocks.button.name",
+              "settings": {
+                "text": "Xem bộ sưu tập",
+                "url": "",
+                "open_in_new_tab": true,
+                "style": "solid",
+                "background": "#ffffff",
+                "text_color": "#1c1c1c"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "button_R3EGK6"
+          ]
         }
       },
       "block_order": [
-        "dynamic_grid_item_cDdjmJ",
         "dynamic_grid_item_AhBjQ6",
-        "dynamic_grid_item_Jnbj39",
+        "dynamic_grid_item_cDdjmJ",
         "dynamic_grid_item_bxGaWE",
         "dynamic_grid_item_nnnCaE",
         "dynamic_grid_item_JQUyJX",
-        "dynamic_grid_item_bVA6Eq"
+        "dynamic_grid_item_bVA6Eq",
+        "dynamic_grid_item_Jnbj39"
       ],
       "settings": {
         "color_scheme": "scheme-2",
@@ -531,6 +532,104 @@
         "mobile_gap": 8,
         "overlay_color": "#000000",
         "overlay_opacity": 20
+      }
+    },
+    "rich_text_yAdqi4": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_iLFtJ7": {
+          "type": "subheading",
+          "settings": {
+            "text": "Muse & Noir"
+          }
+        },
+        "heading_4LmtPg": {
+          "type": "heading",
+          "settings": {
+            "text": "Muse & Bleu – One design - two vibes",
+            "heading_tag": "h3",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iLFtJ7",
+        "heading_4LmtPg"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "full",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_zkymGb": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_JKPcNX": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h6>Chất liệu xô xốp cotton nhẹ bay, thoáng mát <\/h6><h6>Form buộc dây kết hợp cùng viền ren tinh tế tạo nên sự nữ tính có chọn lọc.<\/h6><h6>Muse thì nhẹ và thơ, Bleu thì trầm và sắc – đều là lựa chọn cho những cô gái không muốn bị đóng khung vào một kiểu.<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_JKPcNX"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "before_after_pF4L6L": {
+      "type": "before-after",
+      "blocks": {
+        "before_diHiXz": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify:\/\/shop_images\/STUDIOS_6507.png",
+            "text": "muse",
+            "text_size": "h3",
+            "text_position": "start"
+          }
+        },
+        "after_YUj9kU": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify:\/\/shop_images\/STUDIOS_6457.png",
+            "text": "Noir",
+            "text_size": "h3",
+            "text_position": "start"
+          }
+        }
+      },
+      "block_order": [
+        "before_diHiXz",
+        "after_YUj9kU"
+      ],
+      "name": "t:sections.before_after.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": "stacked",
+        "add_comparison_spacing": false,
+        "subheading": "",
+        "title": "",
+        "title_tag": "h3",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
       }
     },
     "products_with_image_3eBqKK": {
@@ -567,11 +666,13 @@
         "heading_cy7Wk3",
         "richtext_ibe7XQ"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-5",
         "products": [
           "muse"
         ],
+        "desktop_product_list_position": "start",
         "image": "shopify:\/\/shop_images\/STUDIOS_6855.png",
         "overlay_color": "rgba(0,0,0,0)",
         "overlay_opacity": 0,
@@ -580,13 +681,94 @@
         "mobile_products_per_row": "2"
       }
     },
+    "media_blocks_QfGLPF": {
+      "type": "media-blocks",
+      "blocks": {
+        "image_with_text_AqqT7m": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "",
+            "color_scheme_hover": "",
+            "image": "shopify:\/\/shop_images\/STUDIOS_6855_d88c3683-909e-4744-932f-6b80f81e6c09.png",
+            "icon": "none",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "icon_position": "middle_center",
+            "subheading": "Media 1",
+            "subheading_position": "middle_center",
+            "title": "",
+            "heading_tag": "h4",
+            "heading_position": "middle_center",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "<p>Share some content about your store<\/p>",
+            "text_position": "middle_center",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        },
+        "image_with_text_9b3NJj": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "",
+            "color_scheme_hover": "",
+            "image": "shopify:\/\/shop_images\/STUDIOS_6845.png",
+            "icon": "none",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "icon_position": "middle_center",
+            "subheading": "",
+            "subheading_position": "middle_center",
+            "title": "",
+            "heading_tag": "h4",
+            "heading_position": "middle_center",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "",
+            "text_position": "middle_center",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_AqqT7m",
+        "image_with_text_9b3NJj"
+      ],
+      "name": "t:sections.media_blocks.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "heading_tag": "h4",
+        "text_alignment": "left",
+        "scrolling_title": false,
+        "scrolling_title_separator": "circle",
+        "stack_on_mobile": true,
+        "add_horizontal_spacing": true,
+        "add_border": false,
+        "column_spacing": "sm",
+        "items_per_row": 2,
+        "block_size": "auto"
+      }
+    },
     "reading_text_M4WmRp": {
       "type": "reading-text",
       "settings": {
         "color_scheme": "scheme-3",
-        "image": "shopify:\/\/shop_images\/parallax-background-2.png",
+        "image": "shopify:\/\/shop_images\/parallax-background-6.png",
         "subheading": "VỀ TIGIRL",
-        "content": "Tigirl là đồ ngủ cho những cô gái nhỏ nhưng bản lĩnh – mềm mại để nghỉ ngơi, vững vàng để là chính mình. Lấy cảm hứng từ Tiga – chú hổ nhỏ tinh nghịch, Tigirl nói “không” với giả tạo, “có” với tử tế và tự do lớn lên theo cách của bạn.",
+        "content": "<p>Tigirl – “Tiny Girl” đại diện cho những cô nàng nhỏ bé, dịu dàng nhưng cũng đầy bản lĩnh và cá tính, sẵn sàng thể hiện chính mình như một “Tiger” thực thụ. <\/p><p>Ở Tigirl, mỗi thiết kế đều có nhiều lớp cảm xúc: khi mềm mại, khi sắc sảo, khi nổi bật hoặc bình yên – nhưng luôn là chính bạn.<\/p><p>Tigirl tin rằng: Phong cách không phải để chạy theo, mà là để kể câu chuyện của riêng mình.<\/p>",
         "button_text": "",
         "button_link": "",
         "heading_tag": "h2",
@@ -663,7 +845,7 @@
         "button_text": "Khám phá ngay",
         "button_url": "",
         "button_style": "outline",
-        "expiration_date": "2025-07-25",
+        "expiration_date": "2025-08-01 00:00",
         "expiration_behavior": "leave",
         "timer_size": "h1",
         "show_timer_borders": true,
@@ -671,91 +853,6 @@
         "caption_text": "Don't Miss It",
         "caption_scrolling": true,
         "caption_text_color": "#ffffff"
-      }
-    },
-    "rich_text_yAdqi4": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_iLFtJ7": {
-          "type": "subheading",
-          "settings": {
-            "text": "Muse & Noir"
-          }
-        },
-        "heading_4LmtPg": {
-          "type": "heading",
-          "settings": {
-            "text": "Muse & Noir – One design - two vibes",
-            "heading_tag": "h3",
-            "indent": "none",
-            "highlight_effect": "default",
-            "highlight_accent_color": "",
-            "highlight_text_color": ""
-          }
-        },
-        "richtext_pUYEx3": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Chất liệu xô xốp cotton nhẹ bay, thoáng mát Form buộc dây kết hợp cùng viền ren tinh tế tạo nên sự nữ tính có chọn lọc.Muse thì nhẹ và thơ, Noir thì trầm và sắc – đều là lựa chọn cho những cô gái không muốn bị đóng khung vào một kiểu.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_iLFtJ7",
-        "heading_4LmtPg",
-        "richtext_pUYEx3"
-      ],
-      "name": "t:sections.rich_text.name",
-      "settings": {
-        "color_scheme": "",
-        "content_width": "md",
-        "text_alignment": "center"
-      }
-    },
-    "before_after_pF4L6L": {
-      "type": "before-after",
-      "blocks": {
-        "before_diHiXz": {
-          "type": "before",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6507.png",
-            "text": "muse",
-            "text_size": "h3",
-            "text_position": "start"
-          }
-        },
-        "after_YUj9kU": {
-          "type": "after",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6457.png",
-            "text": "Noir",
-            "text_size": "h3",
-            "text_position": "start"
-          }
-        }
-      },
-      "block_order": [
-        "before_diHiXz",
-        "after_YUj9kU"
-      ],
-      "name": "t:sections.before_after.name",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "layout": "stacked",
-        "add_comparison_spacing": false,
-        "subheading": "",
-        "title": "",
-        "title_tag": "h3",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "solid",
-        "cursor_direction": "horizontal",
-        "cursor_initial_position": 50,
-        "cursor_background": "#ffffff",
-        "cursor_arrows_color": "#000000"
       }
     },
     "media_blocks_bGrfMg": {
@@ -800,8 +897,8 @@
             "icon_position": "middle_center",
             "subheading": "",
             "subheading_position": "middle_center",
-            "title": "HOÀN THIỆN <em>PHONG CÁCH<\/em>, THỂ HIỆN BẢN LĨNH",
-            "heading_tag": "h2",
+            "title": "Thỏa sức phối, tự do thể hiện  – từng lớp <em>phong cách<\/em> dành riêng cho bạn.",
+            "heading_tag": "h4",
             "heading_position": "middle_center",
             "scrolling_title": false,
             "scrolling_title_separator": "none",
@@ -1093,6 +1190,7 @@
         "dynamic_grid_item_3p3zzB",
         "dynamic_grid_item_CYFz3g"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "allow_transparent_header": true,
@@ -1112,12 +1210,14 @@
     "featured_links_xLzHnk",
     "scrolling_content_ynHGiT",
     "dynamic_grid_LVa4iq",
+    "rich_text_yAdqi4",
+    "rich_text_zkymGb",
+    "before_after_pF4L6L",
     "products_with_image_3eBqKK",
+    "media_blocks_QfGLPF",
     "reading_text_M4WmRp",
     "links_with_image_bKNdUc",
     "countdown_GU43gg",
-    "rich_text_yAdqi4",
-    "before_after_pF4L6L",
     "media_blocks_bGrfMg",
     "dynamic_grid_9GEQac"
   ]

@@ -40,7 +40,7 @@
         if section.settings.separate_button and is_placed_at_end == false
           assign text_position = section.settings.desktop_text_position | split: 'sm:place-self-' | last | split: '-' | last
           assign button_class = 'place-self-' | append: text_position
-            
+
           render 'button', content: section.settings.button_text, href: section.settings.button_link, style: 'outline', class: button_class
         endif
       -%}
@@ -81,10 +81,10 @@
       "label": "t:global.text.subheading"
     },
     {
-      "type": "text",
+      "type": "richtext",
       "id": "content",
       "label": "t:global.text.content",
-      "default": "Write some content that will be progressively revealed as the customer scrolls the page."
+      "default": "<p>Write some content that will be progressively revealed as the customer scrolls the page.</p>"
     },
     {
       "type": "text",
