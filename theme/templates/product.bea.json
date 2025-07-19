@@ -37,13 +37,6 @@
           "type": "separator",
           "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false,
-            "uppercase_title": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -74,29 +67,22 @@
             "text": "Grand opening 10% OFF",
             "background": "#fff1f2",
             "text_color": "#be123c",
-            "expiration_date": "2025-07-21",
+            "expiration_date": "2025-08-01 00:00",
             "expiration_behavior": "hide"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "uppercase_title": false
           }
         },
         "modal_NqgcFd": {
           "type": "modal",
           "settings": {
             "dialog_type": "modal",
-            "button_title": "Xem tính năng",
-            "button_style": "link",
-            "stretch_button": false,
-            "button_background": "",
-            "button_text_color": "",
-            "modal_title": "Modal title",
-            "modal_content": "<p>Write some content that will appear in a modal<\/p>",
-            "modal_size": "sm"
-          }
-        },
-        "modal_dRnwhw": {
-          "type": "modal",
-          "settings": {
-            "dialog_type": "modal",
-            "button_title": "vận chuyển và trả hàng",
+            "button_title": "hướng dẫn bảo quản",
             "button_style": "link",
             "stretch_button": false,
             "button_background": "",
@@ -109,7 +95,7 @@
         "text_fVQ99k": {
           "type": "text",
           "settings": {
-            "text": "<p>Everywear by Tigirl Trong nhà hay ngoài phố – vẫn là chính mình<\/p>"
+            "text": "<p><strong>Be Yourself Everywear<\/strong><\/p><p><strong>Everywear by Tigirl<\/strong><\/p>"
           }
         },
         "buy_buttons": {
@@ -135,12 +121,11 @@
         "rating",
         "payment_terms",
         "separator",
-        "description",
         "variant_picker",
         "product_variations_LfMnn6",
         "countdown_rHXaFU",
+        "description",
         "modal_NqgcFd",
-        "modal_dRnwhw",
         "text_fVQ99k",
         "buy_buttons"
       ],
@@ -248,9 +233,10 @@
         "image_with_text_8AyDMH": {
           "type": "image_with_text",
           "settings": {
-            "change_color_scheme_on_hover": false,
+            "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
-            "color_scheme_hover": "scheme-3",
+            "color_scheme_hover": "scheme-1",
+            "image": "shopify:\/\/shop_images\/27.05_TIGIRL1978_bea_1.png",
             "icon": "none",
             "custom_icon": "shopify:\/\/shop_images\/arrow-all-direction.svg",
             "icon_width": 48,
@@ -264,7 +250,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Chất vải: Kate cotton-blend (vải kate in họa tiết) – mềm nhẹ, thoáng, đứng form vừa phải.<br\/>Vải có độ nhăn nhẹ tự nhiên sau khi mặc, nhưng dễ ủi và giữ form đẹp.<\/p>",
+            "text": "<p>Kate cotton-blend (vải kate in họa tiết) – mềm nhẹ, thoáng, đứng form vừa phải.Vải có độ nhăn nhẹ tự nhiên sau khi mặc, nhưng dễ ủi và giữ form đẹp.<\/p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -275,17 +261,18 @@
         "image_with_text_T9qbXW": {
           "type": "image_with_text",
           "settings": {
-            "change_color_scheme_on_hover": false,
+            "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
-            "color_scheme_hover": "scheme-3",
+            "color_scheme_hover": "scheme-1",
+            "image": "shopify:\/\/shop_images\/27.05_TIGIRL1978_bea_2.png",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/like.svg",
+            "custom_icon": "shopify:\/\/shop_images\/3d-box-corner_2.svg",
             "icon_width": 48,
             "mobile_icon_width": 24,
             "icon_position": "top_left",
             "subheading": "",
             "subheading_position": "middle_center",
-            "title": "Tone thiết kế",
+            "title": "thiết kế",
             "heading_tag": "h2",
             "heading_position": "bottom_left",
             "scrolling_title": false,
@@ -387,7 +374,7 @@
         "heading_JQneLM": {
           "type": "heading",
           "settings": {
-            "text": "thiết kế quyến rũ cho nàng",
+            "text": "<em>Bea <\/em>from Tigirl Playful heart, dreamy lace!",
             "heading_tag": "h1",
             "position": "middle_center",
             "highlight_effect": "default",
@@ -398,7 +385,7 @@
         "richtext_JLKfHK": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Everywear by Tigirl Trong nhà hay ngoài phố – vẫn là chính mình<\/p>",
+            "text": "<p>be youRSElf EVERYWEAR<\/p><p>The layers from tigirl<br\/><br\/><\/p>",
             "position": "bottom_center"
           }
         }
@@ -445,16 +432,16 @@
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
-            "parallax_speed": 5,
+            "parallax_speed": 12,
             "parallax_direction": "vertical"
           },
           "blocks": {
             "dynamic_grid_heading_CtkN7X": {
               "type": "_dynamic-grid-heading",
               "settings": {
-                "text": ". Ra đời tại Việt Nam, Tigirl cung cấp các sản phẩm chất lượng, tiện dụng cho cuộc sống hàng ngày.",
+                "text": "Lấy cảm hứng từ họa tiết vintage, Bea mang đến nét trẻ trung với dáng hai dây hiện đại, nổi bật cùng những trái tim nhỏ xinh.",
                 "show_text_vertically": false,
-                "font_size_desktop": 4,
+                "font_size_desktop": 3,
                 "font_size_mobile": 6,
                 "font_size_line_height": 1,
                 "html_tag": "h5",
@@ -468,38 +455,6 @@
           },
           "block_order": [
             "dynamic_grid_heading_CtkN7X"
-          ]
-        },
-        "dynamic_grid_item_9aKYtw": {
-          "type": "_dynamic-grid-item",
-          "settings": {
-            "visibility": "both",
-            "text_alignment": "left",
-            "desktop_row_start": 5,
-            "desktop_column_start": 1,
-            "desktop_column_end": 10,
-            "desktop_horizontal_adjustment": 0,
-            "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 4,
-            "mobile_column_start": 1,
-            "mobile_column_end": 8,
-            "mobile_horizontal_adjustment": 0,
-            "mobile_vertical_adjustment": 0,
-            "parallax_speed": 5,
-            "parallax_direction": "vertical"
-          },
-          "blocks": {
-            "rich_text_BPViCX": {
-              "type": "rich-text",
-              "settings": {
-                "text": "<p>Tigirl mong muốn mang đến sự thoải mái và bản lĩnh cho các cô gái trong từng khoảnh khắc thường ngày, bằng những bộ đồ ngủ mềm mại, thiết thực – dễ mặc ở nhà, dễ yêu chính mình.<\/p>",
-                "content_width": "sm"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "rich_text_BPViCX"
           ]
         },
         "dynamic_grid_item_MTRVQx": {
@@ -524,7 +479,7 @@
             "image_with_caption_6D6KGk": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/STUDIOS_6393.png",
+                "image": "shopify:\/\/shop_images\/STUDIOS_6393_a83fc6f9-f13f-45f0-8ff8-192ed51e3c3e.png",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -539,7 +494,6 @@
       },
       "block_order": [
         "dynamic_grid_item_NpWgWB",
-        "dynamic_grid_item_9aKYtw",
         "dynamic_grid_item_MTRVQx"
       ],
       "name": "t:sections.dynamic_grid.name",
@@ -597,10 +551,10 @@
       ],
       "name": "t:sections.image_with_text_overlay.name",
       "settings": {
-        "color_scheme": "scheme-39d34e9e-6a0b-4b61-81a7-c8c711531024",
+        "color_scheme": "scheme-1",
         "allow_transparent_header": true,
-        "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/STUDIOS_6379.png",
+        "image_size": "fill",
+        "image": "shopify:\/\/shop_images\/STUDIOS_6379_debdc3e3-bb29-4c62-a296-4f7d876042e9.png",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "enable_sticky_content": true,
@@ -659,6 +613,7 @@
         "question_CKjt7m",
         "question_Qp3fGb"
       ],
+      "disabled": true,
       "name": "t:sections.faq.name",
       "settings": {
         "color_scheme": "",
