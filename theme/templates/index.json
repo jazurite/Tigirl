@@ -593,7 +593,7 @@
           "type": "before",
           "settings": {
             "color_scheme": "scheme-1",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6507.png",
+            "image": "shopify:\/\/shop_images\/img_Muse_01.jpg",
             "text": "muse",
             "text_size": "h3",
             "text_position": "start"
@@ -603,8 +603,8 @@
           "type": "after",
           "settings": {
             "color_scheme": "scheme-1",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6457.png",
-            "text": "Noir",
+            "image": "shopify:\/\/shop_images\/img_Bleu_01.jpg",
+            "text": "Bleu",
             "text_size": "h3",
             "text_position": "start"
           }
