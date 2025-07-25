@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,7 +23,7 @@
       "settings": {
         "image_color_scheme": "",
         "content_color_scheme": "",
-        "background_image": "shopify:\/\/shop_images\/STUDIOS_6499_a4559a2c-24f8-4e5c-9de5-01e2888f9a0d.png"
+        "background_image": "shopify://shop_images/STUDIOS_6499_a4559a2c-24f8-4e5c-9de5-01e2888f9a0d.png"
       }
     }
   },

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "shopify": {
     "checkout": {
@@ -10,7 +19,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Để hiển thị so sánh trước\/sau, vui lòng thêm nhiều khối hơn vào phần này.",
+      "not_enough_blocks": "Để hiển thị so sánh trước/sau, vui lòng thêm nhiều khối hơn vào phần này.",
       "percentage_shown": "Tỷ lệ phần trăm ảnh sau được hiển thị",
       "cursor_accessibility_text": "Sử dụng phím mũi tên trái và phải để di chuyển giữa ảnh trước và sau."
     },
@@ -44,13 +53,16 @@
     "age_verifier": {
       "accessibility_title": "Người xác minh độ tuổi",
       "month": {
-        "label": "Nhập tháng sinh của bạn"
+        "label": "Nhập tháng sinh của bạn",
+        "input_placeholder": ""
       },
       "day": {
-        "label": "Nhập ngày sinh của bạn"
+        "label": "Nhập ngày sinh của bạn",
+        "input_placeholder": ""
       },
       "year": {
-        "label": "Nhập năm sinh của bạn"
+        "label": "Nhập năm sinh của bạn",
+        "input_placeholder": ""
       },
       "banner_content": "Bạn không thể truy cập vào trang web này vì bạn chưa đủ {{ age }} tuổi.",
       "submit": "Đi vào"
@@ -84,7 +96,7 @@
       "go_to_page": "Đi đến trang {{ index }}",
       "go_to_item": "Đi tới mục {{ index }}",
       "item_nth_of_count": "Mục {{ index }} trong số {{ count }}",
-      "toggle_autoplay": "Bật\/tắt tự động phát",
+      "toggle_autoplay": "Bật/tắt tự động phát",
       "drag": "Lôi kéo",
       "close": "Đóng",
       "next": "Kế tiếp",
@@ -108,7 +120,8 @@
     "newsletter": {
       "subscribe": "Đặt mua",
       "notify_me": "Thông báo cho tôi",
-      "subscribed_successfully": "Bạn đã đăng ký nhận bản tin của chúng tôi."
+      "subscribed_successfully": "Bạn đã đăng ký nhận bản tin của chúng tôi.",
+      "email": "E-mail"
     },
     "localization": {
       "country": "Quốc gia",
@@ -135,7 +148,7 @@
       "account": "Tài khoản",
       "search": "Tìm kiếm",
       "menu": "Thực đơn",
-      "cart": "Xe đẩy",
+      "cart": "Giỏ hàng",
       "login": "Đăng nhập",
       "primary_navigation": "Điều hướng chính",
       "secondary_navigation": "Điều hướng phụ",
@@ -163,7 +176,7 @@
       "view_in_space": "Xem trong không gian của bạn",
       "taxes_included": "Đã bao gồm thuế.",
       "taxes_excluded": "Chưa bao gồm thuế.",
-      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link\">Phí vận chuyển được tính<\/a> khi thanh toán",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link\">Phí vận chuyển được tính</a> khi thanh toán",
       "size_chart": "Bảng kích thước",
       "variant_in_cart_count": {
         "one": "{{ count }} trong giỏ hàng",
@@ -197,7 +210,7 @@
     "volume_pricing": {
       "title": "Giá theo khối lượng",
       "minimum": "{{ minimum_quantity }} +",
-      "price_at_each": "{{ price }} \/ea"
+      "price_at_each": "{{ price }} /ea"
     },
     "rating_count": {
       "zero": "Không có đánh giá",
@@ -254,7 +267,8 @@
       "price_range_to": "ĐẾN",
       "price_filter_from": "Từ giá",
       "price_filter_to": "Để định giá",
-      "in_stock_only": "Chỉ còn hàng"
+      "in_stock_only": "Chỉ còn hàng",
+      "price_filter": ""
     }
   },
   "blog": {
@@ -282,7 +296,8 @@
       "count": {
         "one": "{{ count }} bình luận",
         "other": "{{ count }} bình luận"
-      }
+      },
+      "email": ""
     },
     "prev_next": {
       "heading": "Đọc thêm"
@@ -293,7 +308,8 @@
       "name": "Tên",
       "message": "Tin nhắn",
       "submit": "Gửi tin nhắn",
-      "success_message": "Tin nhắn của bạn đã được gửi."
+      "success_message": "Tin nhắn của bạn đã được gửi.",
+      "email": ""
     }
   },
   "customer": {
@@ -316,14 +332,16 @@
       "password": "Mật khẩu",
       "submit": "Đăng nhập",
       "forgot_password": "Quên mật khẩu?",
-      "sign_up": "Tạo tài khoản"
+      "sign_up": "Tạo tài khoản",
+      "email": ""
     },
     "recover_password": {
       "title": "Khôi phục mật khẩu",
       "instructions": "Nhập email của bạn bên dưới để nhận hướng dẫn đặt lại mật khẩu.",
       "submit": "Hồi phục",
       "back_to_login": "Quay lại đăng nhập",
-      "success_message": "Một email đã được gửi đến địa chỉ của bạn kèm theo hướng dẫn đặt lại mật khẩu."
+      "success_message": "Một email đã được gửi đến địa chỉ của bạn kèm theo hướng dẫn đặt lại mật khẩu.",
+      "email": ""
     },
     "register": {
       "title": "Đăng ký",
@@ -333,7 +351,8 @@
       "password": "Mật khẩu",
       "accepts_marketing": "Đăng ký nhận bản tin của chúng tôi",
       "submit": "Tạo tài khoản",
-      "login": "Đăng nhập"
+      "login": "Đăng nhập",
+      "email": ""
     },
     "activate_account": {
       "title": "Kích hoạt tài khoản",
@@ -405,7 +424,7 @@
   },
   "cart": {
     "general": {
-      "title": "Xe đẩy",
+      "title": "Giỏ hàng",
       "empty": "Ối! Giỏ hàng của bạn còn trống.\n Thêm sản phẩm để bắt đầu trải nghiệm mua sắm cùng Tigirl nhé!",
       "remove_item": "Xóa mục {{ title }}",
       "item_count": {
@@ -416,15 +435,112 @@
       "weight": "Cân nặng",
       "subtotal": "Tổng phụ",
       "total": "Tổng cộng",
-      "taxes_and_shipping_policy_at_checkout_html": "Thuế và <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link\">phí vận chuyển<\/a> được tính khi thanh toán",
+      "taxes_and_shipping_policy_at_checkout_html": "Thuế và <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link\">phí vận chuyển</a> được tính khi thanh toán",
       "taxes_included_but_shipping_at_checkout": "Đã bao gồm thuế và phí vận chuyển được tính khi thanh toán",
-      "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link\">Phí vận chuyển<\/a> được tính khi thanh toán.",
+      "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link\">Phí vận chuyển</a> được tính khi thanh toán.",
       "taxes_and_shipping_at_checkout": "Thuế và phí vận chuyển được tính khi thanh toán",
       "terms_of_services_checkbox": "Tôi đồng ý với các điều khoản dịch vụ",
-      "terms_of_services_checkbox_with_link_html": "Tôi đồng ý với <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\" class=\"link\">các điều khoản dịch vụ<\/a>",
+      "terms_of_services_checkbox_with_link_html": "Tôi đồng ý với <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\" class=\"link\">các điều khoản dịch vụ</a>",
       "add_order_note": "Thêm ghi chú đơn hàng",
       "edit_order_note": "Chỉnh sửa ghi chú đơn hàng",
-      "order_note": "Ghi chú đơn hàng"
+      "order_note": "Ghi chú đơn hàng",
+      "continue_shopping": "",
+      "save_note": "",
+      "view_cart": "",
+      "checkout": "Thanh toán",
+      "we_accept": "",
+      "offers": ""
+    },
+    "order": {
+      "product": "",
+      "total": "",
+      "quantity": "",
+      "remove": "",
+      "remove_with_title": ""
+    },
+    "free_shipping_bar": {
+      "limit_unreached_html": "",
+      "limit_reached_html": ""
+    },
+    "shipping_estimator": {
+      "estimate_shipping": "",
+      "country": "",
+      "province": "",
+      "zip": "",
+      "estimate": "",
+      "no_results": "",
+      "one_result": "",
+      "multiple_results": "",
+      "error": ""
+    }
+  },
+  "404": {
+    "general": {
+      "title": "",
+      "continue_shopping": ""
+    }
+  },
+  "search": {
+    "general": {
+      "title": "",
+      "terms": "",
+      "search_placeholder": "",
+      "products": "",
+      "suggestions": "",
+      "collections": "",
+      "articles": "",
+      "pages": "",
+      "clear": "",
+      "view_more": "",
+      "view_all_results": "",
+      "no_results": "",
+      "reset_search": ""
+    },
+    "results_count": {
+      "one": "",
+      "other": ""
+    },
+    "results_count_for_terms": {
+      "one": "",
+      "other": ""
+    }
+  },
+  "gift_card": {
+    "general": {
+      "title": "",
+      "copy": "",
+      "print": ""
+    },
+    "issued": {
+      "remaining_amount": "",
+      "out_of_html": "",
+      "redeem_instructions": "",
+      "code": "",
+      "expires_on": "",
+      "expired": "",
+      "add_to_apple_wallet": ""
+    },
+    "recipient": {
+      "checkbox": "",
+      "email_label": "",
+      "name_label": "",
+      "send_on_label": "",
+      "message_label": ""
+    }
+  },
+  "password": {
+    "general": {
+      "follow_us": "",
+      "powered_by": "",
+      "store_owner": "",
+      "login": ""
+    },
+    "storefront_access": {
+      "enter_password": "",
+      "store_access": "",
+      "instructions": "",
+      "password": "",
+      "enter_store": ""
     }
   }
 }

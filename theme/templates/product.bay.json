@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -89,14 +98,14 @@
             "button_background": "",
             "button_text_color": "",
             "modal_title": "Modal title",
-            "modal_content": "<p>Write some content that will appear in a modal<\/p>",
+            "modal_content": "<p>Write some content that will appear in a modal</p>",
             "modal_size": "sm"
           }
         },
         "text_fVQ99k": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Be Yourself Everywear<br\/>Everywear by Tigirl<\/strong><\/p>"
+            "text": "<p><strong>Be Yourself Everywear<br/>Everywear by Tigirl</strong></p>"
           }
         },
         "buy_buttons": {
@@ -112,6 +121,10 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "bundler_bundler_target_element_YcdbY7": {
+          "type": "shopify://apps/bundler/blocks/bundler-target-element/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {}
         }
       },
       "block_order": [
@@ -128,7 +141,8 @@
         "description",
         "modal_dRnwhw",
         "text_fVQ99k",
-        "buy_buttons"
+        "buy_buttons",
+        "bundler_bundler_target_element_YcdbY7"
       ],
       "settings": {
         "color_scheme": "",
@@ -154,7 +168,7 @@
         "color_scheme": "",
         "allow_transparent_header": true,
         "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/STUDIOS_6566-1_f4a0d255-e562-466e-b12f-294d425a6a95.png",
+        "image": "shopify://shop_images/STUDIOS_6566-1_f4a0d255-e562-466e-b12f-294d425a6a95.png",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "enable_sticky_content": false,
@@ -172,9 +186,9 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-1",
-            "image": "shopify:\/\/shop_images\/image_bay_1.png",
+            "image": "shopify://shop_images/image_bay_1.png",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/arrow-all-direction.svg",
+            "custom_icon": "shopify://shop_images/arrow-all-direction.svg",
             "icon_width": 48,
             "mobile_icon_width": 24,
             "icon_position": "top_left",
@@ -186,7 +200,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Vải thô boi cotton sọc xanh trắng – dệt tự nhiên, bề mặt hơi nhăn nhẹ, thoáng mát và dễ chịu. <\/p>",
+            "text": "<p>Vải thô boi cotton sọc xanh trắng – dệt tự nhiên, bề mặt hơi nhăn nhẹ, thoáng mát và dễ chịu. </p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -200,9 +214,9 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-1",
-            "image": "shopify:\/\/shop_images\/image_bay_2.png",
+            "image": "shopify://shop_images/image_bay_2.png",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/3d-box-corner_2.svg",
+            "custom_icon": "shopify://shop_images/3d-box-corner_2.svg",
             "icon_width": 48,
             "mobile_icon_width": 24,
             "icon_position": "top_left",
@@ -214,7 +228,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Set 2 mảnh gồm áo tay dài buộc dây và quần short cạp chun.Viền ren mảnh được phối tinh tế nhằm tạo điểm nhấn nữ tính mà không rườm.<\/p>",
+            "text": "<p>Set 2 mảnh gồm áo tay dài buộc dây và quần short cạp chun.Viền ren mảnh được phối tinh tế nhằm tạo điểm nhấn nữ tính mà không rườm.</p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -263,7 +277,7 @@
         "richtext_JLKfHK": {
           "type": "richtext",
           "settings": {
-            "text": "<p>be youRSElf EVERYWEAR<br\/>The layers from tigirl<\/p>",
+            "text": "<p>be youRSElf EVERYWEAR<br/>The layers from tigirl</p>",
             "position": "bottom_center"
           }
         }
@@ -284,7 +298,7 @@
         "overlay_opacity": 20,
         "add_media_spacing": false,
         "autoplay_video": true,
-        "primary_image": "shopify:\/\/shop_images\/STUDIOS_6569_990c5371-6c90-4ed1-93cf-00590bf27917.png",
+        "primary_image": "shopify://shop_images/STUDIOS_6569_990c5371-6c90-4ed1-93cf-00590bf27917.png",
         "secondary_media_width": 60,
         "secondary_media_mobile_width": 60,
         "show_secondary_media_on_mobile": true,
@@ -357,7 +371,7 @@
             "image_with_caption_6D6KGk": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/STUDIOS_6562_1b126cb7-10a7-404b-84c1-80725ae2cd89.png",
+                "image": "shopify://shop_images/STUDIOS_6562_1b126cb7-10a7-404b-84c1-80725ae2cd89.png",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -416,7 +430,7 @@
           "type": "rich-text",
           "disabled": true,
           "settings": {
-            "text": "<p>Write some text about your products or your brand.<\/p>",
+            "text": "<p>Write some text about your products or your brand.</p>",
             "content_width": "sm"
           },
           "blocks": {}
@@ -432,7 +446,7 @@
         "color_scheme": "scheme-39d34e9e-6a0b-4b61-81a7-c8c711531024",
         "allow_transparent_header": true,
         "image_size": "fill",
-        "image": "shopify:\/\/shop_images\/STUDIOS_6575_14f2ec8c-aba6-45b9-9129-2f29cc5aa779.png",
+        "image": "shopify://shop_images/STUDIOS_6575_14f2ec8c-aba6-45b9-9129-2f29cc5aa779.png",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "enable_sticky_content": true,
@@ -458,7 +472,7 @@
           "type": "question",
           "settings": {
             "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>",
             "icon": "none",
             "icon_width": 24,
             "mobile_icon_width": 20
@@ -468,7 +482,7 @@
           "type": "question",
           "settings": {
             "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>",
             "icon": "none",
             "icon_width": 24,
             "mobile_icon_width": 20
@@ -478,7 +492,7 @@
           "type": "question",
           "settings": {
             "question": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>",
             "icon": "none",
             "icon_width": 24,
             "mobile_icon_width": 20
@@ -501,7 +515,7 @@
         "subheading": "",
         "title": "Câu hỏi thường gặp",
         "title_tag": "display-m",
-        "content": "<p>Bạn đang tìm kiếm câu trả lời nhanh chóng?Các câu hỏi thường gặp của Tigirl được cập nhật thường xuyên cho các thắc mắc phổ biến nhất của khách hàng.<\/p>",
+        "content": "<p>Bạn đang tìm kiếm câu trả lời nhanh chóng?Các câu hỏi thường gặp của Tigirl được cập nhật thường xuyên cho các thắc mắc phổ biến nhất của khách hàng.</p>",
         "button_text": "",
         "button_url": "",
         "button_style": "solid"

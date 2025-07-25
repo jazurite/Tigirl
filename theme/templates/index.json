@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_rwmxqG": {
@@ -8,7 +17,7 @@
           "name": "Hero Banner",
           "settings": {
             "color_scheme": "",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6359.png",
+            "image": "shopify://shop_images/STUDIOS_6359.png",
             "slide_link": "",
             "content_max_width": 1340,
             "mobile_content_position": "place-self-end-start",
@@ -20,7 +29,7 @@
             "heading_7thVDT": {
               "type": "heading",
               "settings": {
-                "text": "Trong nhà hay ngoài phố <em>Vẫn là Tigirl<\/em>",
+                "text": "Trong nhà hay ngoài phố <em>Vẫn là Tigirl</em>",
                 "heading_size": "display-m",
                 "html_tag": "h1",
                 "indent": "none",
@@ -34,7 +43,7 @@
               "type": "rich-text",
               "name": "t:blocks.rich_text.name",
               "settings": {
-                "text": "<p>Bộ sưu tập mới từ Tigirl kết hợp hoàn hảo giữa thẩm mỹ và sự thoải mái, dành cho những cô gái hiện đại – yêu sự tinh tế, nhẹ nhàng nhưng vẫn đầy cuốn hút.Dễ dàng mặc ở nhà, ngoài phố hay trong những khoảnh khắc riêng tư.<\/p>",
+                "text": "<p>Bộ sưu tập mới từ Tigirl kết hợp hoàn hảo giữa thẩm mỹ và sự thoải mái, dành cho những cô gái hiện đại – yêu sự tinh tế, nhẹ nhàng nhưng vẫn đầy cuốn hút.Dễ dàng mặc ở nhà, ngoài phố hay trong những khoảnh khắc riêng tư.</p>",
                 "content_width": "md"
               },
               "blocks": {}
@@ -132,7 +141,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "intro_color_scheme": "scheme-2",
-        "intro_image": "shopify:\/\/shop_images\/dummy-product-4_8aa70c58-e84a-43e8-8c14-5f5683930c10.png",
+        "intro_image": "shopify://shop_images/dummy-product-4_8aa70c58-e84a-43e8-8c14-5f5683930c10.png",
         "intro_image_overlay": "#00000021",
         "intro_title": "SUMMER 2025",
         "intro_title_tag": "h5",
@@ -148,10 +157,10 @@
         "link_VXLFBx": {
           "type": "link",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dummy-collection-1.png",
+            "image": "shopify://shop_images/dummy-collection-1.png",
             "title": "DRESSES",
             "content": "",
-            "url": "shopify:\/\/collections\/dresses",
+            "url": "shopify://collections/dresses",
             "heading_tag": "display-m",
             "background_hover": "#faf2ee",
             "text_color_hover": ""
@@ -160,10 +169,10 @@
         "link_LY8fhM": {
           "type": "link",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dummy-collection-2.png",
+            "image": "shopify://shop_images/dummy-collection-2.png",
             "title": "SETS",
             "content": "",
-            "url": "shopify:\/\/collections\/sets",
+            "url": "shopify://collections/sets",
             "heading_tag": "display-m",
             "background_hover": "#faf2ee",
             "text_color_hover": ""
@@ -172,10 +181,10 @@
         "link_naq4yi": {
           "type": "link",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dummy-collection-3.png",
+            "image": "shopify://shop_images/dummy-collection-3.png",
             "title": "TOPS",
             "content": "",
-            "url": "shopify:\/\/collections\/tops",
+            "url": "shopify://collections/tops",
             "heading_tag": "display-m",
             "background_hover": "#faf2ee",
             "text_color_hover": ""
@@ -184,10 +193,10 @@
         "link_N44HCn": {
           "type": "link",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dummy-collection-4.png",
+            "image": "shopify://shop_images/dummy-collection-4.png",
             "title": "BOTTOMS",
             "content": "",
-            "url": "shopify:\/\/collections\/bottoms",
+            "url": "shopify://collections/bottoms",
             "heading_tag": "display-m",
             "background_hover": "#faf2ee",
             "text_color_hover": ""
@@ -318,7 +327,7 @@
             "image_with_caption_BYJWG8": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/STUDIOS_6663.png",
+                "image": "shopify://shop_images/STUDIOS_6663.png",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -352,7 +361,7 @@
             "image_with_caption_HNpPcR": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/dummy-collection-4.png",
+                "image": "shopify://shop_images/dummy-collection-4.png",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -386,7 +395,7 @@
             "image_with_caption_zDymdC": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/dummy-collection-3.png",
+                "image": "shopify://shop_images/dummy-collection-3.png",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -461,7 +470,7 @@
             "image_with_caption_ezTDzD": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/dummy-thumbnail-1.png",
+                "image": "shopify://shop_images/dummy-thumbnail-1.png",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -524,7 +533,7 @@
       "settings": {
         "color_scheme": "scheme-2",
         "allow_transparent_header": true,
-        "background_image": "shopify:\/\/shop_images\/parallax-background.png",
+        "background_image": "shopify://shop_images/parallax-background.png",
         "show_background_image_parallax": true,
         "add_vertical_spacing": true,
         "add_horizontal_spacing": true,
@@ -572,7 +581,7 @@
         "richtext_JKPcNX": {
           "type": "richtext",
           "settings": {
-            "text": "<h6>Chất liệu xô xốp cotton nhẹ bay, thoáng mát <\/h6><h6>Form buộc dây kết hợp cùng viền ren tinh tế tạo nên sự nữ tính có chọn lọc.<\/h6><h6>Muse thì nhẹ và thơ, Bleu thì trầm và sắc – đều là lựa chọn cho những cô gái không muốn bị đóng khung vào một kiểu.<\/h6>"
+            "text": "<h6>Chất liệu xô xốp cotton nhẹ bay, thoáng mát </h6><h6>Form buộc dây kết hợp cùng viền ren tinh tế tạo nên sự nữ tính có chọn lọc.</h6><h6>Muse thì nhẹ và thơ, Bleu thì trầm và sắc – đều là lựa chọn cho những cô gái không muốn bị đóng khung vào một kiểu.</h6>"
           }
         }
       },
@@ -593,7 +602,7 @@
           "type": "before",
           "settings": {
             "color_scheme": "scheme-1",
-            "image": "shopify:\/\/shop_images\/img_Muse_01.jpg",
+            "image": "shopify://shop_images/img_Muse_01.jpg",
             "text": "muse",
             "text_size": "h3",
             "text_position": "start"
@@ -603,7 +612,7 @@
           "type": "after",
           "settings": {
             "color_scheme": "scheme-1",
-            "image": "shopify:\/\/shop_images\/img_Bleu_01.jpg",
+            "image": "shopify://shop_images/img_Bleu_01.jpg",
             "text": "Bleu",
             "text_size": "h3",
             "text_position": "start"
@@ -645,7 +654,7 @@
         "heading_cy7Wk3": {
           "type": "heading",
           "settings": {
-            "text": "CÁ TÍNH & <em>MỀM MẠI<\/em>",
+            "text": "CÁ TÍNH & <em>MỀM MẠI</em>",
             "heading_tag": "h1",
             "position": "middle_left",
             "highlight_effect": "marker",
@@ -656,7 +665,7 @@
         "richtext_ibe7XQ": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Đồ ngủ của Tigirl là sự hòa quyện giữa nét cá tính hiện đại và vẻ mềm mại nữ tính. Thiết kế tinh tế, chất liệu nhẹ nhàng ôm trọn cơ thể, tôn lên phong cách riêng mà vẫn giữ trọn sự thoải mái. <\/p>",
+            "text": "<p>Đồ ngủ của Tigirl là sự hòa quyện giữa nét cá tính hiện đại và vẻ mềm mại nữ tính. Thiết kế tinh tế, chất liệu nhẹ nhàng ôm trọn cơ thể, tôn lên phong cách riêng mà vẫn giữ trọn sự thoải mái. </p>",
             "position": "middle_left"
           }
         }
@@ -673,7 +682,7 @@
           "muse"
         ],
         "desktop_product_list_position": "start",
-        "image": "shopify:\/\/shop_images\/STUDIOS_6855.png",
+        "image": "shopify://shop_images/STUDIOS_6855.png",
         "overlay_color": "rgba(0,0,0,0)",
         "overlay_opacity": 0,
         "desktop_product_layout": "carousel",
@@ -690,7 +699,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "",
             "color_scheme_hover": "",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6855_d88c3683-909e-4744-932f-6b80f81e6c09.png",
+            "image": "shopify://shop_images/STUDIOS_6855_d88c3683-909e-4744-932f-6b80f81e6c09.png",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -703,7 +712,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Share some content about your store<\/p>",
+            "text": "<p>Share some content about your store</p>",
             "text_position": "middle_center",
             "button_style": "solid",
             "link_url": "",
@@ -717,7 +726,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "",
             "color_scheme_hover": "",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6845.png",
+            "image": "shopify://shop_images/STUDIOS_6845.png",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -766,9 +775,9 @@
       "type": "reading-text",
       "settings": {
         "color_scheme": "scheme-3",
-        "image": "shopify:\/\/shop_images\/parallax-background-6.png",
+        "image": "shopify://shop_images/parallax-background-6.png",
         "subheading": "VỀ TIGIRL",
-        "content": "<p>Tigirl – “Tiny Girl” đại diện cho những cô nàng nhỏ bé, dịu dàng nhưng cũng đầy bản lĩnh và cá tính, sẵn sàng thể hiện chính mình như một “Tiger” thực thụ. <\/p><p>Ở Tigirl, mỗi thiết kế đều có nhiều lớp cảm xúc: khi mềm mại, khi sắc sảo, khi nổi bật hoặc bình yên – nhưng luôn là chính bạn.<\/p><p>Tigirl tin rằng: Phong cách không phải để chạy theo, mà là để kể câu chuyện của riêng mình.<\/p>",
+        "content": "<p>Tigirl – “Tiny Girl” đại diện cho những cô nàng nhỏ bé, dịu dàng nhưng cũng đầy bản lĩnh và cá tính, sẵn sàng thể hiện chính mình như một “Tiger” thực thụ. </p><p>Ở Tigirl, mỗi thiết kế đều có nhiều lớp cảm xúc: khi mềm mại, khi sắc sảo, khi nổi bật hoặc bình yên – nhưng luôn là chính bạn.</p><p>Tigirl tin rằng: Phong cách không phải để chạy theo, mà là để kể câu chuyện của riêng mình.</p>",
         "button_text": "",
         "button_link": "",
         "heading_tag": "h2",
@@ -834,14 +843,14 @@
       "type": "countdown",
       "settings": {
         "color_scheme": "scheme-2",
-        "image": "shopify:\/\/shop_images\/STUDIOS_6613.png",
+        "image": "shopify://shop_images/STUDIOS_6613.png",
         "image_position": "split",
         "image_size": "md",
         "add_image_spacing": true,
         "subheading": "",
-        "title": "Grand opening <em>10% OFF<\/em>",
+        "title": "Grand opening <em>10% OFF</em>",
         "heading_tag": "h1",
-        "content": "<p>Shop our selection of exclusive products at reduced price during the Special Sale. Hurry up!<\/p>",
+        "content": "<p>Shop our selection of exclusive products at reduced price during the Special Sale. Hurry up!</p>",
         "button_text": "Khám phá ngay",
         "button_url": "",
         "button_style": "outline",
@@ -864,7 +873,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "",
             "color_scheme_hover": "",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6741.png",
+            "image": "shopify://shop_images/STUDIOS_6741.png",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -897,7 +906,7 @@
             "icon_position": "middle_center",
             "subheading": "",
             "subheading_position": "middle_center",
-            "title": "Thỏa sức phối, tự do thể hiện  – từng lớp <em>phong cách<\/em> dành riêng cho bạn.",
+            "title": "Thỏa sức phối, tự do thể hiện  – từng lớp <em>phong cách</em> dành riêng cho bạn.",
             "heading_tag": "h4",
             "heading_position": "middle_center",
             "scrolling_title": false,
@@ -960,7 +969,7 @@
             "rich_text_jVnM7f": {
               "type": "rich-text",
               "settings": {
-                "text": "<p>Thanh lịch và không thể cản phá – Tigirl mang đến những thiết kế mềm mại, ứng dụng cao, tôn dáng và dễ phối đồ.Dù là ở nhà hay xuống phố, bạn luôn tự tin là chính mình.<\/p>",
+                "text": "<p>Thanh lịch và không thể cản phá – Tigirl mang đến những thiết kế mềm mại, ứng dụng cao, tôn dáng và dễ phối đồ.Dù là ở nhà hay xuống phố, bạn luôn tự tin là chính mình.</p>",
                 "content_width": "sm"
               },
               "blocks": {}
@@ -992,7 +1001,7 @@
             "dynamic_grid_heading_xHGRGX": {
               "type": "_dynamic-grid-heading",
               "settings": {
-                "text": "<strong>CHIC AND <\/strong><em>UNSTOPPABLE<\/em>",
+                "text": "<strong>CHIC AND </strong><em>UNSTOPPABLE</em>",
                 "show_text_vertically": false,
                 "font_size_desktop": 10,
                 "font_size_mobile": 11,
@@ -1032,7 +1041,7 @@
             "image_with_caption_cKE4cn": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/STUDIOS_6500.png",
+                "image": "shopify://shop_images/STUDIOS_6500.png",
                 "caption": "",
                 "max_width": 80,
                 "mobile_max_width": 100
@@ -1066,7 +1075,7 @@
             "image_with_caption_a6QLzL": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/STUDIOS_6682.png",
+                "image": "shopify://shop_images/STUDIOS_6682.png",
                 "caption": "",
                 "max_width": 80,
                 "mobile_max_width": 100
@@ -1100,7 +1109,7 @@
             "image_with_caption_n4hRe8": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/STUDIOS_6795.png",
+                "image": "shopify://shop_images/STUDIOS_6795.png",
                 "caption": "",
                 "max_width": 80,
                 "mobile_max_width": 100
@@ -1134,7 +1143,7 @@
             "image_with_caption_bUewVG": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/STUDIOS_6532.png",
+                "image": "shopify://shop_images/STUDIOS_6532.png",
                 "caption": "",
                 "max_width": 80,
                 "mobile_max_width": 100
@@ -1168,7 +1177,7 @@
             "image_with_caption_BY9EXV": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/STUDIOS_6741.png",
+                "image": "shopify://shop_images/STUDIOS_6741.png",
                 "caption": "",
                 "max_width": 80,
                 "mobile_max_width": 100
