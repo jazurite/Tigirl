@@ -6222,6 +6222,9 @@ product-rerender {
     flex-basis: 28rem;
     max-width: 28rem;
   }
+  .footer__block--links {
+    max-width: initial;
+  }
 }
 
 .footer__big-logo {

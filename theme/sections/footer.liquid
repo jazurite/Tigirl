@@ -1,3 +1,14 @@
+
+<style>
+.footer__logo-list {
+display: flex;
+gap: .5rem
+}
+
+.footer__second_row .footer__block-list {
+justify-content: space-between;
+}
+</style>
 <div class="footer color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
   <div class="container">
     {%- assign scrolling_logo_block = section.blocks | where: 'type', 'scrolling_logo' | first -%}
@@ -39,7 +50,7 @@
               {%- case block.type -%}
                 {%- when '@app' -%}
                   {%- render block -%}
-                  
+
                 {%- when 'image' -%}
                   {%- if block.settings.image != blank -%}
                     {%- capture sizes -%}{{ block.settings.image_width }}px{%- endcapture -%}
@@ -56,8 +67,9 @@
                   {%- endif -%}
 
                 {%- when 'text' -%}
+                 <div class="v-stack gap-4.5">
                   {%- if block.settings.title != blank or block.settings.content != blank or shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
-                    <div class="v-stack gap-4.5">
+
                       {%- if block.settings.title != blank -%}
                         <p class="subheading">{{ block.settings.title }}</p>
                       {%- endif -%}
@@ -73,8 +85,22 @@
                           {{- shop | login_button: action: 'follow' -}}
                         </div>
                       {%- endif -%}
-                    </div>
                   {%- endif -%}
+
+                  {% if forloop.index0 == 0 %}
+                    {%- if section.settings.show_social_media -%}
+                        {%- render 'social-media' -%}
+                      {%- endif -%}
+
+                     {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
+                      <ul class="h-stack gap-4 wrap unstyled-list">
+                        {%- for type in shop.enabled_payment_types -%}
+                          <li>{{- type | payment_type_svg_tag -}}</li>
+                        {%- endfor -%}
+                      </ul>
+                    {%- endif -%}
+                  {% endif %}
+                 </div>
 
                 {%- when 'links' -%}
                   {%- assign menu = block.settings.menu -%}
@@ -104,6 +130,23 @@
                       {%- render 'accordion', title: menu_title, content: menu_content, subheading_title: true, class: 'sm:hidden' -%}
                     {%- endif -%}
                   {%- endif -%}
+
+                  {% if forloop.index0 == 1 %}
+
+                    <div class="v-stack gap-4.5" style="margin-top: 1.125rem">
+                     <img width="125" height="24" alt="Tigirl™" loading="lazy" src="{{ 'accepted-payment-cards.png' |
+                          file_url | width: 200 }}" />
+
+                          <div class="v-stack footer__logo-list">
+                        <a class="logoSaleNoti" href="">
+                          <img width="121" height="227" alt="Tigirl™" loading="lazy" src="{{ 'logo-sale-notification.png' |
+                          file_url | width: 600 }}">
+                        </a>
+                          <img width="121" height="227" alt="Viettel Post™" loading="lazy" src="{{ 'logo-viettel-post.png' | file_url  | width: 600  }}">
+                    </div>
+                    </div>
+
+                  {% endif %}
 
                 {%- when 'newsletter' -%}
                   <div class="v-stack gap-4.5">
@@ -203,20 +246,8 @@
         </div>
       {%- endif -%}
 
-      {%- if section.settings.show_social_media -%}
-        {%- render 'social-media' -%}
-      {%- endif -%}
-
       <div class="v-stack gap-3">
-        <p class="text-sm">© {{ 'now' | date: '%Y' }} - {{ shop.name }} {{ powered_by_link }}</p>
-
-        {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
-          <ul class="h-stack gap-4 wrap unstyled-list">
-            {%- for type in shop.enabled_payment_types -%}
-              <li>{{- type | payment_type_svg_tag -}}</li>
-            {%- endfor -%}
-          </ul>
-        {%- endif -%}
+        <p class="text-sm">© copyright {{ 'now' | date: '%Y' }} {{ shop.name }}</p>
       </div>
     </div>
   </div>
