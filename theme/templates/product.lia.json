@@ -95,7 +95,7 @@
           }
         },
         "care-instructions_NqgcFd": {
-          "type": "care-instructions",
+          "type": "care-instruction",
           "settings": {
             "article": "user-guides/lia-care-instruction",
             "dialog_type": "modal",
