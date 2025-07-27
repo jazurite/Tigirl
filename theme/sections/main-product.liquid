@@ -478,11 +478,43 @@
           "label": "t:sections.main_product.blocks.variant_picker.variant_image_options",
           "info": "t:sections.main_product.blocks.variant_picker.variant_image_options_info"
         },
+         {
+          "type": "select",
+          "id": "dialog_type",
+          "label": "t:sections.main_product.blocks.modal.dialog_type",
+          "options": [
+            {
+              "value": "modal",
+              "label": "t:sections.main_product.blocks.modal.dialog_type_options.modal"
+            },
+            {
+              "value": "drawer",
+              "label": "t:sections.main_product.blocks.modal.dialog_type_options.drawer"
+            }
+          ],
+          "default": "modal"
+        },
         {
           "type": "page",
           "id": "size_chart_page",
           "label": "t:sections.main_product.blocks.variant_picker.size_chart_page",
           "info": "t:sections.main_product.blocks.variant_picker.size_chart_page_info"
+        },
+        {
+          "type": "select",
+          "id": "size_chart_size",
+          "label": "t:global.sizes.size",
+          "options": [
+            {
+              "value": "sm",
+              "label": "t:global.sizes.small"
+            },
+            {
+              "value": "lg",
+              "label": "t:global.sizes.large"
+            }
+          ],
+          "default": "lg"
         }
       ]
     },

@@ -92,7 +92,7 @@
         "care-instruction_NqgcFd": {
           "type": "care-instruction",
           "settings": {
-            "article": "user-guides/muse-care-instruction",
+            "article": "product-care-guide/muse-care-instruction",
             "dialog_type": "modal",
             "button_title": "hướng dẫn bảo quản",
             "button_style": "link",

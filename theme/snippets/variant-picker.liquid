@@ -80,13 +80,26 @@ Supported variables
               {{- 'product.general.size_chart' | t -}}
             </button>
 
-            <x-drawer id="{{ id | escape }}" class="drawer color-scheme color-scheme--{{ settings.default_color_scheme.id }}">
-              <span class="h5" slot="header">{{ size_chart_page.title }}</span>
 
-              <div class="prose">
-                {{- size_chart_page.content -}}
-              </div>
-            </x-drawer>
+            {%- if size_chart_dialog_type == 'modal' -%}
+              <x-modal id="{{ id | escape }}" append-to-body class="modal modal--{{size_chart_size }} color-scheme color-scheme--{{ settings.default_color_scheme.id }}">
+                <div class="prose prose-justify-{{ alignment }}">
+                  <p class="h5">{{ size_chart_page.title }}</p>
+
+                  <div class="text-start">
+                    {{- size_chart_page.content -}}
+                  </div>
+                </div>
+              </x-modal>
+            {%- else -%}
+              <x-drawer id="{{ id | escape }}" class="drawer color-scheme color-scheme--{{ settings.default_color_scheme.id }}">
+                <span class="h5" slot="header">{{ size_chart_page.title }}</span>
+
+                <div class="prose">
+                  {{- size_chart_page.content -}}
+                </div>
+              </x-drawer>
+            {%- endif -%}
           {%- endif -%}
         </div>
 

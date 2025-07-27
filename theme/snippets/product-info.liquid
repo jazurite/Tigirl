@@ -223,7 +223,9 @@ Supported variables
                   swatch_selector_size: block.settings.swatch_selector_size,
                   block_selector_style: block.settings.block_selector_style,
                   variant_image_options: block.settings.variant_image_options,
-                  size_chart_page: block.settings.size_chart_page
+                  size_chart_page: block.settings.size_chart_page,
+                  size_chart_dialog_type: block.settings.dialog_type,
+                  size_chart_size: block.settings.size_chart_size
                 -%}
             {%- endif -%}
 
@@ -561,7 +563,7 @@ Supported variables
 
                     {%- if block.settings.dialog_type == 'modal' -%}
                         <x-modal id="{{ modal_id | escape }}" append-to-body class="modal modal--{{ block.settings.modal_size }} color-scheme color-scheme--{{ settings.default_color_scheme.id }}">
-                            <div class="prose prose-justify-{{ alignment }}">
+                            <div class="prose flex flex-col gap-8 prose-justify-{{ alignment }}">
                                 {% if block.settings.modal_title != blank %}
                                     <p class="h5">{{ block.settings.modal_title }}</p>
                                 {%- endif -%}

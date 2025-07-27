@@ -9789,6 +9789,10 @@ product-rerender {
     }
 }
 
+.flex-col {
+    flex-direction: column;
+}
+
 .gap-0\.5 {
     gap: .125rem;
 }

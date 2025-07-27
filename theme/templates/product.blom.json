@@ -91,7 +91,7 @@
         "care-instruction_NqgcFd": {
           "type": "care-instruction",
           "settings": {
-            "article": "user-guides/bloom-care-instruction",
+            "article": "product-care-guide/bloom-care-instruction",
             "dialog_type": "modal",
             "button_title": "hướng dẫn bảo quản",
             "button_style": "link",

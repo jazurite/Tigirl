@@ -97,7 +97,7 @@
         "care-instructions_NqgcFd": {
           "type": "care-instruction",
           "settings": {
-            "article": "user-guides/lia-care-instruction",
+            "article": "product-care-guide/lia-care-instruction",
             "dialog_type": "modal",
             "button_title": "hướng dẫn bảo quản",
             "button_style": "link",
