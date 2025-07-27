@@ -16,7 +16,7 @@
           "type": "_dynamic-grid-item",
           "settings": {
             "visibility": "both",
-            "text_alignment": "left",
+            "text_alignment": "center",
             "desktop_row_start": 1,
             "desktop_column_start": 1,
             "desktop_column_end": 16,
@@ -34,9 +34,9 @@
             "dynamic_grid_heading_FCD37Q": {
               "type": "_dynamic-grid-heading",
               "settings": {
-                "text": "SUMMER ✺",
+                "text": "the layers",
                 "show_text_vertically": false,
-                "font_size_desktop": 15,
+                "font_size_desktop": 8,
                 "font_size_mobile": 15,
                 "font_size_line_height": 1,
                 "html_tag": "p",
@@ -58,10 +58,10 @@
             "visibility": "both",
             "text_alignment": "center",
             "desktop_row_start": 3,
-            "desktop_column_start": 6,
-            "desktop_column_end": 12,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
             "desktop_horizontal_adjustment": 0,
-            "desktop_vertical_adjustment": 3,
+            "desktop_vertical_adjustment": 0,
             "mobile_row_start": 9,
             "mobile_column_start": 1,
             "mobile_column_end": 6,
@@ -74,7 +74,7 @@
             "rich_text_g4jXRz": {
               "type": "rich-text",
               "settings": {
-                "text": "<p>Giữa bộn bề công việc và những ngày thường, Tigirl mang đến trang phục linh hoạt – thoải mái khi vận động, dịu dàng khi nghỉ ngơi.</p>",
+                "text": "<p>Bộ sưu tập từ Tigirl lấy cảm hứng từ chính bạn – cô gái hiện đại với nhiều tầng cảm xúc, luôn biến hóa, luôn nổi bật. Mỗi thiết kế mang lại cảm giác thoải mái, dễ phối nhiều kiểu, sẵn sàng đồng hành cùng bạn ở mọi không gian.<br/><br/>Be Yourself Everywear</p>",
                 "content_width": "sm"
               },
               "blocks": {}
@@ -88,8 +88,8 @@
           "type": "_dynamic-grid-item",
           "settings": {
             "visibility": "both",
-            "text_alignment": "right",
-            "desktop_row_start": 4,
+            "text_alignment": "center",
+            "desktop_row_start": 5,
             "desktop_column_start": 1,
             "desktop_column_end": 16,
             "desktop_horizontal_adjustment": 0,
@@ -103,25 +103,21 @@
             "parallax_direction": "vertical"
           },
           "blocks": {
-            "dynamic_grid_heading_nVqjMx": {
-              "type": "_dynamic-grid-heading",
+            "icon_PRACiw": {
+              "type": "icon",
+              "name": "t:blocks.icon.name",
               "settings": {
-                "text": "<em>2025</em>",
-                "show_text_vertically": false,
-                "font_size_desktop": 15,
-                "font_size_mobile": 15,
-                "font_size_line_height": 1,
-                "html_tag": "p",
-                "indent": "none",
-                "highlight_effect": "none",
-                "highlight_accent_color": "",
-                "highlight_text_color": ""
+                "icon": "picto-heart",
+                "custom_icon": "shopify://shop_images/Vector.svg",
+                "icon_width": 108,
+                "mobile_icon_width": 24,
+                "stroke_width": 1.5
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "dynamic_grid_heading_nVqjMx"
+            "icon_PRACiw"
           ]
         },
         "dynamic_grid_item_YmGHdx": {
@@ -146,7 +142,7 @@
             "image_with_caption_RzdxCp": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6820.png",
+                "image": "shopify://shop_images/img_0011s_0001s_0000_Lia_Detail_02_a5b8810e-3f10-4de1-b2ff-7ba19afa5126.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -180,7 +176,7 @@
             "image_with_caption_7zCg8W": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6741.png",
+                "image": "shopify://shop_images/img_0004s_0004s_0000_Clea_Detail_02.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -248,7 +244,7 @@
             "image_with_caption_zAhJXq": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6383.png",
+                "image": "shopify://shop_images/img_0010s_0002s_0000_Bea_Detail_02.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -316,7 +312,7 @@
             "image_with_caption_WV3Y46": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6475.png",
+                "image": "shopify://shop_images/img_0009s_0000s_0000_Bleu_Detail_05.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -351,7 +347,7 @@
               "type": "image-with-caption",
               "name": "t:blocks.image.name",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6620.png",
+                "image": "shopify://shop_images/img_0003s_0003s_0000_Fleur_Detail_02.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -385,7 +381,7 @@
             "image_with_caption_8HVLxG": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6539.png",
+                "image": "shopify://shop_images/img_0008s_0000s_0000_Bleu_Detail_06.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -419,7 +415,7 @@
             "image_with_caption_NYrcAC": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6712.png",
+                "image": "shopify://shop_images/img_0007s_0000s_0000_Haze_Detail_04.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -487,7 +483,7 @@
             "image_with_caption_nLH8pg": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/dummy-product-5.png",
+                "image": "shopify://shop_images/img_0004s_0003s_0000_Clea_Detail_03.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -623,7 +619,7 @@
             "image_with_caption_nWTfib": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6844_faefc707-301e-44c5-b1d1-66d913292ec9.png",
+                "image": "shopify://shop_images/img_0001s_0001s_0000_Papil_Detail_03.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -657,7 +653,7 @@
             "image_with_caption_PFEzGP": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6604_e3e730f8-fb71-4537-bb0b-52ab35d52fe4.png",
+                "image": "shopify://shop_images/img_0010s_0001s_0000_Bea_Detail_03.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -693,7 +689,7 @@
       ],
       "name": "t:sections.dynamic_grid.name",
       "settings": {
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
         "allow_transparent_header": true,
         "show_background_image_parallax": false,
         "add_vertical_spacing": true,
@@ -716,22 +712,22 @@
             "desktop_column_start": 5,
             "desktop_column_end": 16,
             "desktop_horizontal_adjustment": 0,
-            "desktop_vertical_adjustment": 0,
+            "desktop_vertical_adjustment": 1,
             "mobile_row_start": 4,
             "mobile_column_start": 1,
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
-            "parallax_speed": 0,
+            "parallax_speed": 3,
             "parallax_direction": "vertical"
           },
           "blocks": {
             "dynamic_grid_heading_EghN9b": {
               "type": "_dynamic-grid-heading",
               "settings": {
-                "text": ". Bộ sưu tập kết hợp sự mềm mại và bản lĩnh, lấy cảm hứng từ những không gian đời thường – nơi các cô gái được là chính mình.",
+                "text": "The Layers là sự kết hợp hài hòa giữa tính tiện dụng, cảm giác dễ chịu và phong cách riêng, giúp bạn tự tin thể hiện cá tính từ trong nhà đến ngoài phố – luôn là chính mình ở bất cứ đâu.",
                 "show_text_vertically": false,
-                "font_size_desktop": 4,
+                "font_size_desktop": 3,
                 "font_size_mobile": 10,
                 "font_size_line_height": 1,
                 "html_tag": "p",
@@ -788,20 +784,20 @@
             "desktop_column_start": 3,
             "desktop_column_end": 8,
             "desktop_horizontal_adjustment": 0,
-            "desktop_vertical_adjustment": 0,
+            "desktop_vertical_adjustment": -1,
             "mobile_row_start": 12,
             "mobile_column_start": 1,
             "mobile_column_end": 3,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
-            "parallax_speed": 0,
+            "parallax_speed": 4,
             "parallax_direction": "vertical"
           },
           "blocks": {
             "image_with_caption_jHmw7M": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6737.png",
+                "image": "shopify://shop_images/Home_Collections_0001s_0000_img_collections_01.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -822,20 +818,20 @@
             "desktop_column_start": 9,
             "desktop_column_end": 14,
             "desktop_horizontal_adjustment": 0,
-            "desktop_vertical_adjustment": 0,
+            "desktop_vertical_adjustment": -1,
             "mobile_row_start": 8,
             "mobile_column_start": 6,
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
-            "parallax_speed": 0,
+            "parallax_speed": 4,
             "parallax_direction": "vertical"
           },
           "blocks": {
             "image_with_caption_apXzKG": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6441.png",
+                "image": "shopify://shop_images/Home_Collections_0000s_0000_img_collections_02.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -901,37 +897,6 @@
         "swatch_selector_size": "sm"
       }
     },
-    "featured_collections_B3whxw": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_6KpJL9": {
-          "type": "collection",
-          "settings": {
-            "collection": "best-sellers",
-            "products_count": 8,
-            "title": "Best sellers",
-            "content": "{{ block.settings.collection.description }}",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_6KpJL9"
-      ],
-      "disabled": true,
-      "name": "t:sections.featured_collections.name",
-      "settings": {
-        "color_scheme": "",
-        "stack_products_mobile": true,
-        "stack_products_desktop": true,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "tabs_alignment": "start",
-        "tabs_icon": "none",
-        "show_view_all_button": false,
-        "show_scrolling_bar": true
-      }
-    },
     "text_with_fixed_background_TbVq4J": {
       "type": "text-with-fixed-background",
       "blocks": {
@@ -951,6 +916,7 @@
       "block_order": [
         "title_F4MPrk"
       ],
+      "disabled": true,
       "name": "t:sections.text_with_fixed_background.name",
       "settings": {
         "color_scheme": "",
@@ -1017,6 +983,7 @@
         "link_eVWG9F",
         "link_9H3ecH"
       ],
+      "disabled": true,
       "name": "t:sections.featured_links.name",
       "settings": {
         "color_scheme": "scheme-1",
@@ -1025,6 +992,36 @@
         "show_dividers": true,
         "change_colors_on_hover": true
       }
+    },
+    "featured_collections_B3whxw": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_6KpJL9": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-layers",
+            "products_count": 8,
+            "title": "Có thể bạn sẽ thích",
+            "content": "{{ block.settings.collection.description }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_6KpJL9"
+      ],
+      "name": "t:sections.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "tabs_alignment": "start",
+        "tabs_icon": "none",
+        "show_view_all_button": false,
+        "show_scrolling_bar": true
+      }
     }
   },
   "order": [
@@ -1032,8 +1029,8 @@
     "dynamic_grid_4XCwTz",
     "banner",
     "main",
-    "featured_collections_B3whxw",
     "text_with_fixed_background_TbVq4J",
-    "featured_links_w3T7df"
+    "featured_links_w3T7df",
+    "featured_collections_B3whxw"
   ]
 }

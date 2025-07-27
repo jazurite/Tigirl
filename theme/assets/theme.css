@@ -2424,7 +2424,6 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 .offer-item {
     scroll-snap-align: center;
     border-radius: min(4px, var(--button-border-radius));
-    grid-template-columns: minmax(0, 1fr);
     row-gap: .125rem;
     padding: 1rem 1.25rem;
     display: grid;
@@ -5553,13 +5552,9 @@ product-rerender {
 
 @container (width > 400px) {
     .cart-offers .offer-item {
-        text-align: start;
-        flex-direction: row;
+        text-align: center;
         justify-content: space-between;
-    }
 
-    .cart-offers .offer-item .offer-item__content {
-        flex-direction: row;
     }
 }
 

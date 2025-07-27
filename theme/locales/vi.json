@@ -444,12 +444,12 @@
       "add_order_note": "Thêm ghi chú đơn hàng",
       "edit_order_note": "Chỉnh sửa ghi chú đơn hàng",
       "order_note": "Ghi chú đơn hàng",
-      "continue_shopping": "",
+      "continue_shopping": "Tiếp tục mua hàng",
       "save_note": "",
-      "view_cart": "",
+      "view_cart": "Xem giỏ hàng",
       "checkout": "Thanh toán",
-      "we_accept": "",
-      "offers": ""
+      "we_accept": "Shop chấp nhận",
+      "offers": "Ưu Đãi"
     },
     "order": {
       "product": "",

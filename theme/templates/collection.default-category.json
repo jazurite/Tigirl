@@ -20,7 +20,7 @@
         "content_position": "place-self-center",
         "background_color_scheme": "",
         "image_size": "auto",
-        "quick_navigation_menu": "collection-navigation"
+        "quick_navigation_menu": ""
       }
     },
     "main": {
@@ -30,11 +30,11 @@
         "products_per_page": 36,
         "products_per_row_mobile": 2,
         "products_per_row_desktop": 4,
-        "show_product_card_size_selector": false,
+        "show_product_card_size_selector": true,
         "quick_links_menu": "",
-        "filter_layout": "sidebar",
-        "show_sort_by": false,
-        "show_filters": false,
+        "filter_layout": "drawer",
+        "show_sort_by": true,
+        "show_filters": true,
         "show_filter_group_name": false,
         "show_filter_values_count": false,
         "open_filters_by_default": false,
@@ -61,9 +61,9 @@
       "name": "t:sections.featured_collections.name",
       "settings": {
         "color_scheme": "",
-        "stack_products_mobile": true,
-        "stack_products_desktop": true,
-        "products_per_row_mobile": "2",
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "tabs_alignment": "start",
         "tabs_icon": "none",
