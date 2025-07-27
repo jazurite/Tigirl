@@ -29,7 +29,7 @@
             "heading_7thVDT": {
               "type": "heading",
               "settings": {
-                "text": "Trong nhà hay ngoài phố <em>Vẫn là Tigirl</em>",
+                "text": "<strong>THE LAYERS </strong><em><strong>by TIGIRL</strong></em>",
                 "heading_size": "display-m",
                 "html_tag": "h1",
                 "indent": "none",
@@ -43,7 +43,7 @@
               "type": "rich-text",
               "name": "t:blocks.rich_text.name",
               "settings": {
-                "text": "<p>Bộ sưu tập mới từ Tigirl kết hợp hoàn hảo giữa thẩm mỹ và sự thoải mái, dành cho những cô gái hiện đại – yêu sự tinh tế, nhẹ nhàng nhưng vẫn đầy cuốn hút.Dễ dàng mặc ở nhà, ngoài phố hay trong những khoảnh khắc riêng tư.</p>",
+                "text": "<h5>Bộ sưu tập từ Tigirl lấy cảm hứng từ chính bạn – cô gái hiện đại với nhiều tầng cảm xúc, luôn biến hóa, luôn nổi bật. Mỗi thiết kế mang lại cảm giác thoải mái, dễ phối nhiều kiểu, sẵn sàng đồng hành cùng bạn ở mọi không gian.</h5><h5>Be Yourself Everywear<br/></h5>",
                 "content_width": "md"
               },
               "blocks": {}
@@ -148,7 +148,7 @@
         "intro_content": "",
         "intro_button_text": "XEM TẤT CẢ",
         "intro_button_link": "",
-        "intro_button_style": "outline"
+        "intro_button_style": "solid"
       }
     },
     "featured_links_xLzHnk": {
@@ -157,7 +157,7 @@
         "link_VXLFBx": {
           "type": "link",
           "settings": {
-            "image": "shopify://shop_images/dummy-collection-1.png",
+            "image": "shopify://shop_images/img_Dresses.png",
             "title": "DRESSES",
             "content": "",
             "url": "shopify://collections/dresses",
@@ -169,7 +169,7 @@
         "link_LY8fhM": {
           "type": "link",
           "settings": {
-            "image": "shopify://shop_images/dummy-collection-2.png",
+            "image": "shopify://shop_images/img_Sets.png",
             "title": "SETS",
             "content": "",
             "url": "shopify://collections/sets",
@@ -181,7 +181,7 @@
         "link_naq4yi": {
           "type": "link",
           "settings": {
-            "image": "shopify://shop_images/dummy-collection-3.png",
+            "image": "shopify://shop_images/img_Tops.png",
             "title": "TOPS",
             "content": "",
             "url": "shopify://collections/tops",
@@ -193,7 +193,7 @@
         "link_N44HCn": {
           "type": "link",
           "settings": {
-            "image": "shopify://shop_images/dummy-collection-4.png",
+            "image": "shopify://shop_images/img_Bottoms.png",
             "title": "BOTTOMS",
             "content": "",
             "url": "shopify://collections/bottoms",
@@ -327,7 +327,7 @@
             "image_with_caption_BYJWG8": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6663.png",
+                "image": "shopify://shop_images/Home_Collections_0002s_0000_img_home_07.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -361,7 +361,7 @@
             "image_with_caption_HNpPcR": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/dummy-collection-4.png",
+                "image": "shopify://shop_images/Home_Collections_0002s_0000_img_home_06.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -395,7 +395,7 @@
             "image_with_caption_zDymdC": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/dummy-collection-3.png",
+                "image": "shopify://shop_images/Home_Collections_0002s_0000_img_home_05.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -470,7 +470,7 @@
             "image_with_caption_ezTDzD": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/dummy-thumbnail-1.png",
+                "image": "shopify://shop_images/Home_Collections_0002s_0000_img_home_08.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -507,7 +507,7 @@
               "name": "t:blocks.button.name",
               "settings": {
                 "text": "Xem bộ sưu tập",
-                "url": "",
+                "url": "shopify://collections/the-layers",
                 "open_in_new_tab": true,
                 "style": "solid",
                 "background": "#ffffff",
@@ -699,12 +699,12 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "",
             "color_scheme_hover": "",
-            "image": "shopify://shop_images/STUDIOS_6855_d88c3683-909e-4744-932f-6b80f81e6c09.png",
+            "image": "shopify://shop_images/Home_Collections_0005s_0000_img_home_01.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
             "icon_position": "middle_center",
-            "subheading": "Media 1",
+            "subheading": "",
             "subheading_position": "middle_center",
             "title": "",
             "heading_tag": "h4",
@@ -712,7 +712,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Share some content about your store</p>",
+            "text": "",
             "text_position": "middle_center",
             "button_style": "solid",
             "link_url": "",
@@ -726,7 +726,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "",
             "color_scheme_hover": "",
-            "image": "shopify://shop_images/STUDIOS_6845.png",
+            "image": "shopify://shop_images/Home_Collections_0004s_0000_img_home_02.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -766,7 +766,7 @@
         "stack_on_mobile": true,
         "add_horizontal_spacing": true,
         "add_border": false,
-        "column_spacing": "sm",
+        "column_spacing": "none",
         "items_per_row": 2,
         "block_size": "auto"
       }
@@ -843,7 +843,7 @@
       "type": "countdown",
       "settings": {
         "color_scheme": "scheme-2",
-        "image": "shopify://shop_images/STUDIOS_6613.png",
+        "image": "shopify://shop_images/Home_Collections_0003s_0000_img_home_03.jpg",
         "image_position": "split",
         "image_size": "md",
         "add_image_spacing": true,
@@ -852,7 +852,7 @@
         "heading_tag": "h1",
         "content": "<p>Shop our selection of exclusive products at reduced price during the Special Sale. Hurry up!</p>",
         "button_text": "Khám phá ngay",
-        "button_url": "",
+        "button_url": "shopify://collections/the-layers",
         "button_style": "outline",
         "expiration_date": "2025-08-01 00:00",
         "expiration_behavior": "leave",
@@ -873,7 +873,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "",
             "color_scheme_hover": "",
-            "image": "shopify://shop_images/STUDIOS_6741.png",
+            "image": "shopify://shop_images/Home_Collections_0002s_0000_img_home_04.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,

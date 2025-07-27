@@ -66,8 +66,8 @@
             "selector_style": "block",
             "swatch_selector_style": "swatch",
             "swatch_selector_size": "lg",
-            "block_selector_style": "outline",
-            "variant_image_options": "color",
+            "block_selector_style": "fill",
+            "variant_image_options": "",
             "size_chart_page": "bay-size-chart"
           }
         },
@@ -115,7 +115,7 @@
             "show_gift_card_recipient": true,
             "show_quantity_selector": false,
             "add_quantity_selector_spacing": true,
-            "atc_button_style": "solid",
+            "atc_button_style": "outline",
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
@@ -168,7 +168,7 @@
         "color_scheme": "",
         "allow_transparent_header": true,
         "image_size": "lg",
-        "image": "shopify://shop_images/STUDIOS_6566-1_f4a0d255-e562-466e-b12f-294d425a6a95.png",
+        "image": "shopify://shop_images/img_Bay_01.jpg",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "enable_sticky_content": false,
@@ -214,7 +214,7 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-1",
-            "image": "shopify://shop_images/image_bay_2.png",
+            "image": "shopify://shop_images/img_0000s_0000_Detail_Bay_02.jpg",
             "icon": "none",
             "custom_icon": "shopify://shop_images/3d-box-corner_2.svg",
             "icon_width": 48,
@@ -298,7 +298,7 @@
         "overlay_opacity": 20,
         "add_media_spacing": false,
         "autoplay_video": true,
-        "primary_image": "shopify://shop_images/STUDIOS_6569_990c5371-6c90-4ed1-93cf-00590bf27917.png",
+        "primary_image": "shopify://shop_images/img_0000s_0001s_0000_Papil_Detail_02.jpg",
         "secondary_media_width": 60,
         "secondary_media_mobile_width": 60,
         "show_secondary_media_on_mobile": true,
@@ -331,7 +331,7 @@
             "dynamic_grid_heading_CtkN7X": {
               "type": "_dynamic-grid-heading",
               "settings": {
-                "text": "Bay giữ trọn sự đơn giản của áo thun basic, thêm điểm nhấn họa tiết bướm nhỏ cá tính. Thiết kế dễ mặc, mang lại cảm giác thoải mái mỗi ngày.",
+                "text": "Bay mang lại cảm giác trẻ trung và nhiều năng lượng. Một item “must-have” để bạn thỏa sức vận động, tận hưởng những ngày thật nhẹ nhàng và tự do.",
                 "show_text_vertically": false,
                 "font_size_desktop": 3,
                 "font_size_mobile": 6,
@@ -371,7 +371,7 @@
             "image_with_caption_6D6KGk": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6562_1b126cb7-10a7-404b-84c1-80725ae2cd89.png",
+                "image": "shopify://shop_images/img__0000s_0000s_0000_Papil_Detail_03.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -446,7 +446,7 @@
         "color_scheme": "scheme-39d34e9e-6a0b-4b61-81a7-c8c711531024",
         "allow_transparent_header": true,
         "image_size": "fill",
-        "image": "shopify://shop_images/STUDIOS_6575_14f2ec8c-aba6-45b9-9129-2f29cc5aa779.png",
+        "image": "shopify://shop_images/img_Bay_02.jpg",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "enable_sticky_content": true,

@@ -66,7 +66,7 @@
             "selector_style": "block",
             "swatch_selector_style": "swatch",
             "swatch_selector_size": "lg",
-            "block_selector_style": "outline",
+            "block_selector_style": "fill",
             "variant_image_options": "color",
             "size_chart_page": "haze-size-chart"
           }
@@ -115,7 +115,7 @@
             "show_gift_card_recipient": true,
             "show_quantity_selector": false,
             "add_quantity_selector_spacing": true,
-            "atc_button_style": "solid",
+            "atc_button_style": "outline",
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
@@ -197,7 +197,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-4",
             "color_scheme_hover": "",
-            "image": "shopify://shop_images/STUDIOS_6354_572000b5-0b33-4d08-b2bc-7734a5fdc08e.png",
+            "image": "shopify://shop_images/img_0007s_0002s_0000_Haze_Detail_02.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -251,7 +251,7 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-1",
-            "image": "shopify://shop_images/haze_1.png",
+            "image": "shopify://shop_images/img_0007s_0001_Detail_Haze_01.jpg",
             "icon": "none",
             "custom_icon": "shopify://shop_images/arrow-all-direction.svg",
             "icon_width": 48,
@@ -279,7 +279,7 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-1",
-            "image": "shopify://shop_images/27.05_TIGIRL1844_haze_2.png",
+            "image": "shopify://shop_images/img_0007s_0000_Detail_Haze_02.jpg",
             "icon": "none",
             "custom_icon": "shopify://shop_images/3d-box-corner_2.svg",
             "icon_width": 48,
@@ -342,7 +342,7 @@
         "richtext_JLKfHK": {
           "type": "richtext",
           "settings": {
-            "text": "<p>be youRSElf EVERYWEAR</p><p>The layers from tigirl</p>",
+            "text": "<p>be youRSElf EVERYWEAR<br/>The layers from tigirl</p>",
             "position": "bottom_center"
           }
         }
@@ -363,7 +363,7 @@
         "overlay_opacity": 20,
         "add_media_spacing": false,
         "autoplay_video": true,
-        "primary_image": "shopify://shop_images/STUDIOS_6359_ccef948d-6cf0-4fd0-bb00-cdd725e53078.png",
+        "primary_image": "shopify://shop_images/img_0007s_0001s_0000_Haze_Detail_03.jpg",
         "secondary_media_width": 60,
         "secondary_media_mobile_width": 60,
         "show_secondary_media_on_mobile": true,
@@ -436,7 +436,7 @@
             "image_with_caption_6D6KGk": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6351_83adfaa5-72b3-4b5b-86d5-fb149abbdda5.png",
+                "image": "shopify://shop_images/img_0007s_0000s_0000_Haze_Detail_04.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -511,7 +511,7 @@
         "color_scheme": "scheme-39d34e9e-6a0b-4b61-81a7-c8c711531024",
         "allow_transparent_header": true,
         "image_size": "fill",
-        "image": "shopify://shop_images/Base.png",
+        "image": "shopify://shop_images/img_Haze_overlay_00.jpg",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "enable_sticky_content": true,

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -57,7 +66,7 @@
             "selector_style": "block",
             "swatch_selector_style": "swatch",
             "swatch_selector_size": "lg",
-            "block_selector_style": "outline",
+            "block_selector_style": "fill",
             "variant_image_options": "color",
             "size_chart_page": "clea-size-chart"
           }
@@ -89,14 +98,14 @@
             "button_background": "",
             "button_text_color": "",
             "modal_title": "Modal title",
-            "modal_content": "<p>Write some content that will appear in a modal<\/p>",
+            "modal_content": "<p>Write some content that will appear in a modal</p>",
             "modal_size": "sm"
           }
         },
         "text_fVQ99k": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Be Yourself Everywear<\/strong><\/p><p><strong>Everywear by Tigirl<\/strong><\/p>"
+            "text": "<p><strong>Be Yourself Everywear</strong></p><p><strong>Everywear by Tigirl</strong></p>"
           }
         },
         "buy_buttons": {
@@ -106,7 +115,7 @@
             "show_gift_card_recipient": true,
             "show_quantity_selector": false,
             "add_quantity_selector_spacing": true,
-            "atc_button_style": "solid",
+            "atc_button_style": "outline",
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
@@ -156,7 +165,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-009b8991-2d40-4518-81e1-d0baf5e6c211",
             "color_scheme_hover": "scheme-3",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6750.png",
+            "image": "shopify://shop_images/img_0004s_0005s_0000_Clea_Detail_01.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -183,7 +192,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-4",
             "color_scheme_hover": "",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6737_de6d7cda-1879-422b-a2a0-40b2f779e53f.png",
+            "image": "shopify://shop_images/img_0004s_0004s_0000_Clea_Detail_02.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -237,9 +246,9 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-1",
-            "image": "shopify:\/\/shop_images\/clea_1.png",
+            "image": "shopify://shop_images/clea_1.png",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/arrow-all-direction.svg",
+            "custom_icon": "shopify://shop_images/arrow-all-direction.svg",
             "icon_width": 48,
             "mobile_icon_width": 24,
             "icon_position": "top_left",
@@ -251,7 +260,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Lụa satin mềm mịn, mát da và có độ bóng nhẹ tinh tế. Phối ren hoa co giãn ở eo tôn dáng nhưng vẫn thoái mái khi di chuyển.<\/p>",
+            "text": "<p>Lụa satin mềm mịn, mát da và có độ bóng nhẹ tinh tế. Phối ren hoa co giãn ở eo tôn dáng nhưng vẫn thoái mái khi di chuyển.</p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -265,9 +274,9 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-1",
-            "image": "shopify:\/\/shop_images\/27.05_TIGIRL1844_clea_2.png",
+            "image": "shopify://shop_images/img_0004s_0000_Detail_Clea_02.jpg",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/3d-box-corner_2.svg",
+            "custom_icon": "shopify://shop_images/3d-box-corner_2.svg",
             "icon_width": 48,
             "mobile_icon_width": 24,
             "icon_position": "top_left",
@@ -279,7 +288,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Áo cổ V tay rũ, cài nút ngọc trai, nhấn eo bằng ren hoa co giãn. Lưng smocking co giãn tự nhiên, ôm mềm mại.Kèm quần dài ống rộng từ lụa satin, nhẹ và bay khi di chuyển.<\/p>",
+            "text": "<p>Áo cổ V tay rũ, cài nút ngọc trai, nhấn eo bằng ren hoa co giãn. Lưng smocking co giãn tự nhiên, ôm mềm mại.Kèm quần dài ống rộng từ lụa satin, nhẹ và bay khi di chuyển.</p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -317,7 +326,7 @@
         "heading_JQneLM": {
           "type": "heading",
           "settings": {
-            "text": "<em>Clea <\/em>from Tigirl Light, but unforgettable!",
+            "text": "<em>Clea </em>from Tigirl Light, but unforgettable!",
             "heading_tag": "h2",
             "position": "middle_center",
             "highlight_effect": "default",
@@ -328,7 +337,7 @@
         "richtext_JLKfHK": {
           "type": "richtext",
           "settings": {
-            "text": "<p>be youRSElf EVERYWEAR<\/p><p>The layers from tigirl<br\/><br\/><\/p>",
+            "text": "<p>be youRSElf EVERYWEAR<br/>The layers from tigirl<br/><br/></p>",
             "position": "bottom_center"
           }
         }
@@ -349,7 +358,7 @@
         "overlay_opacity": 20,
         "add_media_spacing": false,
         "autoplay_video": true,
-        "primary_image": "shopify:\/\/shop_images\/STUDIOS_6712.png",
+        "primary_image": "shopify://shop_images/img_0004s_0003s_0000_Clea_Detail_03.jpg",
         "secondary_media_width": 60,
         "secondary_media_mobile_width": 60,
         "show_secondary_media_on_mobile": true,
@@ -422,7 +431,7 @@
             "image_with_caption_6D6KGk": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/STUDIOS_6726.png",
+                "image": "shopify://shop_images/img_0004s_0002s_0000_Clea_Detail_04.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -461,7 +470,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-4",
             "color_scheme_hover": "scheme-3",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6758.png",
+            "image": "shopify://shop_images/STUDIOS_6758.png",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -488,7 +497,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-009b8991-2d40-4518-81e1-d0baf5e6c211",
             "color_scheme_hover": "",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6736.png",
+            "image": "shopify://shop_images/img_0004s_0000s_0000_Clea_Detail_06.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -562,7 +571,7 @@
           "type": "rich-text",
           "disabled": true,
           "settings": {
-            "text": "<p>Write some text about your products or your brand.<\/p>",
+            "text": "<p>Write some text about your products or your brand.</p>",
             "content_width": "sm"
           },
           "blocks": {}
@@ -579,7 +588,7 @@
         "color_scheme": "scheme-39d34e9e-6a0b-4b61-81a7-c8c711531024",
         "allow_transparent_header": true,
         "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/parallax-background-image-3.png",
+        "image": "shopify://shop_images/parallax-background-image-3.png",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "enable_sticky_content": true,
@@ -605,7 +614,7 @@
           "type": "question",
           "settings": {
             "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>",
             "icon": "none",
             "icon_width": 24,
             "mobile_icon_width": 20
@@ -615,7 +624,7 @@
           "type": "question",
           "settings": {
             "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>",
             "icon": "none",
             "icon_width": 24,
             "mobile_icon_width": 20
@@ -625,7 +634,7 @@
           "type": "question",
           "settings": {
             "question": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>",
             "icon": "none",
             "icon_width": 24,
             "mobile_icon_width": 20
@@ -648,7 +657,7 @@
         "subheading": "",
         "title": "Câu hỏi thường gặp",
         "title_tag": "display-m",
-        "content": "<p>Bạn đang tìm kiếm câu trả lời nhanh chóng?Các câu hỏi thường gặp của Tigirl được cập nhật thường xuyên cho các thắc mắc phổ biến nhất của khách hàng.<\/p>",
+        "content": "<p>Bạn đang tìm kiếm câu trả lời nhanh chóng?Các câu hỏi thường gặp của Tigirl được cập nhật thường xuyên cho các thắc mắc phổ biến nhất của khách hàng.</p>",
         "button_text": "",
         "button_url": "",
         "button_style": "solid"

@@ -46,6 +46,18 @@
           "type": "separator",
           "settings": {}
         },
+        "product_variations_LfMnn6": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "Màu Sắc",
+            "option_value_metafield": "",
+            "products": [
+              "bea"
+            ],
+            "selector_style": "variant_image",
+            "swatch_selector_size": "lg"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -57,17 +69,6 @@
             "block_selector_style": "outline",
             "variant_image_options": "color",
             "size_chart_page": "bea-size-chart"
-          }
-        },
-        "product_variations_LfMnn6": {
-          "type": "product_variations",
-          "disabled": true,
-          "settings": {
-            "option_name": "",
-            "option_value_metafield": "",
-            "products": [],
-            "selector_style": "swatch",
-            "swatch_selector_size": "lg"
           }
         },
         "countdown_rHXaFU": {
@@ -134,8 +135,8 @@
         "rating",
         "payment_terms",
         "separator",
-        "variant_picker",
         "product_variations_LfMnn6",
+        "variant_picker",
         "countdown_rHXaFU",
         "description",
         "modal_NqgcFd",
@@ -169,7 +170,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-009b8991-2d40-4518-81e1-d0baf5e6c211",
             "color_scheme_hover": "scheme-3",
-            "image": "shopify://shop_images/STUDIOS_6386.png",
+            "image": "shopify://shop_images/img_0010s_0003s_0000_Bea_Detail_01.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -196,7 +197,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-4",
             "color_scheme_hover": "",
-            "image": "shopify://shop_images/STUDIOS_6383_676aa3f3-05db-4495-8e59-be59586d31db.png",
+            "image": "shopify://shop_images/img_0010s_0002s_0000_Bea_Detail_02.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -250,7 +251,7 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-1",
-            "image": "shopify://shop_images/27.05_TIGIRL1978_bea_1.png",
+            "image": "shopify://shop_images/img_0010s_0001_Detail_Bea_01_bb05eef7-0dac-4d73-8545-bc7b279795b9.jpg",
             "icon": "none",
             "custom_icon": "shopify://shop_images/arrow-all-direction.svg",
             "icon_width": 48,
@@ -278,7 +279,7 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-1",
-            "image": "shopify://shop_images/27.05_TIGIRL1978_bea_2.png",
+            "image": "shopify://shop_images/img_0010s_0000_Detail_Bea_02_ce0fc5e1-49b0-4418-8e60-c5c0b6992308.jpg",
             "icon": "none",
             "custom_icon": "shopify://shop_images/3d-box-corner_2.svg",
             "icon_width": 48,
@@ -388,8 +389,8 @@
         "heading_JQneLM": {
           "type": "heading",
           "settings": {
-            "text": "<em>Bea </em>from Tigirl Playful heart, dreamy lace!",
-            "heading_tag": "h1",
+            "text": "Bea from Tigirl Playful heart, dreamy lace!",
+            "heading_tag": "h3",
             "position": "middle_center",
             "highlight_effect": "default",
             "highlight_accent_color": "",
@@ -420,7 +421,7 @@
         "overlay_opacity": 20,
         "add_media_spacing": false,
         "autoplay_video": true,
-        "primary_image": "shopify://shop_images/STUDIOS_6384.png",
+        "primary_image": "shopify://shop_images/img_0010s_0001s_0000_Bea_Detail_03.jpg",
         "secondary_media_width": 60,
         "secondary_media_mobile_width": 60,
         "show_secondary_media_on_mobile": true,
@@ -493,7 +494,7 @@
             "image_with_caption_6D6KGk": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6393_a83fc6f9-f13f-45f0-8ff8-192ed51e3c3e.png",
+                "image": "shopify://shop_images/img_0010s_0000s_0000_Bea_Detail_04.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -568,7 +569,7 @@
         "color_scheme": "scheme-1",
         "allow_transparent_header": true,
         "image_size": "fill",
-        "image": "shopify://shop_images/STUDIOS_6379_debdc3e3-bb29-4c62-a296-4f7d876042e9.png",
+        "image": "shopify://shop_images/img_Bea_overlay_00.jpg",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "enable_sticky_content": true,

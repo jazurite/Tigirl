@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -58,7 +67,7 @@
             "selector_style": "block",
             "swatch_selector_style": "swatch",
             "swatch_selector_size": "lg",
-            "block_selector_style": "outline",
+            "block_selector_style": "fill",
             "variant_image_options": "color",
             "size_chart_page": "bleu-size-chart"
           }
@@ -83,7 +92,7 @@
             "button_background": "",
             "button_text_color": "",
             "modal_title": "Modal title",
-            "modal_content": "<p>Write some content that will appear in a modal<\/p>",
+            "modal_content": "<p>Write some content that will appear in a modal</p>",
             "modal_size": "sm"
           }
         },
@@ -97,7 +106,7 @@
         "text_fVQ99k": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Be Yourself Everywear<\/strong><\/p><p><strong>Everywear by Tigirl<\/strong><\/p>"
+            "text": "<p><strong>Be Yourself Everywear</strong></p><p><strong>Everywear by Tigirl</strong></p>"
           }
         },
         "buy_buttons": {
@@ -157,7 +166,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-009b8991-2d40-4518-81e1-d0baf5e6c211",
             "color_scheme_hover": "scheme-3",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6490.png",
+            "image": "shopify://shop_images/img_0009s_0003s_0000_Bleu_Detail_01.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -184,7 +193,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-4",
             "color_scheme_hover": "",
-            "image": "shopify:\/\/shop_images\/STUDIOS_6499.png",
+            "image": "shopify://shop_images/img_0009s_0000s_0000_Bleu_Detail_05.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -238,9 +247,9 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-2",
-            "image": "shopify:\/\/shop_images\/image_bleu_1.png",
+            "image": "shopify://shop_images/img_0009s_0002_Detail_Bleu_01.jpg",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/arrow-all-direction.svg",
+            "custom_icon": "shopify://shop_images/arrow-all-direction.svg",
             "icon_width": 48,
             "mobile_icon_width": 24,
             "icon_position": "top_left",
@@ -252,7 +261,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Xô xốp cotton in họa tiết chấm bi – chất liệu mềm nhẹ, thoáng khí, có texture gợn tự nhiên tạo độ bay nhẹ.Không co giãn nhưng rất dễ mặc, thấm hút tốt, phù hợp cho những ngày cần sự thoải mái mà vẫn có thần thái.<\/p>",
+            "text": "<p>Xô xốp cotton in họa tiết chấm bi – chất liệu mềm nhẹ, thoáng khí, có texture gợn tự nhiên tạo độ bay nhẹ.Không co giãn nhưng rất dễ mặc, thấm hút tốt, phù hợp cho những ngày cần sự thoải mái mà vẫn có thần thái.</p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -266,9 +275,9 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-2",
-            "image": "shopify:\/\/shop_images\/27.05_TIGIRL1844_bleu_2.png",
+            "image": "shopify://shop_images/img_0009s_0001_Detail_Bleu_02.jpg",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/like.svg",
+            "custom_icon": "shopify://shop_images/like.svg",
             "icon_width": 48,
             "mobile_icon_width": 24,
             "icon_position": "top_left",
@@ -280,7 +289,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>xanh denim: trầm sắc, sắc sảo – đúng chất “cool girl” lặng lẽ nhưng nổi bật.<\/p>",
+            "text": "<p>xanh denim: trầm sắc, sắc sảo – đúng chất “cool girl” lặng lẽ nhưng nổi bật.</p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -294,9 +303,9 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-2",
-            "image": "shopify:\/\/shop_images\/27.05_TIGIRL1842_bleu_3.png",
+            "image": "shopify://shop_images/img_0009s_0000_Detail_Bleu_03.jpg",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/3d-box-corner_2.svg",
+            "custom_icon": "shopify://shop_images/3d-box-corner_2.svg",
             "icon_width": 48,
             "mobile_icon_width": 24,
             "icon_position": "top_left",
@@ -308,7 +317,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Set 2 mảnh gồm áo tay dài buộc dây và quần short cạp chun.Viền ren mảnh được phối tinh tế nhằm tạo điểm nhấn nữ tính mà không rườm rà.<\/p>",
+            "text": "<p>Set 2 mảnh gồm áo tay dài buộc dây và quần short cạp chun.Viền ren mảnh được phối tinh tế nhằm tạo điểm nhấn nữ tính mà không rườm rà.</p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -324,7 +333,7 @@
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-3",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/like.svg",
+            "custom_icon": "shopify://shop_images/like.svg",
             "icon_width": 48,
             "mobile_icon_width": 24,
             "icon_position": "top_left",
@@ -336,7 +345,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>trầm sắc, sắc sảo – đúng chất “cool girl” lặng lẽ nhưng nổi bật.<\/p>",
+            "text": "<p>trầm sắc, sắc sảo – đúng chất “cool girl” lặng lẽ nhưng nổi bật.</p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -376,7 +385,7 @@
         "heading_JQneLM": {
           "type": "heading",
           "settings": {
-            "text": "<em>BLEU  <\/em>form TIGIRL BOLDNESS THAT INSPIRES!",
+            "text": "<em>BLEU  </em>form TIGIRL BOLDNESS THAT INSPIRES!",
             "heading_tag": "h3",
             "position": "middle_center",
             "highlight_effect": "default",
@@ -387,7 +396,7 @@
         "richtext_JLKfHK": {
           "type": "richtext",
           "settings": {
-            "text": "<p>be youRSElf EVERYWEAR<\/p><p>The layers from tigirl<br\/><br\/><\/p>",
+            "text": "<p>be youRSElf EVERYWEAR</p><p>The layers from tigirl<br/><br/></p>",
             "position": "bottom_center"
           }
         }
@@ -408,7 +417,7 @@
         "overlay_opacity": 20,
         "add_media_spacing": false,
         "autoplay_video": true,
-        "primary_image": "shopify:\/\/shop_images\/STUDIOS_6501.png",
+        "primary_image": "shopify://shop_images/img_0009s_0002s_0000_Bleu_Detail_02.jpg",
         "secondary_media_width": 60,
         "secondary_media_mobile_width": 60,
         "show_secondary_media_on_mobile": true,
@@ -481,7 +490,7 @@
             "image_with_caption_6D6KGk": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify:\/\/shop_images\/STUDIOS_6477_2.png",
+                "image": "shopify://shop_images/img_0009s_0000s_0000_Bleu_Detail_04.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -540,7 +549,7 @@
           "type": "rich-text",
           "disabled": true,
           "settings": {
-            "text": "<p>Write some text about your products or your brand.<\/p>",
+            "text": "<p>Write some text about your products or your brand.</p>",
             "content_width": "sm"
           },
           "blocks": {}
@@ -556,7 +565,7 @@
         "color_scheme": "scheme-39d34e9e-6a0b-4b61-81a7-c8c711531024",
         "allow_transparent_header": true,
         "image_size": "fill",
-        "image": "shopify:\/\/shop_images\/STUDIOS_6488.png",
+        "image": "shopify://shop_images/img_Bleu_overlay_00.jpg",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "enable_sticky_content": true,
@@ -582,7 +591,7 @@
           "type": "question",
           "settings": {
             "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>",
             "icon": "none",
             "icon_width": 24,
             "mobile_icon_width": 20
@@ -592,7 +601,7 @@
           "type": "question",
           "settings": {
             "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>",
             "icon": "none",
             "icon_width": 24,
             "mobile_icon_width": 20
@@ -602,7 +611,7 @@
           "type": "question",
           "settings": {
             "question": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>",
             "icon": "none",
             "icon_width": 24,
             "mobile_icon_width": 20
@@ -625,7 +634,7 @@
         "subheading": "",
         "title": "Câu hỏi thường gặp",
         "title_tag": "display-m",
-        "content": "<p>Bạn đang tìm kiếm câu trả lời nhanh chóng?Các câu hỏi thường gặp của Tigirl được cập nhật thường xuyên cho các thắc mắc phổ biến nhất của khách hàng.<\/p>",
+        "content": "<p>Bạn đang tìm kiếm câu trả lời nhanh chóng?Các câu hỏi thường gặp của Tigirl được cập nhật thường xuyên cho các thắc mắc phổ biến nhất của khách hàng.</p>",
         "button_text": "",
         "button_url": "",
         "button_style": "solid"
