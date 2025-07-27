@@ -88,18 +88,19 @@
             "uppercase_title": false
           }
         },
-        "modal_NqgcFd": {
-          "type": "modal",
+        "care-instruction_NqgcFd": {
+          "type": "care-instruction",
           "settings": {
+            "article": "user-guides/fleur-care-instruction",
             "dialog_type": "modal",
-            "button_title": "Xem tính năng",
+            "button_title": "hướng dẫn bảo quản",
             "button_style": "link",
             "stretch_button": false,
             "button_background": "",
             "button_text_color": "",
-            "modal_title": "Modal title",
+            "modal_title": "",
             "modal_content": "<p>Write some content that will appear in a modal</p>",
-            "modal_size": "sm"
+            "modal_size": "lg"
           }
         },
         "text_fVQ99k": {
@@ -135,8 +136,8 @@
         "variant_picker",
         "countdown_rHXaFU",
         "description",
-        "modal_NqgcFd",
         "text_fVQ99k",
+        "care-instruction_NqgcFd",
         "buy_buttons"
       ],
       "settings": {
