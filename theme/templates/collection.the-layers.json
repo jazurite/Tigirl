@@ -897,37 +897,6 @@
         "swatch_selector_size": "sm"
       }
     },
-    "featured_collections_B3whxw": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_6KpJL9": {
-          "type": "collection",
-          "settings": {
-            "collection": "best-sellers",
-            "products_count": 8,
-            "title": "Best sellers",
-            "content": "{{ block.settings.collection.description }}",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_6KpJL9"
-      ],
-      "disabled": true,
-      "name": "t:sections.featured_collections.name",
-      "settings": {
-        "color_scheme": "",
-        "stack_products_mobile": true,
-        "stack_products_desktop": true,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "tabs_alignment": "start",
-        "tabs_icon": "none",
-        "show_view_all_button": false,
-        "show_scrolling_bar": true
-      }
-    },
     "text_with_fixed_background_TbVq4J": {
       "type": "text-with-fixed-background",
       "blocks": {
@@ -1023,6 +992,36 @@
         "show_dividers": true,
         "change_colors_on_hover": true
       }
+    },
+    "featured_collections_B3whxw": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_6KpJL9": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-layers",
+            "products_count": 8,
+            "title": "Có thể bạn sẽ thích",
+            "content": "{{ block.settings.collection.description }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_6KpJL9"
+      ],
+      "name": "t:sections.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "tabs_alignment": "start",
+        "tabs_icon": "none",
+        "show_view_all_button": false,
+        "show_scrolling_bar": true
+      }
     }
   },
   "order": [
@@ -1030,8 +1029,8 @@
     "dynamic_grid_4XCwTz",
     "banner",
     "main",
-    "featured_collections_B3whxw",
     "text_with_fixed_background_TbVq4J",
-    "featured_links_w3T7df"
+    "featured_links_w3T7df",
+    "featured_collections_B3whxw"
   ]
 }

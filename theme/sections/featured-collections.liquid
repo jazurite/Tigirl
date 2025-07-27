@@ -2,14 +2,15 @@
   <style>
     #shopify-section-{{ section.id }} {
       --product-list-column-count: {{ section.settings.products_per_row_mobile | times: 1 }};
+      --section-has-same-background-as-previous-section: 0;
     }
-  
+
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
         --product-list-column-count: 2;
       }
     }
-  
+
     @media screen and (min-width: 1000px) {
       #shopify-section-{{ section.id }} {
         --product-list-column-count: {{ section.settings.products_per_row_desktop }};
@@ -66,7 +67,7 @@
 
         {%- liquid
           assign product_list_class = ''
-  
+
           if section.settings.stack_products_mobile == false and section.settings.stack_products_desktop == false
             assign product_list_class = 'product-list--carousel scroll-area'
           elsif section.settings.stack_products_mobile == false
@@ -80,7 +81,7 @@
           {%- for block in section.blocks -%}
             <div id="collection-{{ block.id }}" data-url="{{ block.settings.link | escape }}" class="v-stack {% if section.settings.tabs_alignment == 'center' %}justify-items-center{% endif %} gap-8 sm:gap-12" {% unless forloop.first %}hidden{% endunless %}>
               {%- liquid
-                assign show_content = false  
+                assign show_content = false
 
                 if section.settings.tabs_alignment == 'center' and block.settings.content != blank
                   assign show_content = true

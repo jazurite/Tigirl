@@ -56,7 +56,7 @@
               "name": "t:blocks.button.name",
               "settings": {
                 "text": "Xem thêm",
-                "url": "",
+                "url": "shopify://collections/the-layers",
                 "open_in_new_tab": false,
                 "style": "solid",
                 "background": "",
@@ -150,7 +150,7 @@
         "intro_title_tag": "h5",
         "intro_content": "",
         "intro_button_text": "XEM TẤT CẢ",
-        "intro_button_link": "",
+        "intro_button_link": "shopify://collections/the-layers",
         "intro_button_style": "solid"
       }
     },
