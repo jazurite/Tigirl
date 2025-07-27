@@ -552,7 +552,8 @@ Supported variables
                 </x-drawer>
               {%- endif -%}
             {%- endif -%}
-            {%- when 'care-instructions' -%}
+
+          {%- when 'care-instruction' -%}
                 {%- if block.settings.button_title != blank or block.settings.modal_content != blank -%}
                     {%- assign modal_id = product_form_id | append: block.id -%}
 
