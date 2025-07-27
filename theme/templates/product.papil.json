@@ -98,7 +98,7 @@
             "stretch_button": false,
             "button_background": "",
             "button_text_color": "",
-            "modal_title": "",
+              "modal_title": "hướng dẫn bảo quản",
             "modal_content": "<p>Write some content that will appear in a modal</p>",
             "modal_size": "lg"
           }
