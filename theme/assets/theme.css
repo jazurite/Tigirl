@@ -14,6 +14,17 @@ html {
     line-height: 1.5;
 }
 
+/* Font weight classes */
+.font-thin { font-weight: 100; }
+.font-extra-light { font-weight: 200; }
+.font-light { font-weight: 300; }
+.font-regular { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semi-bold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.font-extra-bold { font-weight: 800; }
+.font-black { font-weight: 900; }
+
 body {
     background: rgb(var(--page-background));
     font: var(--text-font-style) var(--text-font-weight) var(--text-base) / var(--text-line-height) var(--text-font-family);
@@ -22,6 +33,17 @@ body {
     margin: 0;
     position: relative;
 }
+
+/* Text size utility classes */
+.text-xxs { font-size: 0.625rem; /* 10px */ }
+.text-xs { font-size: 0.75rem; /* 12px */ }
+.text-sm { font-size: 0.875rem; /* 14px */ }
+.text-base { font-size: 1rem; /* 16px */ }
+.text-md { font-size: 1.0625rem; /* 17px */ }
+.text-lg { font-size: 1.125rem; /* 18px */ }
+.text-xl { font-size: 1.25rem; /* 20px */ }
+.text-2xl { font-size: 1.5rem; /* 24px */ }
+.text-3xl { font-size: 1.875rem; /* 30px */ }
 
 hr {
     border-top-width: 1px;
@@ -3943,6 +3965,10 @@ pointer: fine
     margin-block: var(--prose-blockquote-spacing);
     font-size: var(--text-h5);
     position: relative;
+}
+
+.prose :where(p) {
+    white-space: break-spaces;
 }
 
 .prose :where(blockquote):before {
@@ -10129,26 +10155,6 @@ product-rerender {
 
 .clip-blob-5 {
     clip-path: polygon(var(--clip-path--blob-5));
-}
-
-.text-xxs {
-    font-size: 10px;
-}
-
-.text-xs {
-    font-size: var(--text-xs);
-}
-
-.text-sm {
-    font-size: var(--text-sm);
-}
-
-.text-base {
-    font-size: var(--text-base);
-}
-
-.text-lg {
-    font-size: var(--text-lg);
 }
 
 .heading, .display-xl, .display-l, .display-m, .h1, .h2, .h3, .h4, .h5, .h6, .h7, .prose :where(h1, h2, h3, h4, h5, h6) {

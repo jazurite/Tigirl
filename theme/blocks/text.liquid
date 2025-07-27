@@ -1,19 +1,19 @@
 {% liquid
-  assign font_weight = font_weight | default: block.settings.font_weight | default: "regular"
+  assign font_weight = font_weight | default: block.settings.font_weight | default: 'regular'
   assign font_weight_class = font_weight | prepend: " font-"
 %}
-{%- if block.settings.text != blank -%}
-  <div class="{{ font_weight_class }}
+{%- if block.settings.content != blank -%}
+  <p class="{{ font_weight_class }} {% if block.settings.text_size != 'base' %}text-{{ block.settings.text_size }}{% endif %}
               {% if block.settings.content_width != 'full' %}max-w-{{ block.settings.content_width }}{% endif %}"
           {{ block.shopify_attributes }}
   >
-    {{- block.settings.text -}}
-  </div>
+    {{- block.settings.content -}}
+  </p>
 {%- endif -%}
 
 {% schema %}
 {
-  "name": "t:blocks.rich_text.name",
+  "name": "Text",
   "tag": null,
   "settings": [
     {
@@ -61,10 +61,54 @@
       "default": "regular"
     },
     {
-      "type": "richtext",
-      "id": "text",
+      "type": "text",
+      "id": "content",
       "label": "t:global.text.content",
       "default": "<p>Write some text about your products or your brand.</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_size",
+      "label": "Text size",
+      "options": [
+        {
+          "value": "xxs",
+          "label": "2X Small (0.625rem)"
+        },
+        {
+          "value": "xs",
+          "label": "Extra Small (0.75rem)"
+        },
+        {
+          "value": "sm",
+          "label": "Small (14px)"
+        },
+        {
+          "value": "base",
+          "label": "Base (1rem)"
+        },
+        {
+          "value": "md",
+          "label": "Medium (1.0625rem)"
+        },
+        {
+          "value": "lg",
+          "label": "Large (1.125rem)"
+        },
+        {
+          "value": "xl",
+          "label": "Extra Large (1.25rem)"
+        },
+        {
+          "value": "2xl",
+          "label": "2X Large (1.5rem)"
+        },
+        {
+          "value": "3xl",
+          "label": "3X Large (1.875rem)"
+        }
+      ],
+      "default": "base"
     },
     {
       "type": "select",
@@ -97,7 +141,7 @@
   ],
   "presets": [
     {
-      "name": "t:blocks.rich_text.name"
+      "name": "Text"
     }
   ]
 }

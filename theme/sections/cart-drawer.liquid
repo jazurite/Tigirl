@@ -99,7 +99,7 @@
           <div class="v-stack gap-4">
             {%- comment -%}TRUST BADGES{%- endcomment -%}
             {%- assign trust_badges_block = section.blocks | where: 'type', 'trust_badges' | first -%}
-            
+
             {%- if trust_badges_block != blank -%}
               {%- assign rendered_item_count = 0 -%}
 
@@ -184,7 +184,7 @@
                       {%- endfor -%}
                     </scroll-carousel>
                   {%- endcapture -%}
-                  
+
                   {%- if recommendations_count > 0 -%}
                     <div class="cart-drawer__cross-sell">
                       <div class="h-stack justify-between gap-2">
@@ -228,14 +228,14 @@
           {%- render 'icon' with 'cart' -%}
           <span class="subheading">{{ 'cart.general.title' | t }}</span>
         </button>
-    
+
         <div slot="tabpanel" {% if cart.empty? %}class="align-self-center"{% endif %}>{{- cart_content -}}</div>
-    
+
         <button type="button" slot="tab">
           {%- render 'icon' with 'gift' -%}
           <span class="subheading tab-pills__dot-indicator">{{- 'cart.general.offers' | t -}}</span>
         </button>
-    
+
         <div slot="tabpanel">{{- offers_content -}}</div>
       </x-tabs>
     {%- else -%}
@@ -251,7 +251,7 @@
               {%- if section.settings.show_cart_note -%}
                 <x-drawer-popover class="drawer-popover" id="cart-drawer-order-note-popover">
                   <p slot="header" class="subheading">{{ 'cart.general.order_note' | t }}</p>
-                  
+
                   <div class="form">
                     {%- assign field_label = 'cart.general.add_order_note' | t -%}
 
@@ -275,7 +275,7 @@
               {%- if section.settings.show_shipping_estimator -%}
                 <x-drawer-popover class="drawer-popover" id="cart-drawer-shipping-estimator-popover">
                   <p slot="header" class="subheading">{{ 'cart.shipping_estimator.estimate_shipping' | t }}</p>
-                  
+
                   {%- render 'shipping-estimator' -%}
                 </x-drawer-popover>
 
@@ -373,7 +373,7 @@
       "type": "paragraph",
       "content": "t:sections.cart_drawer.page_info"
     },
-   { 
+   {
       "type": "paragraph",
       "content": "t:sections.cart_drawer.free_shipping_bar_info"
     },

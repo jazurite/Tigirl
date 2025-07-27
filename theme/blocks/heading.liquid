@@ -1,13 +1,14 @@
 {%- if block.settings.text != blank -%}
-  {%- render 'heading', 
+  {%- render 'heading',
     content: block.settings.text,
     html_tag: block.settings.html_tag,
     style: block.settings.heading_size,
-    highlight_effect: block.settings.highlight_effect, 
-    highlight_accent_color: block.settings.highlight_accent_color, 
+    highlight_effect: block.settings.highlight_effect,
+    highlight_accent_color: block.settings.highlight_accent_color,
     highlight_text_color: block.settings.highlight_text_color,
     indent: block.settings.indent,
-    block: block
+    block: block,
+    font_weight: block.settings.font_weight
   -%}
 {%- endif -%}
 
@@ -16,6 +17,50 @@
   "name": "Heading",
   "tag": null,
   "settings": [
+    {
+      "type": "select",
+      "id": "font_weight",
+      "label": "Font weight",
+      "options": [
+        {
+          "value": "thin",
+          "label": "Thin (100)"
+        },
+        {
+          "value": "extra-light",
+          "label": "Extra Light (200)"
+        },
+        {
+          "value": "light",
+          "label": "Light (300)"
+        },
+        {
+          "value": "regular",
+          "label": "Regular (400)"
+        },
+        {
+          "value": "medium",
+          "label": "Medium (500)"
+        },
+        {
+          "value": "semi-bold",
+          "label": "Semi Bold (600)"
+        },
+        {
+          "value": "bold",
+          "label": "Bold (700)"
+        },
+        {
+          "value": "extra-bold",
+          "label": "Extra Bold (800)"
+        },
+        {
+          "value": "black",
+          "label": "Black (900)"
+        }
+      ],
+      "default": "regular"
+    },
     {
       "type": "inline_richtext",
       "id": "text",

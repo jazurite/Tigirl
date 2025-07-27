@@ -41,10 +41,10 @@ Supported variables
             {%- liquid
               assign link_title_downcase = link.title | strip | downcase
               assign mega_menu_block = ''
-        
+
               for block in section.blocks
                 assign menu_item_downcase = block.settings.menu_item | strip | downcase
-        
+
                 if menu_item_downcase == link_title_downcase
                   assign mega_menu_block = block
                   break
@@ -53,18 +53,16 @@ Supported variables
             -%}
 
             <li>
-              {%- if link.levels == 0 and mega_menu_block == '' -%}
-                <a href="{{ link.url }}" class="h4 w-full">{{ link.title }}</a>
-              {%- else -%}
-                <button type="button" class="h4 text-start w-full" data-panel-toggle aria-controls="menu-drawer-panel-{{ forloop.index }}">
-                  <div class="h-stack gap-3 sm:gap-5">
-                    {{- link.title -}}
-
-                    {%- if show_nested_menu_indicator -%}
-                      {%- render 'icon' with 'big-arrow-right', class: 'shrink-0 capped-icon' -%}
-                    {%- endif -%}
-                  </div>
-                </button>
+              <a href="{{ link.url }}" class="text-sm text-subdued link-reversed">{{ link.title }}</a>
+              {%- if link.links.size > 0 -%}
+                  <ul class="v-stack gap-2.5 unstyled-list">
+                      {%- for sub_sub_link in link.links -%}
+                          <li>
+                              <a href="{{ sub_sub_link.url }}" class="h4 text-start w-full link-reversed">{{
+                                  sub_sub_link.title }}</a>
+                          </li>
+                      {%- endfor -%}
+                  </ul>
               {%- endif -%}
             </li>
           {%- endfor -%}
@@ -109,7 +107,7 @@ Supported variables
                   endif
 
                   if show_locale_selector
-                    render 'localization-selector', type: 'locale', id_prefix: 'menu-drawer' 
+                    render 'localization-selector', type: 'locale', id_prefix: 'menu-drawer'
                   endif
                 -%}
               </div>
