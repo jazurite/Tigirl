@@ -177,7 +177,7 @@
       "taxes_included": "Đã bao gồm thuế.",
       "taxes_excluded": "Chưa bao gồm thuế.",
       "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link\">Phí vận chuyển được tính</a> khi thanh toán",
-      "size_chart": "Bảng kích thước",
+      "size_chart": "hướng dẫn chọn size",
       "variant_in_cart_count": {
         "one": "{{ count }} trong giỏ hàng",
         "other": "{{ count }} trong giỏ hàng"

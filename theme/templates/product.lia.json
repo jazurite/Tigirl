@@ -94,18 +94,19 @@
             "text": "<p><strong>Be Yourself Everywear</strong></p><p><strong>Everywear by Tigirl</strong></p>"
           }
         },
-        "modal_NqgcFd": {
-          "type": "modal",
+        "care-instructions_NqgcFd": {
+          "type": "care-instructions",
           "settings": {
+            "article": "user-guides/lia-care-instruction",
             "dialog_type": "modal",
             "button_title": "hướng dẫn bảo quản",
             "button_style": "link",
             "stretch_button": false,
             "button_background": "",
             "button_text_color": "",
-            "modal_title": "Modal title",
+            "modal_title": "",
             "modal_content": "<p>Write some content that will appear in a modal</p>",
-            "modal_size": "sm"
+            "modal_size": "lg"
           }
         },
         "buy_buttons": {
@@ -115,7 +116,7 @@
             "show_gift_card_recipient": true,
             "show_quantity_selector": false,
             "add_quantity_selector_spacing": true,
-            "atc_button_style": "solid",
+            "atc_button_style": "outline",
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
@@ -136,7 +137,7 @@
         "countdown_rHXaFU",
         "description",
         "text_fVQ99k",
-        "modal_NqgcFd",
+        "care-instructions_NqgcFd",
         "buy_buttons"
       ],
       "settings": {

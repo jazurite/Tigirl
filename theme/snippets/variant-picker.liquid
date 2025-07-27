@@ -41,7 +41,7 @@ Supported variables
     <script data-variant type="application/json">
       {{- product.selected_or_first_available_variant | json -}}
     </script>
-    
+
     {%- for option in product.options_with_values -%}
       {% liquid
         assign option_downcase = option.name | downcase
@@ -73,7 +73,7 @@ Supported variables
             <span>{{ option.selected_value }}</span>
           </div>
 
-          {%- if size_chart_page != blank and size_label_list contains option_downcase -%}
+          {%- if size_chart_page != blank  -%}
             {%- capture id -%}size-chart-{{ section.id }}-{{ block.id }}{%- endcapture -%}
 
             <button type="button" class="link subheading" aria-controls="{{ id | escape }}" aria-expanded="false">
@@ -104,7 +104,7 @@ Supported variables
 
               <div class="popover__value-list">
                 {%- assign param_name = form_id | append: '-option' | append: option.position -%}
-                
+
                 {%- for option_value in option.values -%}
                   {%- capture option_markup -%}
                     <span {% if option_value.available == false %}class="line-through"{% endif %}>{{- option_value -}}</span>

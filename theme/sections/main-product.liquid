@@ -1698,6 +1698,115 @@
         }
       ]
     },
+     {
+      "type": "care-instructions",
+      "name": "Care Instructions",
+      "settings": [
+       {
+          "type": "article",
+          "id": "article",
+          "label": "Care Instructions Article",
+          "info": "Feature an article for care instructions"
+        },
+        {
+          "type": "paragraph",
+          "content": "t:sections.main_product.blocks.modal.instructions"
+        },
+        {
+          "type": "select",
+          "id": "dialog_type",
+          "label": "t:sections.main_product.blocks.modal.dialog_type",
+          "options": [
+            {
+              "value": "modal",
+              "label": "t:sections.main_product.blocks.modal.dialog_type_options.modal"
+            },
+            {
+              "value": "drawer",
+              "label": "t:sections.main_product.blocks.modal.dialog_type_options.drawer"
+            }
+          ],
+          "default": "modal"
+        },
+        {
+          "type": "header",
+          "content": "Button"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "button_title",
+          "label": "t:global.text.button_text",
+          "default": "Button title"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "t:global.text.style",
+          "options": [
+            {
+              "value": "outline",
+              "label": "t:global.text.button_style_options.outline"
+            },
+            {
+              "value": "solid",
+              "label": "t:global.text.button_style_options.solid"
+            },
+            {
+              "value": "link",
+              "label": "t:global.text.button_style_options.link"
+            }
+          ],
+          "default": "solid"
+        },
+        {
+          "type": "checkbox",
+          "id": "stretch_button",
+          "label": "t:sections.main_product.blocks.button.stretch"
+        },
+        {
+          "type": "color",
+          "id": "button_background",
+          "label": "t:global.colors.background"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "t:global.colors.text"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.main_product.blocks.modal.content_category"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "modal_title",
+          "label": "t:sections.main_product.blocks.modal.modal_title",
+          "default": "Modal title"
+        },
+        {
+          "type": "richtext",
+          "id": "modal_content",
+          "label": "t:sections.main_product.blocks.modal.modal_content",
+          "default": "<p>Write some content that will appear in a modal</p>"
+        },
+        {
+          "type": "select",
+          "id": "modal_size",
+          "label": "t:global.sizes.size",
+          "options": [
+            {
+              "value": "sm",
+              "label": "t:global.sizes.small"
+            },
+            {
+              "value": "lg",
+              "label": "t:global.sizes.large"
+            }
+          ],
+          "default": "sm"
+        }
+      ]
+    },
     {
       "type": "image",
       "name": "t:sections.main_product.blocks.image.name",
