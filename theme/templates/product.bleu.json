@@ -50,7 +50,7 @@
           "type": "product_variations",
           "settings": {
             "option_name": "Màu Sắc",
-            "option_value_metafield": "custom.color.title",
+            "option_value_metafield": "custom.sleepwear_color.value.label",
             "products": [
               "bleu",
               "muse"
@@ -69,7 +69,9 @@
             "swatch_selector_size": "lg",
             "block_selector_style": "fill",
             "variant_image_options": "color",
-            "size_chart_page": "bleu-size-chart"
+            "dialog_type": "modal",
+            "size_chart_page": "bleu-size-chart",
+            "size_chart_size": "lg"
           }
         },
         "countdown_rHXaFU": {
@@ -80,21 +82,6 @@
             "text_color": "#be123c",
             "expiration_date": "2025-08-01 00:00",
             "expiration_behavior": "hide"
-          }
-        },
-        "care-instruction_NqgcFd": {
-          "type": "care-instruction",
-          "settings": {
-            "article": "product-care-guide/bleu-care-instruction",
-            "dialog_type": "modal",
-            "button_title": "hướng dẫn bảo quản",
-            "button_style": "link",
-            "stretch_button": false,
-            "button_background": "",
-            "button_text_color": "",
-              "modal_title": "hướng dẫn bảo quản",
-            "modal_content": "<p>Write some content that will appear in a modal</p>",
-            "modal_size": "lg"
           }
         },
         "description": {
@@ -108,6 +95,21 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>Be Yourself Everywear</strong></p><p><strong>Everywear by Tigirl</strong></p>"
+          }
+        },
+        "care-instruction_NqgcFd": {
+          "type": "care-instruction",
+          "settings": {
+            "article": "product-care-guide/bleu-care-instruction",
+            "dialog_type": "modal",
+            "button_title": "hướng dẫn bảo quản",
+            "button_style": "link",
+            "stretch_button": false,
+            "button_background": "",
+            "button_text_color": "",
+            "modal_title": "hướng dẫn bảo quản",
+            "modal_content": "<p>Write some content that will appear in a modal</p>",
+            "modal_size": "lg"
           }
         },
         "buy_buttons": {
@@ -536,6 +538,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
+            "font_weight": "regular",
             "text": "Image with text overlay",
             "heading_size": "h3",
             "html_tag": "p",
@@ -550,6 +553,7 @@
           "type": "rich-text",
           "disabled": true,
           "settings": {
+            "font_weight": "regular",
             "text": "<p>Write some text about your products or your brand.</p>",
             "content_width": "sm"
           },

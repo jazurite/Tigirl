@@ -1226,7 +1226,7 @@
         "type": "url",
         "id": "cart_empty_cart_link",
         "label": "t:theme_settings.cart.empty_cart_link",
-        "default": "\/collections\/the-layers"
+        "default": "\/collections\/all"
       },
       {
         "type": "header",
