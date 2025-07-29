@@ -128,10 +128,10 @@
         "color_scheme": "scheme-1",
         "show_social_media": true,
         "show_payment_icons": true,
-        "show_country_selector": true,
-        "show_country_name": true,
-        "show_country_flag": true,
-        "show_locale_selector": true
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "show_locale_selector": false
       }
     }
   },

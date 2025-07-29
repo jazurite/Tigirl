@@ -23,7 +23,7 @@
     {%- case section.settings.mobile_layout -%}
       {%- when 'logo_left_navigation_right' -%}
         --header-grid: "logo secondary-nav" / auto minmax(0, 1fr);
-      
+
       {%- when 'logo_with_menu_left_navigation_right' -%}
         --header-grid: "primary-nav logo secondary-nav" / auto auto minmax(0, 1fr);
 
@@ -192,7 +192,7 @@
                 {%- liquid
                   assign has_dropdown_menu = false
                   assign menu_id = 'header-menu-dropdown-' | append: forloop.index
-                  
+
                   if link.levels > 0 or mega_menu_block != ''
                     assign has_dropdown_menu = true
                   endif
@@ -252,27 +252,27 @@
 
     <nav class="header__secondary-nav" aria-label="{{ 'header.general.secondary_navigation' | t | escape }}">
       <ul class="contents unstyled-list">
-        {%- if show_country_selector or show_locale_selector -%}
+        {% comment %}{%- if show_country_selector or show_locale_selector -%}{% endcomment %}
           <li class="hidden md:contents">
             <div class="h-stack justify-between">
-              {%- if show_country_selector or show_locale_selector -%}
+              {% comment %}{%- if show_country_selector or show_locale_selector -%}{% endcomment %}
                 <div class="h-stack gap-5">
+                {% render 'localization-selector', type: 'country', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, preferred_alignment: 'start', id_prefix: 'secondary-nav' %}
                   {%- liquid
                     if show_country_selector
-                      render 'localization-selector', type: 'country', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, preferred_alignment: 'start', id_prefix: 'secondary-nav'
                     endif
 
                     if show_locale_selector
-                      render 'localization-selector', type: 'locale', preferred_alignment: 'start', id_prefix: 'secondary-nav' 
+                      render 'localization-selector', type: 'locale', preferred_alignment: 'start', id_prefix: 'secondary-nav'
                     endif
                   -%}
                 </div>
-              {%- endif -%}
+              {% comment %}{%- endif -%}{% endcomment %}
             </div>
 
             <hr class="header__secondary-nav-separator" />
           </li>
-        {%- endif -%}
+        {% comment %}{%- endif -%}{% endcomment %}
 
         {%- comment -%}Offer a hook for apps to integrate into the header to add their own icon, for instance{%- endcomment -%}
         {%- for block in section.blocks -%}
@@ -344,8 +344,8 @@
 
     {%- assign primary_menu = section.settings.drawer_menu | default: section.settings.menu -%}
 
-    {%- render 'main-menu-drawer', 
-      primary_menu: primary_menu, 
+    {%- render 'main-menu-drawer',
+      primary_menu: primary_menu,
       secondary_menu: section.settings.secondary_menu,
       show_nested_menu_indicator: section.settings.drawer_show_nested_menu_indicator,
       show_country_selector: show_country_selector,
@@ -359,14 +359,14 @@
     ------------------------------------------------------------------------------------------------------------------
     SIDEBAR MENU FOR DROPDOWN ITEM
 
-    This is a special mode that can be enabled by setting the desktop layout to "logo center, navigation inline" and 
+    This is a special mode that can be enabled by setting the desktop layout to "logo center, navigation inline" and
     the dropdown menu style to "sidebar". When configured like this, the dropdown menu will open in a lateral sidebar
     -----------------------------------------------------------------------------------------------------------------
     {%- endcomment -%}
 
     {%- if open_dropdown_menu_in_sidebar -%}
-      {%- render 'main-menu-dropdown-sidebar', 
-        primary_menu: section.settings.menu, 
+      {%- render 'main-menu-dropdown-sidebar',
+        primary_menu: section.settings.menu,
         secondary_menu: section.settings.secondary_menu,
         color_scheme: section.settings.color_scheme
       -%}
