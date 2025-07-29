@@ -5039,9 +5039,10 @@ product-rerender {
 
 @media screen and (min-width: 1000px) {
     .customer-account {
-        grid-template-columns: minmax(0, 10rem) minmax(0, 1fr);
+        grid-template-columns: minmax(0, 10rem) minmax(0, auto);
         padding-block: 4rem;
         display: grid;
+        justify-content: center;
     }
 
     .customer-account__inner {
