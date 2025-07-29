@@ -68,7 +68,9 @@
             "swatch_selector_size": "lg",
             "block_selector_style": "fill",
             "variant_image_options": "color",
-            "size_chart_page": "lia-size-chart"
+            "dialog_type": "modal",
+            "size_chart_page": "lia-size-chart",
+            "size_chart_size": "lg"
           }
         },
         "countdown_rHXaFU": {
@@ -104,7 +106,7 @@
             "stretch_button": false,
             "button_background": "",
             "button_text_color": "",
-              "modal_title": "hướng dẫn bảo quản",
+            "modal_title": "hướng dẫn bảo quản",
             "modal_content": "<p>Write some content that will appear in a modal</p>",
             "modal_size": "lg"
           }
@@ -349,7 +351,7 @@
         "richtext_JLKfHK": {
           "type": "richtext",
           "settings": {
-            "text": "<p>be youRSElf EVERYWEAR The layers from tigirl</p>",
+            "text": "<p>be youRSElf EVERYWEAR<br/>The layers from tigirl</p>",
             "position": "bottom_center"
           }
         }
@@ -409,7 +411,7 @@
                 "font_size_desktop": 3,
                 "font_size_mobile": 6,
                 "font_size_line_height": 1,
-                "html_tag": "h5",
+                "html_tag": "h4",
                 "indent": "none",
                 "highlight_effect": "default",
                 "highlight_accent_color": "",
@@ -489,6 +491,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
+            "font_weight": "regular",
             "text": "Image with text overlay",
             "heading_size": "h3",
             "html_tag": "p",
@@ -503,6 +506,7 @@
           "type": "rich-text",
           "disabled": true,
           "settings": {
+            "font_weight": "regular",
             "text": "<p>Write some text about your products or your brand.</p>",
             "content_width": "sm"
           },
