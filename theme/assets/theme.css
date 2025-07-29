@@ -3835,7 +3835,7 @@ pointer: fine
 
 @media screen and (min-width: 1000px) {
     .prose {
-        --prose-default-spacing: 2rem;
+        --prose-default-spacing: 1.5rem;
         --prose-heading-spacing: clamp(0px, 1em, 3.5rem);
         --prose-subheading-spacing: 2.5rem;
         --prose-button-spacing: 2rem;

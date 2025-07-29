@@ -154,7 +154,18 @@
                       {{- order.shipping_address | format_address -}}
                     </div>
                   {%- endif -%}
-                </div>
+                                    <div class="address">
+                      <div class="h-stack gap-2.5">
+                        {%- render 'icon' with 'picto-credit-card', width: 18 -%}
+                        <p class="h7">{{ 'customer.order.payment_gateway' | t }}</p>
+                      </div>
+
+                      {% for transaction in order.transactions %}
+                          {{ transaction.gateway }}
+                      {% endfor %}
+                    </div>
+
+                </div>                
               {%- endif -%}
             </div>
           </div>

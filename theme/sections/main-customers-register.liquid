@@ -84,7 +84,17 @@
         
                     assign email_label = 'customer.register.email' | t
                     render 'input', type: 'email', name: 'customer[email]', label: email_label, autocomplete: 'email', required: true
-        
+                    
+                  %}
+
+                  
+                    <div class="form-control">
+                      <input id="input--template--16546239086663__main--customerphone" class="input " type="tel" name="customer[phone]" placeholder=" " autocomplete="phone" required pattern="(?:7|0\d|\+94\d)\d{8}">
+
+                      <label for="input--template--16546239086663__main--customerphone" class="floating-label ">Phone</label>
+                    </div>
+
+                  {% liquid
                     assign password_label = 'customer.register.password' | t
                     render 'input', type: 'password', name: 'customer[password]', label: password_label, minlength: 5, autocomplete: 'new-password', required: true
         

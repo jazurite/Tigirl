@@ -71,7 +71,7 @@
           "disabled": true,
           "settings": {
             "option_name": "",
-            "option_value_metafield": "",
+            "option_value_metafield": "custom.sleepwear_color",
             "products": [],
             "selector_style": "swatch",
             "swatch_selector_size": "lg"

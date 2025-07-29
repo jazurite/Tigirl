@@ -333,7 +333,7 @@
       "submit": "Đăng nhập",
       "forgot_password": "Quên mật khẩu?",
       "sign_up": "Tạo tài khoản",
-      "email": ""
+      "email": "E-mail"
     },
     "recover_password": {
       "title": "Khôi phục mật khẩu",
@@ -352,7 +352,7 @@
       "accepts_marketing": "Đăng ký nhận bản tin của chúng tôi",
       "submit": "Tạo tài khoản",
       "login": "Đăng nhập",
-      "email": ""
+      "email": "E-mail"
     },
     "activate_account": {
       "title": "Kích hoạt tài khoản",
@@ -391,7 +391,8 @@
       "refunded_amount": "Số tiền được hoàn lại",
       "total": "Tổng cộng",
       "shipping_address": "Địa chỉ giao hàng",
-      "billing_address": "Địa chỉ thanh toán"
+      "billing_address": "Địa chỉ thanh toán",
+      "payment_gateway": "Phương thức thanh toán"
     },
     "addresses": {
       "no_addresses": "Bạn vẫn chưa lưu bất kỳ địa chỉ nào.",

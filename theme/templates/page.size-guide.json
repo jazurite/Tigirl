@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,7 +16,7 @@
           "type": "size-chart",
           "settings": {
             "product": "sena",
-            "picture": "shopify:\/\/shop_images\/STUDIOS_6630.png",
+            "picture": "shopify://shop_images/STUDIOS_6630.png",
             "page": "sena-size-chart"
           }
         },
@@ -15,7 +24,7 @@
           "type": "size-chart",
           "settings": {
             "product": "clea",
-            "picture": "shopify:\/\/shop_images\/STUDIOS_6687.png",
+            "picture": "shopify://shop_images/STUDIOS_6687.png",
             "page": "clea-size-chart"
           }
         },
@@ -23,7 +32,7 @@
           "type": "size-chart",
           "settings": {
             "product": "muse",
-            "picture": "shopify:\/\/shop_images\/STUDIOS_6507.png",
+            "picture": "shopify://shop_images/STUDIOS_6507.png",
             "page": "muse-size-chart"
           }
         },
@@ -31,7 +40,7 @@
           "type": "size-chart",
           "settings": {
             "product": "bleu",
-            "picture": "shopify:\/\/shop_images\/STUDIOS_6457.png",
+            "picture": "shopify://shop_images/STUDIOS_6457.png",
             "page": "bleu-size-chart"
           }
         },
@@ -39,6 +48,7 @@
           "type": "size-chart",
           "settings": {
             "product": "fleur",
+            "picture": "shopify://shop_images/img_0006s_0003s_0000_Fleur_1.jpg",
             "page": "fleur-size-chart"
           }
         },
@@ -46,7 +56,7 @@
           "type": "size-chart",
           "settings": {
             "product": "bea",
-            "picture": "shopify:\/\/shop_images\/f95f6f94a8c40855c220588b4b896fbd2e269a93.png",
+            "picture": "shopify://shop_images/f95f6f94a8c40855c220588b4b896fbd2e269a93.png",
             "page": "bea-size-chart"
           }
         },
@@ -54,6 +64,7 @@
           "type": "size-chart",
           "settings": {
             "product": "haze",
+            "picture": "shopify://shop_images/img_0007s_0003s_0000_Haze_1.jpg",
             "page": "haze-size-chart"
           }
         },
@@ -61,7 +72,7 @@
           "type": "size-chart",
           "settings": {
             "product": "stella",
-            "picture": "shopify:\/\/shop_images\/8401c4dc0cb4d0be04e44430b728df7c5f82fb52.png",
+            "picture": "shopify://shop_images/8401c4dc0cb4d0be04e44430b728df7c5f82fb52.png",
             "page": "stella-size-chart"
           }
         },
@@ -69,7 +80,7 @@
           "type": "size-chart",
           "settings": {
             "product": "lia",
-            "picture": "shopify:\/\/shop_images\/7bc896ba9d6436f1ced3818e5a0776e9410708c9.png",
+            "picture": "shopify://shop_images/7bc896ba9d6436f1ced3818e5a0776e9410708c9.png",
             "page": "lia-size-chart"
           }
         },
@@ -77,6 +88,7 @@
           "type": "size-chart",
           "settings": {
             "product": "bay",
+            "picture": "shopify://shop_images/img_0000s_0001s_0000_Bay_2.jpg",
             "page": "bay-size-chart"
           }
         },
@@ -84,6 +96,7 @@
           "type": "size-chart",
           "settings": {
             "product": "bloom",
+            "picture": "shopify://shop_images/img_0003s_0000s_0002s_0000_Top_Bloom_2.jpg",
             "page": "blom-size-chart"
           }
         },
@@ -91,6 +104,7 @@
           "type": "size-chart",
           "settings": {
             "product": "papil",
+            "picture": "shopify://shop_images/img_0002s_0000s_0002s_0000_Top_Papil_2.jpg",
             "page": "papil-size-chart"
           }
         }

@@ -50,7 +50,7 @@
           "type": "product_variations",
           "settings": {
             "option_name": "Màu Sắc",
-            "option_value_metafield": "",
+            "option_value_metafield": "custom.sleepwear_color",
             "products": [
               "lia"
             ],

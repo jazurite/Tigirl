@@ -127,6 +127,31 @@
         "background": "#000000"
       }
     },
+    "countdown_GU43gg": {
+      "type": "countdown",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "image": "shopify://shop_images/Home_Collections_0003s_0000_img_home_03.jpg",
+        "image_position": "split",
+        "image_size": "md",
+        "add_image_spacing": true,
+        "subheading": "",
+        "title": "Grand opening <em>10% OFF</em>",
+        "heading_tag": "display-xl",
+        "content": "",
+        "button_text": "Khám phá ngay",
+        "button_url": "shopify://collections/the-layers",
+        "button_style": "outline",
+        "expiration_date": "2025-08-01 00:00",
+        "expiration_behavior": "leave",
+        "timer_size": "h1",
+        "show_timer_borders": true,
+        "animate_timer_numbers": true,
+        "caption_text": "Don't Miss It",
+        "caption_scrolling": true,
+        "caption_text_color": "#ffffff"
+      }
+    },
     "featured_product_list_jpGxNP": {
       "type": "featured-product-list",
       "name": "t:sections.featured_product_list.name",
@@ -608,12 +633,13 @@
         "button_zLTxMR"
       ],
       "custom_css": [
-        "div[data-shopify-editor-block] > * {line-height: 140%;}"
+        "h6 {line-height: 140%;}",
+        ".max-w-lg {max-width: 870px;}"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
         "color_scheme": "",
-        "content_width": "md",
+        "content_width": "lg",
         "text_alignment": "center"
       }
     },
@@ -859,31 +885,6 @@
         "title": "Our categories",
         "separate_subheading": true,
         "text_alignment": "left"
-      }
-    },
-    "countdown_GU43gg": {
-      "type": "countdown",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "image": "shopify://shop_images/Home_Collections_0003s_0000_img_home_03.jpg",
-        "image_position": "split",
-        "image_size": "md",
-        "add_image_spacing": true,
-        "subheading": "",
-        "title": "Grand opening <em>10% OFF</em>",
-        "heading_tag": "h1",
-        "content": "<p>Shop our selection of exclusive products at reduced price during the Special Sale. Hurry up!</p>",
-        "button_text": "Khám phá ngay",
-        "button_url": "shopify://collections/the-layers",
-        "button_style": "outline",
-        "expiration_date": "2025-08-01 00:00",
-        "expiration_behavior": "leave",
-        "timer_size": "h1",
-        "show_timer_borders": true,
-        "animate_timer_numbers": true,
-        "caption_text": "Don't Miss It",
-        "caption_scrolling": true,
-        "caption_text_color": "#ffffff"
       }
     },
     "media_blocks_bGrfMg": {
@@ -1238,6 +1239,7 @@
   },
   "order": [
     "slideshow_rwmxqG",
+    "countdown_GU43gg",
     "featured_product_list_jpGxNP",
     "featured_links_xLzHnk",
     "scrolling_content_ynHGiT",
@@ -1249,7 +1251,6 @@
     "media_blocks_QfGLPF",
     "reading_text_M4WmRp",
     "links_with_image_bKNdUc",
-    "countdown_GU43gg",
     "media_blocks_bGrfMg",
     "dynamic_grid_9GEQac"
   ]
