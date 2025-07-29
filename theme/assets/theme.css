@@ -7842,6 +7842,10 @@ product-rerender {
     inset-block-start: var(--sticky-area-height);
 }
 
+.reading-text__inner ::part(line) {
+    display: block!important;
+}
+
 .reading-text__inner ::part(letter) {
     white-space: pre-wrap;
 }

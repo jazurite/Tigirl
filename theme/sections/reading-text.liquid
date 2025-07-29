@@ -17,7 +17,9 @@
   <reading-text reading-speed="{{ section.settings.reading_speed }}" text-start-opacity="{{ section.settings.text_opacity | divided_by: 100.0 }}" class="reading-text">
     <div class="reading-text__inner" reveal-on-scroll="true">
       <div class="{{ section.settings.mobile_text_position }} {{ section.settings.desktop_text_position }}">
-        <div class="prose prose-justify-{{ section.settings.mobile_text_position | split: '-' | last }} sm:prose-justify-{{ section.settings.desktop_text_position | split: '-' | last }} max-w-{{ section.settings.content_width }}">
+        <div style="max-width: 1517px" class="prose prose-justify-{{ section.settings.mobile_text_position | split:
+        '-' | last }}
+        sm:prose-justify-{{ section.settings.desktop_text_position | split: '-' | last }}">
           {%- render 'subheading', content: section.settings.subheading -%}
 
           <p class="{{ section.settings.heading_tag }}">
