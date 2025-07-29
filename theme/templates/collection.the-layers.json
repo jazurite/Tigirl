@@ -74,6 +74,7 @@
             "rich_text_g4jXRz": {
               "type": "rich-text",
               "settings": {
+                "font_weight": "regular",
                 "text": "<p>Bộ sưu tập từ Tigirl lấy cảm hứng từ chính bạn – cô gái hiện đại với nhiều tầng cảm xúc, luôn biến hóa, luôn nổi bật. Mỗi thiết kế mang lại cảm giác thoải mái, dễ phối nhiều kiểu, sẵn sàng đồng hành cùng bạn ở mọi không gian.<br/><br/>Be Yourself Everywear</p>",
                 "content_width": "sm"
               },
@@ -551,7 +552,7 @@
             "image_with_caption_ctCRNG": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/STUDIOS_6673.png",
+                "image": "shopify://shop_images/img_0005s_0003s_0000_Sena_Detail_01.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100

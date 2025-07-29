@@ -18,18 +18,18 @@
           "type": "item",
           "settings": {
             "icon": "picto-truck",
-            "custom_icon": "shopify:\/\/shop_images\/truck.svg",
+            "custom_icon": "shopify://shop_images/truck.svg",
             "icon_width": 32,
             "mobile_icon_width": 24,
             "title": "Miễn Phí Giao Hàng",
-            "content": "Áp dụng cho tất cả đơn hàng Từ 31\/07 - 30\/10"
+            "content": "Áp dụng cho tất cả đơn hàng Từ 31/07 - 30/10"
           }
         },
         "item-2": {
           "type": "item",
           "settings": {
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/alert-message-laptop_1.svg",
+            "custom_icon": "shopify://shop_images/alert-message-laptop_1.svg",
             "icon_width": 32,
             "mobile_icon_width": 20,
             "title": "Chăm Sóc Khách Hàng",
@@ -40,7 +40,7 @@
           "type": "item",
           "settings": {
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/protection.svg",
+            "custom_icon": "shopify://shop_images/protection.svg",
             "icon_width": 32,
             "mobile_icon_width": 24,
             "title": "An Toàn & Thoải Mái",
@@ -51,7 +51,7 @@
           "type": "item",
           "settings": {
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/package_f2bb9693-821b-4c9c-b16b-c9d6c1ed3d99.svg",
+            "custom_icon": "shopify://shop_images/package_f2bb9693-821b-4c9c-b16b-c9d6c1ed3d99.svg",
             "icon_width": 32,
             "mobile_icon_width": 20,
             "title": "Đóng Gói",
@@ -76,8 +76,8 @@
         "text_Cper6t": {
           "type": "text",
           "settings": {
-            "title": "Cửa Hàng",
-            "content": "<p><strong>Địa chỉ:<\/strong> Số 03-05 Đường Nguyễn Cơ Thạch, Phường An Khánh, TP. Hồ Chí Minh<br\/><br\/><strong>Tổng đài<\/strong>: 0901493573<\/p><p><strong>Emal: <\/strong> support@tigirls.com<br\/><br\/><strong>Thời gian hỗ trợ<\/strong>: 09:00 – 20:00 (Tất cả các ngày trong tuần)<\/p>",
+            "title": "",
+            "content": "<p><strong>Tổng đài</strong>: 0901493573</p><p><strong>Emal: </strong> support@tigirls.com<br/><br/><strong>Thời gian hỗ trợ</strong>: 09:00 – 20:00 (Tất cả các ngày trong tuần)<br/><br/><strong>Địa chỉ đăng ký công ty:</strong> Số 03-05 Đường Nguyễn Cơ Thạch, Phường An Khánh, TP. Hồ Chí Minh</p>",
             "enable_follow_on_shop": false
           }
         },
@@ -87,7 +87,7 @@
             "menu": "footer",
             "collapse_on_mobile": true,
             "show_menu_title": true,
-            "menu_title": "Chính Sách và Bảo"
+            "menu_title": "Chính Sách và Bảo Mật"
           }
         },
         "links_D8KE63": {
@@ -102,9 +102,9 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "title": "Newsletter",
-            "content": "<p>Đăng ký để nhận voucher giảm 10% tổng giá trị đơn hàng<\/p>",
-            "disclaimer_text": "<p>By signing up to our newsletter, you agree with our privacy policy.<\/p>"
+            "title": "Tham gia hội viên",
+            "content": "<p>Đăng ký thành viên để nhận voucher giảm 10% tổng giá trị đơn hàng</p>",
+            "disclaimer_text": ""
           }
         },
         "scrolling_logo_4MbdFK": {

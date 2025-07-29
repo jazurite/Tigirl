@@ -118,7 +118,7 @@
       "info": "{{ rating_value }} trên tổng số {{ rating_max }} sao"
     },
     "newsletter": {
-      "subscribe": "Đặt mua",
+      "subscribe": "Đăng ký",
       "notify_me": "Thông báo cho tôi",
       "subscribed_successfully": "Bạn đã đăng ký nhận bản tin của chúng tôi.",
       "email": "E-mail"
