@@ -137,13 +137,13 @@ Supported variables
 
   <div class="product-card__figure">
     {%- if show_badges and show_badges_along_info != true -%}
-      {%- render 'product-badges', 
+      {%- render 'product-badges',
         product: product,
         context: 'card',
         show_custom_badge: true,
         show_sold_out_badge: settings.product_card_show_sold_out_badge,
         show_discount_badge: settings.product_card_show_discount,
-        direction: 'column', 
+        direction: 'column',
         vertical_text: settings.product_card_show_badges_vertically,
         class: settings.product_card_badges_placement,
         alignment: badges_alignment
@@ -274,7 +274,7 @@ Supported variables
                 for option_value in product_option.values limit: limit
                   render 'option-value', type: 'swatch', param_name: param_name, option_value: option_value, option_position: product_option.position, force_unselected: true, output_variant_media: true, size: 'sm', show_tight: settings.product_card_show_tight_swatches
                 endfor
-  
+
                 if product_option.values.size > limit
                   assign remaining_values = product_option.values.size | minus: limit
 
@@ -346,10 +346,10 @@ Supported variables
         </div>
 
         {%- if settings.product_card_info_horizontal_alignment == 'split' -%}
-          {%- render 'price-list', product: product, context: 'card' -%}
+          {%- render 'price-list', product: product, context: 'card', vertical: true -%}
         {%- else -%}
           <div class="v-stack gap-1">
-            {%- render 'price-list', product: product, context: 'card' -%}
+            {%- render 'price-list', product: product, context: 'card', vertical: true -%}
 
             {%- if show_rating -%}
               {%- render 'product-rating', product: product, show_empty: settings.product_card_show_rating_if_empty, display_mode: settings.product_card_rating_mode -%}

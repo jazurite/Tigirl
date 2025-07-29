@@ -54,7 +54,9 @@ Supported variables
   endcase
 -%}
 
-<price-list class="price-list {% if alignment %}justify-{{ alignment }}{% endif %}">
+<price-list class="price-list {% if alignment %}justify-{{ alignment }}{% endif %} {% if vertical == true %} flex-col{%
+        endif
+%}">
   {%- if variant != blank -%}
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------

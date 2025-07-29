@@ -29,9 +29,9 @@
             "heading_7thVDT": {
               "type": "heading",
               "settings": {
+                "font_weight": "semi-bold",
                 "text": "<strong>THE LAYERS </strong><em><strong>by TIGIRL</strong></em>",
                 "heading_size": "display-m",
-                "font_weight": "semi-bold",
                 "html_tag": "h1",
                 "indent": "none",
                 "highlight_effect": "underline",
@@ -44,10 +44,10 @@
               "type": "text",
               "name": "Text",
               "settings": {
+                "font_weight": "light",
                 "content": "Bộ sưu tập từ Tigirl slấy cảm hứng từ chính bạn – cô gái hiện đại với nhiều tầng cảm xúc, luôn biến hóa, luôn nổi bật. Mỗi thiết kế mang lại cảm giác thoải mái, dễ phối nhiều kiểu, sẵn sàng đồng hành cùng bạn ở mọi không gian.\n \nBe Yourself Everywear",
-                "content_width": "md",
                 "text_size": "lg",
-                "font_weight": "light"
+                "content_width": "xl"
               },
               "blocks": {}
             },
@@ -87,6 +87,7 @@
             "heading_BXqHGd": {
               "type": "heading",
               "settings": {
+                "font_weight": "regular",
                 "text": "Slide 2",
                 "heading_size": "display-m",
                 "html_tag": "p",
@@ -146,7 +147,7 @@
         "intro_color_scheme": "scheme-2",
         "intro_image": "shopify://shop_images/dummy-product-4_8aa70c58-e84a-43e8-8c14-5f5683930c10.png",
         "intro_image_overlay": "#00000021",
-        "intro_title": "SUMMER 2025",
+        "intro_title": "The Layers",
         "intro_title_tag": "h5",
         "intro_content": "",
         "intro_button_text": "XEM TẤT CẢ",
@@ -552,7 +553,7 @@
         "subheading_iLFtJ7": {
           "type": "subheading",
           "settings": {
-            "text": "Muse & Noir"
+            "text": "Muse & Bleu"
           }
         },
         "heading_4LmtPg": {
@@ -571,6 +572,9 @@
         "subheading_iLFtJ7",
         "heading_4LmtPg"
       ],
+      "custom_css": [
+        ".container {padding-block-end: 2.5rem;}"
+      ],
       "name": "t:sections.rich_text.name",
       "settings": {
         "color_scheme": "",
@@ -584,12 +588,27 @@
         "richtext_JKPcNX": {
           "type": "richtext",
           "settings": {
-            "text": "<h6>Chất liệu xô xốp cotton nhẹ bay, thoáng mát </h6><h6>Form buộc dây kết hợp cùng viền ren tinh tế tạo nên sự nữ tính có chọn lọc.</h6><h6>Muse thì nhẹ và thơ, Bleu thì trầm và sắc – đều là lựa chọn cho những cô gái không muốn bị đóng khung vào một kiểu.</h6>"
+            "text": "<h6>Chất liệu xô xốp cotton nhẹ bay, thoáng mát <br/>Form buộc dây kết hợp cùng viền ren tinh tế tạo nên sự nữ tính có chọn lọc.<br/>Muse thì nhẹ và thơ, Bleu thì trầm và sắc – đều là lựa chọn cho những cô gái không muốn bị đóng khung vào một kiểu.</h6>"
+          }
+        },
+        "button_zLTxMR": {
+          "type": "button",
+          "settings": {
+            "text": "Xem Chi Tiết",
+            "url": "shopify://products/bleu",
+            "open_in_new_tab": false,
+            "style": "link",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "richtext_JKPcNX"
+        "richtext_JKPcNX",
+        "button_zLTxMR"
+      ],
+      "custom_css": [
+        "div[data-shopify-editor-block] > * {line-height: 140%;}"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
@@ -972,6 +991,7 @@
             "rich_text_jVnM7f": {
               "type": "rich-text",
               "settings": {
+                "font_weight": "regular",
                 "text": "<p>Thanh lịch và không thể cản phá – Tigirl mang đến những thiết kế mềm mại, ứng dụng cao, tôn dáng và dễ phối đồ.Dù là ở nhà hay xuống phố, bạn luôn tự tin là chính mình.</p>",
                 "content_width": "sm"
               },
