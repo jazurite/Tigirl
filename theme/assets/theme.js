@@ -921,18 +921,33 @@ split_fn = function(force = false) {
   if (!__privateGet(this, _requireSplit) && !force) {
     return;
   }
-  this.shadowRoot.innerHTML = this.textContent.replace(/./g, '<span part="letter">$&</span>').replace(/\s/g, " ");
+  this.shadowRoot.innerHTML = this.textContent.replace(/./g, '<span part="letter">$&</span>')
+      .replace(/\n/g, '<br />').replace(/\s/g, " ");
+
   const bounds = /* @__PURE__ */ new Map();
+
+  let lineBreakCount = 0
+
   Array.from(this.shadowRoot.children).forEach((letter) => {
+    const isLineBreak = letter.outerHTML == "<br>"
+
+    if(isLineBreak) {
+      bounds.set(lineBreakCount, "<br>");
+      lineBreakCount++;
+      return
+    }
+
     const key = Math.round(letter.offsetTop);
+
     if (__privateGet(this, _SplitLines_instances, preserveLetters_get)) {
       bounds.set(key, (bounds.get(key) || "").concat(letter.outerHTML));
     } else {
       bounds.set(key, (bounds.get(key) || "").concat(letter.textContent));
     }
   });
+
   this.shadowRoot.replaceChildren(...Array.from(bounds.values(), (line) => {
-    return document.createRange().createContextualFragment(`<span part="line" style="display: inline-block;">${line}</span>`);
+    return document.createRange().createContextualFragment(line === "<br>" ? `<br />` : `<span part="line" style="display: inline-block;">${line}</span>`);
   }));
   __privateSet(this, _requireSplit, false);
   this.classList.add("is-split");
@@ -4595,7 +4610,7 @@ showAnimation_get = function() {
   return window.themeVariables.settings.showHeadingEffectAnimation && window.matchMedia("(prefers-reduced-motion: no-preference)").matches && !this.hasAttribute("instant");
 };
 /**
- * Initialize the effect by splitting the heading.  
+ * Initialize the effect by splitting the heading.
  */
 onBecameVisible_fn = function() {
   if (__privateGet(this, _HighlightedHeading_instances, effect_get) !== "italic") {
