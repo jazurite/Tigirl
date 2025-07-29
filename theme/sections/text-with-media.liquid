@@ -54,7 +54,7 @@
         {%- endif -%}
       </div>
     </div>
-    
+
     {%- comment -%}
     CONTENT PART
     {%- endcomment -%}
@@ -80,17 +80,18 @@
               {%- render 'subheading', content: block.settings.text, block: block -%}
 
             {%- when 'heading' -%}
-              {%- render 'heading', 
-                content: block.settings.text, 
-                highlight_effect: block.settings.highlight_effect, 
-                highlight_accent_color: block.settings.highlight_accent_color, 
-                highlight_text_color: block.settings.highlight_text_color, 
+              {%- render 'heading',
+                content: block.settings.text,
+                highlight_effect: block.settings.highlight_effect,
+                highlight_accent_color: block.settings.highlight_accent_color,
+                highlight_text_color: block.settings.highlight_text_color,
                 style: block.settings.heading_tag,
-                block: block 
+                html_tag: "div",
+                block: block
               -%}
 
             {%- when 'button' -%}
-              {%- render 'button', 
+              {%- render 'button',
                 content: block.settings.text,
                 href: block.settings.url,
                 style: block.settings.style,
@@ -153,49 +154,49 @@
                 {{- top_left_content -}}
               </div>
             {%- endif -%}
-      
+
             {% if top_center_content != blank %}
               <div class="place-self-start-center prose prose-justify-center">
                 {{- top_center_content -}}
               </div>
             {%- endif -%}
-      
+
             {% if top_right_content != blank %}
               <div class="place-self-start-end prose prose-justify-end">
                 {{- top_right_content -}}
               </div>
             {%- endif -%}
-      
+
             {% if middle_left_content != blank %}
               <div class="place-self-center-start prose prose-justify-start">
                 {{- middle_left_content -}}
               </div>
             {%- endif -%}
-      
+
             {% if middle_center_content != blank %}
               <div class="place-self-center prose prose-justify-center">
                 {{- middle_center_content -}}
               </div>
             {%- endif -%}
-      
+
             {% if middle_right_content != blank %}
               <div class="place-self-center-end prose prose-justify-end">
                 {{- middle_right_content -}}
               </div>
             {%- endif -%}
-      
+
             {% if bottom_left_content != blank %}
               <div class="place-self-end-start prose prose-justify-start">
                 {{- bottom_left_content -}}
               </div>
             {%- endif -%}
-      
+
             {% if bottom_center_content != blank %}
               <div class="place-self-end-center prose prose-justify-center">
                 {{- bottom_center_content -}}
               </div>
             {%- endif -%}
-      
+
             {% if bottom_right_content != blank %}
               <div class="place-self-end prose prose-justify-end">
                 {{- bottom_right_content -}}
@@ -484,10 +485,10 @@
       "name": "t:sections.text_with_media.blocks.heading.name",
       "settings": [
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "text",
           "label": "t:global.text.text",
-          "default": "Heading"
+          "default": "<p>Heading</p>"
         },
         {
           "type": "select",

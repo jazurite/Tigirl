@@ -68,7 +68,9 @@
             "swatch_selector_size": "lg",
             "block_selector_style": "fill",
             "variant_image_options": "",
-            "size_chart_page": "bay-size-chart"
+            "dialog_type": "modal",
+            "size_chart_page": "bay-size-chart",
+            "size_chart_size": "lg"
           }
         },
         "countdown_rHXaFU": {
@@ -88,6 +90,12 @@
             "uppercase_title": false
           }
         },
+        "text_fVQ99k": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Be Yourself Everywear<br/>Everywear by Tigirl</strong></p>"
+          }
+        },
         "care-instruction_NqgcFd": {
           "type": "care-instruction",
           "settings": {
@@ -101,12 +109,6 @@
             "modal_title": "hướng dẫn bảo quản",
             "modal_content": "<p>Write some content that will appear in a modal</p>",
             "modal_size": "lg"
-          }
-        },
-        "text_fVQ99k": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Be Yourself Everywear<br/>Everywear by Tigirl</strong></p>"
           }
         },
         "buy_buttons": {
@@ -267,7 +269,7 @@
         "heading_JQneLM": {
           "type": "heading",
           "settings": {
-            "text": "Bay from TigirlBe light, be Bay!",
+            "text": "<p>Bay from Tigirl<br/>Be light, be Bay!</p>",
             "heading_tag": "h3",
             "position": "middle_center",
             "highlight_effect": "default",
@@ -288,7 +290,8 @@
         "richtext_JLKfHK"
       ],
       "custom_css": [
-        ".content-box__background-media {background-color: #e5ddd6;}"
+        ".content-box__background-media {background-color: #e5ddd6;}",
+        "div[id^=\"shopify-block-heading\"] {line-height: 120%; font-size: 64px;}"
       ],
       "name": "t:sections.text_with_media.name",
       "settings": {
@@ -417,6 +420,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
+            "font_weight": "regular",
             "text": "Image with text overlay",
             "heading_size": "h3",
             "html_tag": "p",
@@ -431,6 +435,7 @@
           "type": "rich-text",
           "disabled": true,
           "settings": {
+            "font_weight": "regular",
             "text": "<p>Write some text about your products or your brand.</p>",
             "content_width": "sm"
           },

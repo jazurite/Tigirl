@@ -357,7 +357,7 @@
         "heading_JQneLM": {
           "type": "heading",
           "settings": {
-            "text": "<em>MUSE   </em>from TIGIRL SOFTNESS THAT EMPOWERS!",
+            "text": "<p>MUSE from TIGIRL<br/>SOFTNESS THAT EMPOWERS!</p>",
             "heading_tag": "h3",
             "position": "middle_center",
             "highlight_effect": "default",
@@ -378,7 +378,8 @@
         "richtext_JLKfHK"
       ],
       "custom_css": [
-        ".content-box__background-media {background-color: #e5ddd6;}"
+        ".content-box__background-media {background-color: #e5ddd6;}",
+        "div[id^=\"shopify-block-heading\"] {line-height: 120%; font-size: 64px;}"
       ],
       "name": "t:sections.text_with_media.name",
       "settings": {

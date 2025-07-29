@@ -388,7 +388,7 @@
         "heading_JQneLM": {
           "type": "heading",
           "settings": {
-            "text": "<em>BLEU  </em>form TIGIRL BOLDNESS THAT INSPIRES!",
+            "text": "<p>BLEU form TIGIRL<br/>BOLDNESS THAT INSPIRES!</p>",
             "heading_tag": "h3",
             "position": "middle_center",
             "highlight_effect": "default",
@@ -399,7 +399,7 @@
         "richtext_JLKfHK": {
           "type": "richtext",
           "settings": {
-            "text": "<p>be youRSElf EVERYWEAR</p><p>The layers from tigirl<br/><br/></p>",
+            "text": "<p>be youRSElf EVERYWEAR<br/>The layers from tigirl</p>",
             "position": "bottom_center"
           }
         }
@@ -409,7 +409,8 @@
         "richtext_JLKfHK"
       ],
       "custom_css": [
-        ".content-box__background-media {background-color: #e5ddd6;}"
+        ".content-box__background-media {background-color: #e5ddd6;}",
+        "div[id^=\"shopify-block-heading\"] {line-height: 120%; font-size: 64px;}"
       ],
       "name": "t:sections.text_with_media.name",
       "settings": {

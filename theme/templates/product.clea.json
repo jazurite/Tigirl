@@ -327,7 +327,7 @@
         "heading_JQneLM": {
           "type": "heading",
           "settings": {
-            "text": "<em>Clea </em>from Tigirl Light, but unforgettable!",
+            "text": "<p>Clea from Tigirl<br/>Light, but unforgettable!</p>",
             "heading_tag": "h2",
             "position": "middle_center",
             "highlight_effect": "default",
@@ -348,7 +348,8 @@
         "richtext_JLKfHK"
       ],
       "custom_css": [
-        ".content-box__background-media {background-color: #e5ddd6;}"
+        ".content-box__background-media {background-color: #e5ddd6;}",
+        "div[id^=\"shopify-block-heading\"] {line-height: 120%; font-size: 64px;}"
       ],
       "name": "t:sections.text_with_media.name",
       "settings": {

@@ -326,21 +326,10 @@
     "text_with_media_6m9qcU": {
       "type": "text-with-media",
       "blocks": {
-        "heading_JQneLM": {
-          "type": "heading",
-          "settings": {
-            "text": "Lía from Tigirl",
-            "heading_tag": "h4",
-            "position": "middle_center",
-            "highlight_effect": "default",
-            "highlight_accent_color": "",
-            "highlight_text_color": ""
-          }
-        },
         "heading_YpnKpe": {
           "type": "heading",
           "settings": {
-            "text": "Simply Lía, simply you!",
+            "text": "<p>Lía from Tigirl<br/>Simply Lía, simply you!</p>",
             "heading_tag": "h4",
             "position": "middle_center",
             "highlight_effect": "default",
@@ -357,12 +346,12 @@
         }
       },
       "block_order": [
-        "heading_JQneLM",
         "heading_YpnKpe",
         "richtext_JLKfHK"
       ],
       "custom_css": [
-        ".content-box__background-media {background-color: #e5ddd6;}"
+        ".content-box__background-media {background-color: #e5ddd6;}",
+        "div[id^=\"shopify-block-heading\"] {line-height: 120%; font-size: 64px;}"
       ],
       "name": "t:sections.text_with_media.name",
       "settings": {
