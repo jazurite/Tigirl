@@ -28,7 +28,7 @@
         "hide_on_scroll": false,
         "mobile_layout": "logo_center_navigation_split",
         "desktop_layout": "drawer",
-        "logo": "{{ shop.brand.logo }}",
+        "logo": "shopify://shop_images/logo_tigirl.png",
         "logo_max_width": 140,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
@@ -43,7 +43,7 @@
         "show_country_flag": true,
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify://shop_images/logo_white.svg"
+        "transparent_logo": "shopify://shop_images/logo_tigirl_white.png"
       }
     }
   },
