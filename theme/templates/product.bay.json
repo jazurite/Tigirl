@@ -70,7 +70,8 @@
             "variant_image_options": "",
             "dialog_type": "modal",
             "size_chart_page": "bay-size-chart",
-            "size_chart_size": "lg"
+            "size_chart_size": "lg",
+            "size_hint": "Gợi ý chọn size: Mẫu cao 1m7, số đo 86-60-87, mặc size 1."
           }
         },
         "countdown_rHXaFU": {

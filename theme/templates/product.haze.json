@@ -68,7 +68,8 @@
             "swatch_selector_size": "lg",
             "block_selector_style": "fill",
             "variant_image_options": "color",
-            "size_chart_page": "haze-size-chart"
+            "size_chart_page": "haze-size-chart",
+            "size_hint": "Gợi ý chọn size: Mẫu cao 1m7, số đo 86-60-87, mặc size 1."
           }
         },
         "countdown_rHXaFU": {

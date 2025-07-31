@@ -1,7 +1,15 @@
 <style>
     .size-chart-container {
         display: inline-grid;
-        grid-template-columns: minmax(0, 1fr) 240px;
+        gap: 1rem;
+        grid-template-columns: minmax(0, auto) 240px;
+        justify-content: center;
+    }
+
+    @media screen and (min-width: 768px) {
+        .size-chart-container {
+            gap: 2rem;
+        }
     }
 </style>
 {% assign sizeCharts = section.blocks | where: "type", "size-chart" %}
@@ -27,7 +35,8 @@
                                     {{- page.content -}}
                                 </div>
 
-                                {{- sizeChart.settings.picture | image_url: width: 1920 | image_tag: sizes: '240', widths: '72,144,240, 920, 1440' -}}
+                                {{- product.featured_image | image_url: width: 1920 | image_tag: sizes: '240', widths:
+                                '72,144,240, 920, 1440' -}}
                             </div>
                         {%- endif -%}
                     </div>
