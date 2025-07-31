@@ -4,7 +4,7 @@
       <div class="max-w-{{ section.settings.content_width }} mx-auto">
         <div class="section-stack">
           {%- if section.settings.show_title -%}
-            <h1 class="h2 text-center">{{ page.title }}</h1>
+            <h1 class="h2">{{ page.metafields.custom.display_name | default: page.title }}</h1>
           {%- endif -%}
 
           {%- if page.content != empty %}

@@ -306,7 +306,7 @@
   "contact": {
     "form": {
       "name": "Tên",
-      "message": "Tin nhắn",
+      "message": "Nội dung câu hỏi/yêu cầu:",
       "submit": "Gửi tin nhắn",
       "success_message": "Tin nhắn của bạn đã được gửi.",
       "email": ""

@@ -12,11 +12,45 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {}
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "content_width": "md"
+      }
     },
     "contact-form": {
       "type": "contact",
-      "settings": {}
+      "blocks": {
+        "text_zcEUci": {
+          "type": "text",
+          "settings": {
+            "title": "Số điện thoại",
+            "use_long_text": false,
+            "required": false
+          }
+        },
+        "dropdown_4ecGaW": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Chủ đề liên hệ",
+            "values": "Tư vấn sản phẩm,Tình trạng đơn hàng,Khiếu nại,Góp ý,Khác"
+          }
+        }
+      },
+      "block_order": [
+        "text_zcEUci",
+        "dropdown_4ecGaW"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "layout": "stacked",
+        "add_image_spacing": false,
+        "subheading": "Liên hệ",
+        "title": "Gửi câu hỏi trực tuyến",
+        "heading_size": "h2",
+        "note": "<p>*Lưu ý:</p><ul><li>Đội ngũ Tigirl sẽ tiếp nhận và phản hồi trong thời gian sớm nhất, tối đa 24h trong giờ làm việc.</li><li>Nếu cần hỗ trợ gấp, Quý khách có thể liên hệ trực tiếp qua hotline (từ 09h00 đến 18h00 tất cả các ngày trong tuần) hoặc fanpage.\"</li></ul>",
+        "show_social_media": true
+      }
     }
   },
   "order": [

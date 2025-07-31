@@ -1,6 +1,6 @@
 {%- liquid
   if section.settings.image == blank and section.settings.layout == 'stacked'
-    assign text_alignment = 'center'
+    assign text_alignment = 'start'
   else
     assign text_alignment = 'start'
   endif
@@ -10,14 +10,12 @@
   {%- capture section_header -%}
     <div class="v-stack justify-items-{{ text_alignment }} gap-6 sm:gap-8">
       {%- if section.settings.subheading != blank or section.settings.title != blank or section.settings.content != blank -%}
-        
+
         <div class="prose prose-justify-{{ text_alignment }}">
           {%- render 'subheading', content: section.settings.subheading -%}
           {%- render 'heading', content: section.settings.title, balance_text: true, style: section.settings.heading_size, html_tag: 'h2' -%}
 
-          <div class="max-w-sm">
-            {{- section.settings.content -}}
-          </div>
+
         </div>
       {%- endif -%}
 
@@ -45,7 +43,7 @@
           {%- assign label  = 'contact.form.name' | t -%}
           {%- render 'input', type: 'text', name: 'contact[name]', label: label, value: customer.name, required: true, autocomplete: 'name' -%}
 
-          {%- assign label  = 'contact.form.email' | t -%}
+          {%- assign label  = 'general.newsletter.email' | t -%}
           {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
         </div>
 
@@ -85,7 +83,15 @@
         {%- render 'button', content: button_content, type: 'submit' -%}
       </div>
     {%- endform -%}
+
+    {% if section.settings.note %}
+     <div class="max-w-lg prose text-start">
+         {{- section.settings.note -}}
+      </div>
+    {%endif%}
   {%- endcapture -%}
+
+
 
   {%- if section.settings.image != blank -%}
     <div class="section-split">
@@ -113,7 +119,7 @@
       </div>
     {%- else -%}
       <div class="container section-spacing">
-        <div class="section-stack max-w-md mx-auto text-center">
+        <div class="section-stack max-w-lg mx-auto text-center">
           {{- section_header -}}
           {{- section_main_content -}}
         </div>
@@ -229,8 +235,8 @@
     },
     {
       "type": "richtext",
-      "id": "content",
-      "label": "t:global.text.content",
+      "id": "note",
+      "label": "t:global.text.note",
       "default": "<p>If you have any questions, please fill in this contact form, and our team will reach you back as soon as possible.</p>"
     },
     {
