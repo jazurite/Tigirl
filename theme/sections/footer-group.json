@@ -103,7 +103,7 @@
           "type": "newsletter",
           "settings": {
             "title": "Tham gia hội viên",
-            "content": "<p>Đăng ký thành viên để nhận voucher giảm 10% tổng giá trị đơn hàng</p>",
+            "content": "",
             "disclaimer_text": ""
           }
         },
