@@ -20,10 +20,10 @@
 
               <div class="v-stack gap-3 sm:gap-4 sm:text-center">
                 <h1 class="h3">{{ 'customer.order.order_name' | t: name: order.name }}</h1>
-                <p class="subheading">{{ order.created_at | date: format: 'date_at_time' }}</p> 
+                <p class="subheading">{{ order.created_at | date: format: 'date_at_time' }}</p>
               </div>
             </div>
-          
+
             <div class="order">
               <div class="v-stack gap-6">
                 {%- comment -%}
@@ -38,18 +38,18 @@
                     assign cancel_message = 'customer.order.cancelled_on' | t: date: cancelled_on, reason: order.cancel_reason_label
                     render 'banner', status: 'error', content: cancel_message
                   endif
-          
+
                   assign fulfillment = order.line_items | where: 'fulfillment' | map: 'fulfillment' | sort: 'created_at' | last
-          
+
                   if order.shipping_address and fulfillment
                     assign created_at = fulfillment.created_at | date: format: 'date'
-          
+
                     if fulfillment.tracking_number
                       assign fulfillment_message = 'customer.order.fulfillment_with_number' | t: date: created_at, tracking_number: fulfillment.tracking_number
                     else
                       assign fulfillment_message = 'customer.order.fulfillment' | t: date: created_at
                     endif
-          
+
                     if fulfillment.tracking_url
                       assign button_content = 'customer.order.track_shipment' | t
                       render 'banner', content: fulfillment_message, action_content: button_content, action_url: fulfillment.tracking_url, action_external: true
@@ -128,6 +128,14 @@
                     <span class="subheading bold">{{ 'customer.order.total' | t }}</span>
                     <span class="subheading bold text-end">{{ order.total_net_amount | money_with_currency }}</span>
                   </div>
+
+                  <div class="contents">
+                    <span class="subheading">{{ 'customer.order.payment_gateway' | t }}</span>
+
+                    {% for transaction in order.transactions %}
+                      <span class="subheading text-end">{{ transaction.gateway }}</span>
+                    {% endfor %}
+                  </div>
                 </div>
               </div>
 
@@ -154,18 +162,7 @@
                       {{- order.shipping_address | format_address -}}
                     </div>
                   {%- endif -%}
-                                    <div class="address">
-                      <div class="h-stack gap-2.5">
-                        {%- render 'icon' with 'picto-credit-card', width: 18 -%}
-                        <p class="h7">{{ 'customer.order.payment_gateway' | t }}</p>
-                      </div>
-
-                      {% for transaction in order.transactions %}
-                          {{ transaction.gateway }}
-                      {% endfor %}
-                    </div>
-
-                </div>                
+                </div>
               {%- endif -%}
             </div>
           </div>
