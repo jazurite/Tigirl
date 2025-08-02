@@ -3148,7 +3148,11 @@ onSubmit_fn = async function(event) {
   let sectionsToBundle = /* @__PURE__ */ new Set();
   document.documentElement.dispatchEvent(new CustomEvent("cart:prepare-bundled-sections", { bubbles: true, detail: { sections: sectionsToBundle } }));
   const formData = new FormData(__privateGet(this, _ProductForm_instances, form_get2));
+
   formData.set("sections", [...sectionsToBundle].join(","));
+  console.log("%c 1 --> Line: 3153||theme.js\n formData: ","color:#f0f;", formData);
+
+
   if (showLoadingBar) {
     document.documentElement.dispatchEvent(new CustomEvent("theme:loading:start", { bubbles: true }));
   }

@@ -360,6 +360,16 @@ Supported variables
                 progress_bar_max_value: block.settings.progress_bar_max_value,
                 low_threshold: block.settings.low_inventory_threshold
             -%}
+            {%- when 'promotion' -%}
+                {%- render 'promotion',
+                        variant: product.selected_or_first_available_variant,
+                        alignment: alignment,
+                        show_in_stock_quantity: block.settings.show_in_stock_quantity,
+                        show_progress_bar: block.settings.show_progress_bar,
+                        progress_bar_max_value: block.settings.progress_bar_max_value,
+                        low_threshold: block.settings.low_inventory_threshold,
+                        settings: block.settings
+                -%}
 
           {%- when 'buy_buttons' -%}
             {%- render 'buy-buttons',

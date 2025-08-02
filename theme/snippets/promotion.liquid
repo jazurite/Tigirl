@@ -1,0 +1,135 @@
+{%- capture inventory_for_variant -%}
+    {%- if variant -%}
+        {%- liquid
+            if variant.available
+                if variant.inventory_management and variant.inventory_policy == 'deny' and variant.inventory_quantity <= low_threshold and low_threshold > 0
+                    assign inventory_status = 'warning'
+                    assign inventory_text = 'product.inventory.low_stock_with_quantity_count' | t: count: variant.inventory_quantity
+                else
+                    if variant.inventory_policy == 'continue' and variant.inventory_quantity <= 0 and variant.requires_shipping
+                        if variant.incoming and variant.next_incoming_date
+                            assign next_incoming_date = variant.next_incoming_date | date: format: 'date'
+                            assign inventory_status = 'warning'
+                            assign inventory_text = 'product.inventory.incoming_stock' | t: next_incoming_date: next_incoming_date
+                        else
+                            assign inventory_status = 'warning'
+                            assign inventory_text = 'product.inventory.oversell_stock' | t
+                        endif
+                    else
+                        assign inventory_status = 'success'
+
+                        if show_in_stock_quantity and variant.inventory_management
+                            assign inventory_text = 'product.inventory.in_stock_with_quantity_count' | t: count: variant.inventory_quantity
+                        else
+                            assign inventory_text = 'product.inventory.in_stock' | t
+                        endif
+                    endif
+                endif
+            elsif variant.incoming
+                if variant.next_incoming_date
+                    assign next_incoming_date = variant.next_incoming_date | date: format: 'date'
+                    assign inventory_status = 'warning'
+                    assign inventory_text = 'product.inventory.incoming_stock' | t: next_incoming_date: next_incoming_date
+                else
+                    assign inventory_status = 'warning'
+                    assign inventory_text = 'product.inventory.oversell_stock' | t
+                endif
+            else
+                assign inventory_status = 'error'
+                assign inventory_text = 'product.inventory.out_of_stock' | t
+            endif
+
+            if variant.inventory_management
+                assign inventory_quantity = variant.inventory_quantity | at_least: 0
+            else
+                assign inventory_quantity = progress_bar_max_value
+            endif
+        -%}
+
+        <span class="inventory__text">{{- inventory_text -}}</span>
+    {%- endif -%}
+{%- endcapture -%}
+
+<style>
+    .promotion-campaign {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 80px minmax(0, 1fr);
+        align-items: center;
+        padding: 1rem 1.5rem
+    }
+
+    .promotion-campaign .promotion-campaign__detail {
+        display: grid;
+        gap: .5rem;
+        align-content: flex-start;
+    }
+
+    .promotion-campaign progress-bar {
+        height: 12px;
+
+        border-radius: 12px;
+        background: #D3D3D3;
+        color: #EB190E;
+    }
+
+    .promotion-campaign .progress-bar:before {
+        border-radius: 12px;
+    }
+
+    .promotion-inventory {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-transform: uppercase;
+
+        color: #EB190E;
+    }
+
+    .promotion-progress-bar {
+        display: block;
+        position: relative;
+        overflow: hidden;
+
+        height: 12px;
+        border-radius: 12px;
+        background: #D3D3D3;
+    }
+
+    .promotion-progress-bar__handler {
+        background-color: #EB190E;
+        border-radius: 12px;
+        height: 100%;
+    }
+
+
+</style>
+
+<div class="promotion-campaign"
+     style="{% render 'surface', background: settings.background, text_color: settings.text_color %} ">
+    <div class="promotion-campaign__media">
+        {{- settings.image | image_url: width: settings.image.width | image_tag: sizes: '200,300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400' -}}
+    </div>
+
+    <div class="promotion-campaign__detail">
+        <p class="text-base" style="color: #0F172A">Tặng 1 túi tote cho đơn hàng trên 1 triệu</p>
+        <p class="text-sm font-light" style="color: #334155">Áp dụng cho 50 đơn hàng đầu tiên</p>
+
+        {% assign quantity = settings.inventory_quantity |  times: 1 %}
+        {% assign max_quantity = settings.inventory_max_quantity |  times: 1 %}
+
+        {% assign currentVal = quantity |  times: 100 | divided_by: max_quantity %}
+
+        <div class="promotion-progress-bar" aria-valuenow="{{ settings.inventory_quantity }}" aria-valuemax="{{ settings.inventory_max_quantity }}">
+            <div class="promotion-progress-bar__handler" style="width:{{ currentVal }}%"></div>
+        </div>
+
+
+        <div class="promotion-inventory">
+            <span class="promotion-inventory__text">Còn lại: {{ settings.inventory_quantity }}/{{ settings.inventory_max_quantity }}</span>
+        </div>
+    </div>
+
+</div>

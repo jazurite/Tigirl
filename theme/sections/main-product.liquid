@@ -722,6 +722,60 @@
       ]
     },
     {
+      "type": "promotion",
+      "name": "Promotion",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "Image",
+        },
+         {
+          "type": "color",
+          "id": "background",
+          "label": "t:global.colors.background",
+          "default": "#f9f9f9"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "t:global.colors.text",
+          "default": "#000000"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_in_stock_quantity",
+          "label": "t:sections.main_product.blocks.inventory.show_in_stock_quantity",
+          "default": true
+        },
+        {
+          "type": "range",
+          "id": "low_inventory_threshold",
+          "label": "t:sections.main_product.blocks.inventory.low_inventory_threshold",
+          "info": "t:sections.main_product.blocks.inventory.low_inventory_threshold_info",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "inventory_quantity",
+          "label": "Inventory Quantity",
+          "info": "Inventory Quantity",
+          "default": 12,
+        },
+        {
+          "type": "number",
+          "id": "inventory_max_quantity",
+          "label": "t:sections.main_product.blocks.inventory.progress_bar_max_value",
+          "info": "t:sections.main_product.blocks.inventory.progress_bar_max_value_info",
+          "default": 50
+        }
+      ]
+    },
+    {
       "type": "buy_buttons",
       "name": "t:sections.main_product.blocks.buy_buttons.name",
       "limit": 1,

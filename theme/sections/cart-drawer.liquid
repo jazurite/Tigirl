@@ -317,6 +317,8 @@
                 </div>
               </div>
 
+              <input type="hidden" id="cart-total-price" value="{{ cart.total_price | divided_by: 100 }}">
+
               <!-- BUTTONS -->
               <div class="v-stack gap-3">
                 <div class="button-group button-group--same-width w-full">
@@ -337,6 +339,8 @@
                       render 'button', content: button_content, type: 'submit', name: 'checkout'
                     endif
                   -%}
+
+                  <checkout-button></checkout-button>
                 </div>
 
                 {%- if section.settings.show_shipping_text -%}
@@ -362,6 +366,26 @@
     {%- endunless -%}
   </cart-drawer>
 {%- endif -%}
+
+<script>
+if(!customElements.get("checkout-button")) {
+  customElements.define("checkout-button", class extends HTMLElement {
+    constructor() {
+      super();
+
+      this.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        const cartTotal = document.querySelector("#cart-total-price").value;
+
+        if(cartTotal > 1000000) {
+
+        }
+      })
+    }
+  });
+}
+</script>
 
 {% schema %}
 {
