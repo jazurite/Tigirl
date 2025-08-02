@@ -40,6 +40,18 @@
           "type": "separator",
           "settings": {}
         },
+        "promotion_n3giPm": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/tote_img.png",
+            "background": "#ddf9f0",
+            "text_color": "#000000",
+            "show_in_stock_quantity": true,
+            "low_inventory_threshold": 49,
+            "inventory_quantity": 12,
+            "progress_bar_max_value": 50
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -65,6 +77,7 @@
         "rating",
         "payment_terms",
         "separator",
+          "promotion_n3giPm",
         "description",
         "variant_picker",
         "buy_buttons"

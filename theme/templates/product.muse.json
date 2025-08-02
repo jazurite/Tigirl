@@ -85,17 +85,7 @@
             "expiration_behavior": "hide"
           }
         },
-        "inventory_n3giPm": {
-          "disabled": true,
 
-          "type": "inventory",
-          "settings": {
-            "show_in_stock_quantity": true,
-            "low_inventory_threshold": 49,
-            "show_progress_bar": true,
-            "progress_bar_max_value": 50
-          }
-        },
         "promotion_n3giPm": {
           "type": "promotion",
           "settings": {
@@ -162,7 +152,6 @@
         "product_variations_LfMnn6",
         "variant_picker",
         "countdown_rHXaFU",
-        "inventory_n3giPm",
         "promotion_n3giPm",
         "description",
         "text_fVQ99k",

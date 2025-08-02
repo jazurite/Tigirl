@@ -84,6 +84,18 @@
             "expiration_behavior": "hide"
           }
         },
+        "promotion_n3giPm": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/tote_img.png",
+            "background": "#ddf9f0",
+            "text_color": "#000000",
+            "show_in_stock_quantity": true,
+            "low_inventory_threshold": 49,
+            "inventory_quantity": 12,
+            "progress_bar_max_value": 50
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -138,6 +150,7 @@
         "product_variations_LfMnn6",
         "variant_picker",
         "countdown_rHXaFU",
+        "promotion_n3giPm",
         "description",
         "text_fVQ99k",
         "care-instructions_NqgcFd",
