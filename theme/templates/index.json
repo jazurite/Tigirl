@@ -56,7 +56,7 @@
               "name": "t:blocks.button.name",
               "settings": {
                 "text": "Xem thêm",
-                "url": "shopify://collections/the-layers",
+                "url": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style": "solid",
                 "background": "",

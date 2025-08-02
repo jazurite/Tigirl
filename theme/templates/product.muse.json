@@ -85,7 +85,6 @@
             "expiration_behavior": "hide"
           }
         },
-
         "promotion_n3giPm": {
           "type": "promotion",
           "settings": {
@@ -94,8 +93,7 @@
             "text_color": "#000000",
             "show_in_stock_quantity": true,
             "low_inventory_threshold": 49,
-            "inventory_quantity": 12,
-            "progress_bar_max_value": 50
+            "inventory_quantity": 12
           }
         },
         "description": {

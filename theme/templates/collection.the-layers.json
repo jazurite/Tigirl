@@ -22,7 +22,7 @@
             "desktop_column_end": 16,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 4,
+            "mobile_row_start": 1,
             "mobile_column_start": 1,
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
@@ -37,7 +37,7 @@
                 "text": "the layers",
                 "show_text_vertically": false,
                 "font_size_desktop": 8,
-                "font_size_mobile": 15,
+                "font_size_mobile": 13,
                 "font_size_line_height": 1,
                 "html_tag": "p",
                 "indent": "none",
@@ -55,14 +55,14 @@
         "dynamic_grid_item_JxnWqb": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "center",
             "desktop_row_start": 3,
             "desktop_column_start": 1,
             "desktop_column_end": 16,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 9,
+            "mobile_row_start": 5,
             "mobile_column_start": 1,
             "mobile_column_end": 6,
             "mobile_horizontal_adjustment": 0,
@@ -85,6 +85,39 @@
             "rich_text_g4jXRz"
           ]
         },
+        "dynamic_grid_item_N9xeaj": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "mobile_only",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 3,
+            "mobile_column_start": 1,
+            "mobile_column_end": 6,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_jrew7z": {
+              "type": "rich-text",
+              "settings": {
+                "font_weight": "regular",
+                "text": "<p>Bộ sưu tập từ Tigirl lấy cảm hứng từ chính bạn – cô gái hiện đại với nhiều tầng cảm xúc, luôn biến hóa, luôn nổi bật. Mỗi thiết kế mang lại cảm giác thoải mái, dễ phối nhiều kiểu, sẵn sàng đồng hành cùng bạn ở mọi không gian.<br/><br/>Be Yourself Everywear</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_jrew7z"
+          ]
+        },
         "dynamic_grid_item_FHhhbR": {
           "type": "_dynamic-grid-item",
           "settings": {
@@ -96,7 +129,7 @@
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
             "mobile_row_start": 4,
-            "mobile_column_start": 1,
+            "mobile_column_start": 7,
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
@@ -131,7 +164,7 @@
             "desktop_column_end": 2,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 1,
+            "mobile_row_start": 7,
             "mobile_column_start": 1,
             "mobile_column_end": 2,
             "mobile_horizontal_adjustment": 0,
@@ -165,8 +198,8 @@
             "desktop_column_end": 4,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 1,
-            "mobile_column_start": 6,
+            "mobile_row_start": 12,
+            "mobile_column_start": 7,
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
@@ -199,11 +232,11 @@
             "desktop_column_end": 6,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 12,
+            "mobile_row_start": 10,
             "mobile_column_start": 1,
-            "mobile_column_end": 3,
+            "mobile_column_end": 4,
             "mobile_horizontal_adjustment": 0,
-            "mobile_vertical_adjustment": 0,
+            "mobile_vertical_adjustment": -5,
             "parallax_speed": 0,
             "parallax_direction": "vertical"
           },
@@ -233,8 +266,8 @@
             "desktop_column_end": 16,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 8,
-            "mobile_column_start": 6,
+            "mobile_row_start": 7,
+            "mobile_column_start": 5,
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
@@ -260,7 +293,7 @@
         "dynamic_grid_item_zcfwDV": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
             "desktop_row_start": 10,
             "desktop_column_start": 3,
@@ -294,7 +327,7 @@
         "dynamic_grid_item_8idTdb": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
             "desktop_row_start": 10,
             "desktop_column_start": 7,
@@ -335,9 +368,9 @@
             "desktop_column_end": 10,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 1,
-            "mobile_column_start": 6,
-            "mobile_column_end": 8,
+            "mobile_row_start": 12,
+            "mobile_column_start": 5,
+            "mobile_column_end": 6,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
             "parallax_speed": 0,
@@ -370,9 +403,9 @@
             "desktop_column_end": 2,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 1,
-            "mobile_column_start": 1,
-            "mobile_column_end": 2,
+            "mobile_row_start": 7,
+            "mobile_column_start": 3,
+            "mobile_column_end": 4,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
             "parallax_speed": 0,
@@ -397,7 +430,7 @@
         "dynamic_grid_item_xRQKa3": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
             "desktop_row_start": 13,
             "desktop_column_start": 3,
@@ -431,7 +464,7 @@
         "dynamic_grid_item_KdyfFD": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
             "desktop_row_start": 13,
             "desktop_column_start": 5,
@@ -465,7 +498,7 @@
         "dynamic_grid_item_8mpe9Q": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
             "desktop_row_start": 13,
             "desktop_column_start": 9,
@@ -499,7 +532,7 @@
         "dynamic_grid_item_C8zUk3": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
             "desktop_row_start": 16,
             "desktop_column_start": 1,
@@ -533,7 +566,7 @@
         "dynamic_grid_item_ipBtCd": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
             "desktop_row_start": 16,
             "desktop_column_start": 3,
@@ -567,7 +600,7 @@
         "dynamic_grid_item_WaHWpp": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
             "desktop_row_start": 16,
             "desktop_column_start": 7,
@@ -601,7 +634,7 @@
         "dynamic_grid_item_ULXDQ3": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
             "desktop_row_start": 16,
             "desktop_column_start": 13,
@@ -635,7 +668,7 @@
         "dynamic_grid_item_XBcbbq": {
           "type": "_dynamic-grid-item",
           "settings": {
-            "visibility": "both",
+            "visibility": "desktop_only",
             "text_alignment": "left",
             "desktop_row_start": 16,
             "desktop_column_start": 15,
@@ -670,6 +703,7 @@
       "block_order": [
         "dynamic_grid_item_QJqRpb",
         "dynamic_grid_item_JxnWqb",
+        "dynamic_grid_item_N9xeaj",
         "dynamic_grid_item_FHhhbR",
         "dynamic_grid_item_YmGHdx",
         "dynamic_grid_item_zTw7Lg",
@@ -714,7 +748,7 @@
             "desktop_column_end": 16,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 1,
-            "mobile_row_start": 4,
+            "mobile_row_start": 2,
             "mobile_column_start": 1,
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
@@ -729,7 +763,7 @@
                 "text": "The Layers là sự kết hợp hài hòa giữa tính tiện dụng, cảm giác dễ chịu và phong cách riêng, giúp bạn tự tin thể hiện cá tính từ trong nhà đến ngoài phố – luôn là chính mình ở bất cứ đâu.",
                 "show_text_vertically": false,
                 "font_size_desktop": 3,
-                "font_size_mobile": 10,
+                "font_size_mobile": 5,
                 "font_size_line_height": 1,
                 "html_tag": "p",
                 "indent": "none",
@@ -754,7 +788,7 @@
             "desktop_column_end": 4,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": 0,
-            "mobile_row_start": 9,
+            "mobile_row_start": 1,
             "mobile_column_start": 1,
             "mobile_column_end": 6,
             "mobile_horizontal_adjustment": 0,
@@ -786,9 +820,9 @@
             "desktop_column_end": 8,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": -1,
-            "mobile_row_start": 12,
+            "mobile_row_start": 5,
             "mobile_column_start": 1,
-            "mobile_column_end": 3,
+            "mobile_column_end": 4,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
             "parallax_speed": 4,
@@ -820,8 +854,8 @@
             "desktop_column_end": 14,
             "desktop_horizontal_adjustment": 0,
             "desktop_vertical_adjustment": -1,
-            "mobile_row_start": 8,
-            "mobile_column_start": 6,
+            "mobile_row_start": 5,
+            "mobile_column_start": 5,
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
