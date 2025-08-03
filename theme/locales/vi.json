@@ -16,7 +16,7 @@
         }
       },
       "contact": {
-        "optional_address2_label": "Phường, xã , căn hộ, dãy, v.v. (không bắt buộc)"
+        "optional_address2_label": "Phường, xã , căn hộ, dãy, v.v."
       }
     }
   },

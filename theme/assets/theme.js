@@ -1127,7 +1127,7 @@ split_fn = function (force = false) {
     if (!__privateGet(this, _requireSplit) && !force) {
         return;
     }
-    this.shadowRoot.innerHTML = this.textContent.replace(/./g, '<span part="letter">$&</span>')
+    this.shadowRoot.innerHTML = this.textContent.replace('/<br\/>/g', '<span part="br"></span>').replace(/./g, '<span part="letter">$&</span>')
         .replace(/\n/g, '<br />').replace(/\s/g, " ");
 
     const bounds = /* @__PURE__ */ new Map();
@@ -1135,7 +1135,7 @@ split_fn = function (force = false) {
     let lineBreakCount = 0
 
     Array.from(this.shadowRoot.children).forEach((letter) => {
-        const isLineBreak = letter.outerHTML == "<br>"
+        const isLineBreak = letter.outerHTML == "<br>" || letter.outerHTML == "<span part='br'></span>"
 
         if (isLineBreak) {
             bounds.set(lineBreakCount, "<br>");

@@ -78,7 +78,7 @@
             "text": "Grand opening 10% OFF",
             "background": "#fff1f2",
             "text_color": "#be123c",
-            "expiration_date": "2025-07-21",
+            "expiration_date": "2025-08-06 00:00",
             "expiration_behavior": "hide"
           }
         },

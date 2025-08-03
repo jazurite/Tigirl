@@ -52,7 +52,7 @@
             "option_name": "Màu Sắc",
             "option_value_metafield": "custom.sleepwear_color",
             "products": [
-              "bloom"
+              "bea"
             ],
             "selector_style": "variant_image",
             "swatch_selector_size": "lg"
@@ -66,10 +66,12 @@
             "selector_style": "block",
             "swatch_selector_style": "swatch",
             "swatch_selector_size": "lg",
-            "block_selector_style": "fill",
+            "block_selector_style": "outline",
             "variant_image_options": "color",
-            "size_chart_page": "blom-size-chart",
-            "size_hint": "Gợi ý chọn size: Mẫu cao 1m7, số đo 86-60-87, mặc size 1."
+            "dialog_type": "modal",
+            "size_chart_page": "bea-size-chart",
+            "size_chart_size": "lg",
+            "size_hint": ""
           }
         },
         "countdown_rHXaFU": {
@@ -90,7 +92,8 @@
             "text_color": "#000000",
             "show_in_stock_quantity": true,
             "low_inventory_threshold": 49,
-            "inventory_quantity": 12
+            "inventory_quantity": 12,
+            "inventory_max_quantity": 50
           }
         },
         "description": {
@@ -100,10 +103,17 @@
             "uppercase_title": false
           }
         },
+        "text_fVQ99k": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Be Yourself Everywear</strong></p><p><strong>Everywear by Tigirl</strong></p>"
+          }
+        },
         "care-instruction_NqgcFd": {
           "type": "care-instruction",
+          "disabled": true,
           "settings": {
-            "article": "product-care-guide/bloom-care-instruction",
+            "article": "product-care-guide/bea-care-instruction",
             "dialog_type": "modal",
             "button_title": "hướng dẫn bảo quản",
             "button_style": "link",
@@ -113,12 +123,6 @@
             "modal_title": "hướng dẫn bảo quản",
             "modal_content": "<p>Write some content that will appear in a modal</p>",
             "modal_size": "lg"
-          }
-        },
-        "text_fVQ99k": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Be Yourself Everywear</strong></p><p><strong>Everywear by Tigirl</strong></p>"
           }
         },
         "buy_buttons": {
@@ -135,7 +139,7 @@
             "payment_button_text_color": ""
           }
         },
-        "bundler_bundler_target_element_cCRCmx": {
+        "bundler_bundler_target_element_kgz6wH": {
           "type": "shopify://apps/bundler/blocks/bundler-target-element/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
           "settings": {}
         }
@@ -156,7 +160,7 @@
         "text_fVQ99k",
         "care-instruction_NqgcFd",
         "buy_buttons",
-        "bundler_bundler_target_element_cCRCmx"
+        "bundler_bundler_target_element_kgz6wH"
       ],
       "settings": {
         "color_scheme": "",
@@ -184,7 +188,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-009b8991-2d40-4518-81e1-d0baf5e6c211",
             "color_scheme_hover": "scheme-3",
-            "image": "shopify://shop_images/img_0002s_0003s_0000_Fleur_Detail_01.jpg",
+            "image": "shopify://shop_images/img_tote_03.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -211,7 +215,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-4",
             "color_scheme_hover": "",
-            "image": "shopify://shop_images/img_0002s_0002s_0000_Fleur_Detail_02.jpg",
+            "image": "shopify://shop_images/img_tote_04.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -265,7 +269,7 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-1",
-            "image": "shopify://shop_images/img_0002s_0001_Detail_Bloom_01.jpg",
+            "image": "shopify://shop_images/img_0010s_0001_Detail_Bea_01_bb05eef7-0dac-4d73-8545-bc7b279795b9.jpg",
             "icon": "none",
             "custom_icon": "shopify://shop_images/arrow-all-direction.svg",
             "icon_width": 48,
@@ -274,12 +278,12 @@
             "subheading": "",
             "subheading_position": "middle_center",
             "title": "Chất vải",
-            "heading_tag": "h3",
+            "heading_tag": "h2",
             "heading_position": "bottom_left",
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Air-knit (vải thun thông hơi) in hoa nhí – mềm, thoáng, co giãn nhẹ. Chất vải có độ rủ tự nhiên, dễ mặc, dễ di chuyển. phối Ren hoa co giãn – tăng độ linh hoạt và cuốn hút cho thiết kế.</p>",
+            "text": "<p>Kate cotton-blend (vải kate in họa tiết) – mềm nhẹ, thoáng, đứng form vừa phải.Vải có độ nhăn nhẹ tự nhiên sau khi mặc, nhưng dễ ủi và giữ form đẹp.</p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -293,7 +297,7 @@
             "change_color_scheme_on_hover": true,
             "color_scheme": "scheme-1",
             "color_scheme_hover": "scheme-1",
-            "image": "shopify://shop_images/image_blom_2.png",
+            "image": "shopify://shop_images/img_0010s_0000_Detail_Bea_02_ce0fc5e1-49b0-4418-8e60-c5c0b6992308.jpg",
             "icon": "none",
             "custom_icon": "shopify://shop_images/3d-box-corner_2.svg",
             "icon_width": 48,
@@ -302,12 +306,68 @@
             "subheading": "",
             "subheading_position": "middle_center",
             "title": "thiết kế",
-            "heading_tag": "h3",
+            "heading_tag": "h2",
             "heading_position": "bottom_left",
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": false,
-            "text": "<p>Áo tay dài form crop, phối cùng quần short thoải mái. Tối giản mà vẫn nữ tính, cuốn hút riêng.</p>",
+            "text": "<p>Set 2 mảnh in họa tiết tim nhỏ. Áo hai dây ôm nhẹ, quần short rút dây năng động – diện ở nhà hay xuống phố đều hợp.</p>",
+            "text_position": "bottom_left",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        },
+        "image_with_text_d6bn3M": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "scheme-1",
+            "color_scheme_hover": "scheme-3",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/arrow-all-direction.svg",
+            "icon_width": 48,
+            "mobile_icon_width": 24,
+            "icon_position": "top_left",
+            "subheading": "",
+            "subheading_position": "bottom_left",
+            "title": "Muse (hồng pastel)",
+            "heading_tag": "h2",
+            "heading_position": "bottom_left",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "<p>mềm mại, ngọt vừa phải, mang chất “nàng thơ hiện đại”.</p>",
+            "text_position": "bottom_left",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        },
+        "image_with_text_dTwAB9": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "scheme-1",
+            "color_scheme_hover": "scheme-3",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/like.svg",
+            "icon_width": 48,
+            "mobile_icon_width": 24,
+            "icon_position": "top_left",
+            "subheading": "",
+            "subheading_position": "middle_center",
+            "title": "Noir (xanh denim)",
+            "heading_tag": "h2",
+            "heading_position": "bottom_left",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "<p>trầm sắc, sắc sảo – đúng chất “cool girl” lặng lẽ nhưng nổi bật.</p>",
             "text_position": "bottom_left",
             "button_style": "solid",
             "link_url": "",
@@ -318,8 +378,11 @@
       },
       "block_order": [
         "image_with_text_8AyDMH",
-        "image_with_text_T9qbXW"
+        "image_with_text_T9qbXW",
+        "image_with_text_d6bn3M",
+        "image_with_text_dTwAB9"
       ],
+      "disabled": true,
       "name": "t:sections.media_blocks.name",
       "settings": {
         "color_scheme": "",
@@ -345,8 +408,8 @@
         "heading_JQneLM": {
           "type": "heading",
           "settings": {
-            "text": "<p>Bloom from Tigirl<br/>Live in full bloom!</p>",
-            "heading_tag": "h3",
+            "text": "<p>Bea from Tigirl<br/>Playful heart, dreamy lace!</p>",
+            "heading_tag": "h2",
             "position": "middle_center",
             "highlight_effect": "default",
             "highlight_accent_color": "",
@@ -365,6 +428,7 @@
         "heading_JQneLM",
         "richtext_JLKfHK"
       ],
+      "disabled": true,
       "custom_css": [
         ".content-box__background-media {background-color: #e5ddd6;}",
         "div[id^=\"shopify-block-heading\"] {line-height: 120%; font-size: 64px;}"
@@ -378,7 +442,7 @@
         "overlay_opacity": 20,
         "add_media_spacing": false,
         "autoplay_video": true,
-        "primary_image": "shopify://shop_images/img_0002s_0001s_0000_Fleur_Detail_03.jpg",
+        "primary_image": "shopify://shop_images/img_0010s_0001s_0000_Bea_Detail_03.jpg",
         "secondary_media_width": 60,
         "secondary_media_mobile_width": 60,
         "show_secondary_media_on_mobile": true,
@@ -404,14 +468,14 @@
             "mobile_column_end": 8,
             "mobile_horizontal_adjustment": 0,
             "mobile_vertical_adjustment": 0,
-            "parallax_speed": 8,
+            "parallax_speed": 12,
             "parallax_direction": "vertical"
           },
           "blocks": {
             "dynamic_grid_heading_CtkN7X": {
               "type": "_dynamic-grid-heading",
               "settings": {
-                "text": "Bloom kết hợp sự đơn giản của áo thun basic với họa tiết việt quất nhỏ xinh. Thiết kế nhẹ nhàng, tươi mới, dễ mặc mỗi ngày.",
+                "text": "Lấy cảm hứng từ họa tiết vintage, Bea mang đến nét trẻ trung với dáng hai dây hiện đại, nổi bật cùng những trái tim nhỏ xinh.",
                 "show_text_vertically": false,
                 "font_size_desktop": 3,
                 "font_size_mobile": 6,
@@ -451,7 +515,7 @@
             "image_with_caption_6D6KGk": {
               "type": "image-with-caption",
               "settings": {
-                "image": "shopify://shop_images/img_0002s_0000s_0000_Fleur_Detail_04.jpg",
+                "image": "shopify://shop_images/img_0010s_0000s_0000_Bea_Detail_04.jpg",
                 "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
@@ -468,6 +532,7 @@
         "dynamic_grid_item_NpWgWB",
         "dynamic_grid_item_MTRVQx"
       ],
+      "disabled": true,
       "name": "t:sections.dynamic_grid.name",
       "settings": {
         "color_scheme": "",
@@ -496,6 +561,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
+            "font_weight": "regular",
             "text": "Image with text overlay",
             "heading_size": "h3",
             "html_tag": "p",
@@ -510,6 +576,7 @@
           "type": "rich-text",
           "disabled": true,
           "settings": {
+            "font_weight": "regular",
             "text": "<p>Write some text about your products or your brand.</p>",
             "content_width": "sm"
           },
@@ -521,12 +588,13 @@
         "heading_r9Dm8D",
         "rich_text_hWhki9"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text_overlay.name",
       "settings": {
-        "color_scheme": "scheme-009b8991-2d40-4518-81e1-d0baf5e6c211",
+        "color_scheme": "scheme-1",
         "allow_transparent_header": true,
         "image_size": "fill",
-        "image": "shopify://shop_images/img_Bloom_overlay.jpg",
+        "image": "shopify://shop_images/img_Bea_overlay_00.jpg",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "enable_sticky_content": true,

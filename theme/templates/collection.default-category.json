@@ -47,7 +47,7 @@
         "collection_6KpJL9": {
           "type": "collection",
           "settings": {
-            "collection": "best-sellers",
+            "collection": "the-layers",
             "products_count": 8,
             "title": "Best sellers",
             "content": "{{ block.settings.collection.description }}",
