@@ -14,6 +14,9 @@
         "payment_option": {
           "accessibility_label": "Chọn phương thức thanh toán"
         }
+      },
+      "contact": {
+        "optional_address2_label": "Phường, xã , căn hộ, dãy, v.v. (không bắt buộc)"
       }
     }
   },
