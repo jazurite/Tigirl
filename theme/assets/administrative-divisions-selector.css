@@ -1,0 +1,30 @@
+administrative-divisions-selector {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+administrative-divisions-selector .select2-container--default .select2-selection {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    border-radius: 1px;
+    border-color: #CBD5E1;
+}
+
+administrative-divisions-selector .select2-container--default .select2-selection .select2-selection__rendered {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #64748B;
+}
+
+administrative-divisions-selector  .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: initial;
+}
+
+cart-drawer [slot="footer"] {
+    position: relative;
+}
+

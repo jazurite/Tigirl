@@ -1,35 +1,40 @@
 <!doctype html>
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0">
 
     <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     {%- if page_description -%}
-      <meta name="description" content="{{ page_description | escape }}">
+        <meta name="description" content="{{ page_description | escape }}">
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">
 
     {%- if settings.favicon -%}
-      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
-      <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
+        <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
+        <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
     {%- endif -%}
 
     {%- unless settings.heading_font.system? -%}
-      <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
 
     {%- unless settings.text_font.system? -%}
-      <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
 
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
 
     {%- render 'social-meta-tags' -%}
     {%- render 'microdata-schema' -%}
@@ -37,16 +42,17 @@
     {%- render 'js-variables' -%}
 
     {%- if request.page_type == 'gift_card' -%}
-      <script src="{{ 'vendor/qrcode.js' | shopify_asset_url }}" defer></script>
+        <script src="{{ 'vendor/qrcode.js' | shopify_asset_url }}" defer></script>
     {%- endif -%}
 
     <script type="importmap">
       {%- comment -%}On Safari 16.3 and lower, a polyfill is used to load importmap{%- endcomment -%}
-      {
-        "imports": {
-          "vendor": "{{ 'vendor.min.js' | asset_url }}",
-          "theme": "{{ 'theme.js' | asset_url }}",
-          "photoswipe": "{{ 'photoswipe.min.js' | asset_url }}"
+        {
+          "imports": {
+            "vendor": "{{ 'vendor.min.js' | asset_url }}",
+            "theme": "{{ 'theme.js' | asset_url }}",
+            "photoswipe": "{{ 'photoswipe.min.js' | asset_url }}",
+            "storefront-api": "{{ 'storefront-api.js' | asset_url }}"
         }
       }
     </script>
@@ -54,51 +60,62 @@
     <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
     <script type="module" src="{{ 'product-form.js' | asset_url }}"></script>
-
+    <script>
+        window.Shop = {
+            assetUrl: "{{ "a" | asset_url }}".match(/^.*\//g)[0],
+            fileUrl: "{{ "a" | file_url }}".match(/^.*\//g)[0],
+            fileImgUrl: "{{ "a" | file_img_url }}".match(/^.*\//g)[0],
+        }
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+    <script defer src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     {{ content_for_header }}
-
+    <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="{{ 'cart.js' | asset_url }}"></script>
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
-  </head>
+    {{- 'administrative-divisions-selector.css' | asset_url | stylesheet_tag -}}
+    <script type="module" src="{{ 'administrative-divisions-selector.js' | asset_url }}"></script>
+</head>
 
-  {% liquid
+{% liquid
     assign features_class = ''
 
     if settings.image_hover_animation == 'zoom'
-      assign features_class = features_class | append: 'features--zoom-image '
+        assign features_class = features_class | append: 'features--zoom-image '
     elsif settings.image_hover_animation == 'zoom_filter'
-      assign features_class = features_class | append: 'features--zoom-filter-image '
+        assign features_class = features_class | append: 'features--zoom-filter-image '
     endif
-  %}
+%}
 
-  <body class="{{ features_class }}">
-    {%- render 'shadow-dom-templates' -%}
+<body class="{{ features_class }}">
+{%- render 'shadow-dom-templates' -%}
 
-    <loading-bar class="loading-bar" aria-hidden="true"></loading-bar>
+<loading-bar class="loading-bar" aria-hidden="true"></loading-bar>
 
-    <a href="#main" allow-hash-change class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
+<a href="#main" allow-hash-change class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
-    <span id="header-scroll-tracker" style="position: absolute; width: 1px; height: 1px; top: 200px; left: 0;">
+<span id="header-scroll-tracker" style="position: absolute; width: 1px; height: 1px; top: 200px; left: 0;">
       {%- comment -%}
         This allows our theme to track when the user has scrolled a given amount of pixels, without relying on a global scroll listener. This helps
         to improve performance and reduce reflows.
       {%- endcomment -%}
     </span>
 
-    {%- if request.page_type != 'password' -%}
-      {%- sections 'header-group' -%}
-      {%- sections 'overlay-group' -%}
-    {%- endif -%}
+{%- if request.page_type != 'password' -%}
+    {%- sections 'header-group' -%}
+    {%- sections 'overlay-group' -%}
+{%- endif -%}
 
-    <main id="main" class="anchor">
-      {{ content_for_layout }}
-    </main>
+<main id="main" class="anchor">
+    {{ content_for_layout }}
+</main>
 
-    {%- if request.page_type != 'password' -%}
-      {%- sections 'footer-group' -%}
-    {%- endif -%}
+{%- if request.page_type != 'password' -%}
+    {%- sections 'footer-group' -%}
+{%- endif -%}
 
-    <x-toast class="toast">
-      {% comment %}Container for notification messages; DO NOT DELETE{% endcomment %}
-    </x-toast>
-  </body>
+<x-toast class="toast">
+    {% comment %}Container for notification messages; DO NOT DELETE{% endcomment %}
+</x-toast>
+</body>
 </html>

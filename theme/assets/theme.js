@@ -7141,6 +7141,41 @@ if (!window.customElements.get("time-line")) {
         table.outerHTML = '<div class="table-scroller">' + table.outerHTML + "</div>";
     });
 })();
+
+
+function generateShopifyGid(entityType, id) {
+    return `gid://shopify/${entityType}/${id}`;
+}
+
+function extractIdFromGid(gid) {
+    return gid.split("/").pop().split("?").shift();
+}
+
+function isNumber(n) {
+    return typeof n === "number" && isFinite(n);
+}
+
+const currencyFormatter = new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: 0,
+});
+
+const Currency = {
+    format: (n, options) => {
+        const defaultOptions = {
+            style: "currency",
+            currency: "USD",
+            maximumFractionDigits: n % 1 === 0 ? 0 : 2,
+        };
+
+        return new Intl.NumberFormat("en-US", {
+            ...defaultOptions,
+            ...options,
+        }).format(n);
+    },
+};
+
 export {
     AccordionDisclosure,
     AccountLogin,
@@ -7252,5 +7287,9 @@ export {
     mediaQueryListener,
     throttle,
     videoLoaded,
-    waitForEvent
+    waitForEvent,
+    generateShopifyGid,
+    extractIdFromGid,
+    isNumber,
+    Currency
 };

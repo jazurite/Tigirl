@@ -1,4 +1,8 @@
+
+
+
 {%- if request.page_type != 'cart' -%}
+
   <cart-drawer id="cart-drawer" class="drawer drawer--cart color-scheme color-scheme--{{ section.settings.color_scheme.id }}" aria-label="{{ 'cart.general.title' | t | escape }}" handle-editor-events>
     {%- comment -%}HEADER PART{%- endcomment -%}
     <div class="text-with-icon" slot="header">
@@ -319,6 +323,9 @@
 
               <input type="hidden" id="cart-total-price" value="{{ cart.total_price | divided_by: 100 }}">
 
+              <administrative-divisions-selector></administrative-divisions-selector>
+
+
               <!-- BUTTONS -->
               <div class="v-stack gap-3">
                 <div class="button-group button-group--same-width w-full">
@@ -339,8 +346,6 @@
                       render 'button', content: button_content, type: 'submit', name: 'checkout'
                     endif
                   -%}
-
-                  <checkout-button></checkout-button>
                 </div>
 
                 {%- if section.settings.show_shipping_text -%}
