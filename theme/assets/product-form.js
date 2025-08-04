@@ -32,22 +32,16 @@ var ProductForm = class extends HTMLElement {
 
 };
 
-const  /**
- * Check if cart total exceeds 1 million and add special product if needed
- * @param {object} cartData - The current cart data
- * @returns {Promise<void>}
- */ checkCartTotalAndAddSpecialProduct = async (original_line_price) => {
-    // Check if cart total exceeds 1 million
-    if(!original_line_price) return
+const checkCartTotalAndAddSpecialProduct = async (sectionsToBundle) => {
 
-    if (original_line_price / 100 >= 1000000) {
-        const cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
+    const cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
 
-
-        const specialProductId = 7257497894983;
-        const specialProductExists = cartContent.items.some(item => item.id === specialProductId || item.product_id === specialProductId);
-
-        // Add special product if it doesn't exist
+    const specialProductId = 7257497894983;
+    const specialProductExists = cartContent.items.find(item => item.id === specialProductId || item.product_id === specialProductId);
+    console.log("%c 1 --> Line: 41||product-form.js\n specialProductExists: ","color:#f0f;", specialProductExists);
+    let totalPriceWithoutSpecialProduct = (cartContent.original_total_price / 100) - ((specialProductExists?.price ?? 0) / 100);
+    console.log("%c 1 --> Line: 43||product-form.js\n totalPriceWithoutSpecialProduct: ","color:#f0f;", totalPriceWithoutSpecialProduct);
+    if (totalPriceWithoutSpecialProduct >= 1000000) {
         if (!specialProductExists) {
             try {
                 await fetch('/cart/add.js', {
@@ -59,13 +53,33 @@ const  /**
                         "form_type": "product",
                         id: 41857750827079,
                         "product-id": specialProductId,
-                        quantity: 1
+                        quantity: 1,
+                        sections: [...sectionsToBundle].join(",")
                     })
                 });
                 // Refresh the cart sections to reflect changes
                 document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
                     bubbles: true
                 }));
+            } catch (error) {
+                console.error('Error adding special product to cart:', error);
+            }
+        }
+    } else {
+        if (specialProductExists) {
+            try {
+                await fetch('/cart/update.js', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        updates: {
+                            [specialProductExists.key]: 0
+                        },
+                        sections: [...sectionsToBundle].join(",")
+                    })
+                })
             } catch (error) {
                 console.error('Error adding special product to cart:', error);
             }
@@ -121,7 +135,7 @@ onSubmit_fn = async function (event) {
 
     // After successful add to cart, fetch cart data and check total
     try {
-        await checkCartTotalAndAddSpecialProduct(responseJson.original_line_price);
+        await checkCartTotalAndAddSpecialProduct(sectionsToBundle);
     } catch (error) {
         console.error('Error fetching cart data:', error);
     }
@@ -136,8 +150,7 @@ onSubmit_fn = async function (event) {
             return window.location.href = `${Shopify.routes.root}cart`;
         }
         const cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
-        console.log("%c 1 --> Line: 123||product-form.js\n cartContent: ","color:#f0f;", cartContent);
-
+        console.log("%c 1 --> Line: 123||product-form.js\n cartContent: ", "color:#f0f;", cartContent);
 
 
         cartContent["sections"] = responseJson["sections"];

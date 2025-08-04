@@ -2127,17 +2127,17 @@ var LineItem = class extends HTMLElement {
  * @param {object} cartData - The current cart data
  * @returns {Promise<void>}
  */
-const checkCartTotalAndAddSpecialProduct = async (original_line_price) => {
+const checkCartTotalAndAddSpecialProduct = async (original_line_price, sectionsToBundle) => {
     if (!original_line_price) return
-    if (original_line_price / 100 >= 1000000) {
+    const cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
+    const specialProductId = 7257497894983;
 
-        const cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
-        const specialProductId = 7257497894983;
-
-        const specialProductExists = cartContent.items.some(item => item.id === specialProductId || item.product_id === specialProductId);
+    const specialProductExists = cartContent.items.find(item => item.id === specialProductId || item.product_id === specialProductId);
+    let totalPriceWithoutSpecialProduct = (original_line_price / 100) - ((specialProductExists?.price ?? 0) / 100);
+    if (totalPriceWithoutSpecialProduct >= 1000000) {
         if (!specialProductExists) {
             try {
-                await fetch('/cart/add.js', {
+                return fetch('/cart/add.js', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -2146,13 +2146,33 @@ const checkCartTotalAndAddSpecialProduct = async (original_line_price) => {
                         "form_type": "product",
                         id: 41857750827079,
                         "product-id": specialProductId,
-                        quantity: 1
+                        quantity: 1,
+                        sections: [...sectionsToBundle].join(",")
                     })
                 });
                 // Refresh the cart sections to reflect changes
                 document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
                     bubbles: true
                 }));
+            } catch (error) {
+                console.error('Error adding special product to cart:', error);
+            }
+        }
+    } else {
+        if (specialProductExists) {
+            try {
+                return fetch('/cart/update.js', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        updates: {
+                            [specialProductExists.key]: 0
+                        },
+                        sections: [...sectionsToBundle].join(",")
+                    })
+                })
             } catch (error) {
                 console.error('Error adding special product to cart:', error);
             }
@@ -2192,9 +2212,11 @@ changeLineItemQuantity_fn = async function (lineKey, targetQuantity) {
     });
     const responseJson = await response.json();
 
+    let updatedResponse
+
     try {
         // Call the method to check cart total and add special product if needed
-        await checkCartTotalAndAddSpecialProduct(responseJson.original_total_price);
+        updatedResponse = await checkCartTotalAndAddSpecialProduct(responseJson.original_total_price, sectionsToBundle);
     } catch (error) {
         console.error('Error fetching cart data:', error);
     }
@@ -2210,7 +2232,16 @@ changeLineItemQuantity_fn = async function (lineKey, targetQuantity) {
         errorContainer.insertAdjacentHTML("afterbegin", `<p class="h-stack gap-1.5 text-sm text-error" role="alert">${errorSvg} ${responseContent["description"]}</p>`);
         this.querySelector("quantity-selector")?.restoreDefaultValue();
     } else {
-        const cartContent = responseJson
+        let cartContent
+        if (updatedResponse) {
+            cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
+
+            const updatedResponseJson = await updatedResponse.json();
+            cartContent["sections"] = updatedResponseJson["sections"];
+        } else {
+            cartContent = responseJson;
+        }
+
         if (window.themeVariables.settings.pageType === "cart") {
             window.location.reload();
         } else {

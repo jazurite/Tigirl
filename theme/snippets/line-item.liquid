@@ -53,7 +53,7 @@ Supported variables
           {%- if line_item.selling_plan_allocation -%}
             <p class="subheading text-subdued">{{ line_item.selling_plan_allocation.selling_plan.name }}</p>
           {%- endif -%}
-          
+
           {%- unless line_item.properties == empty -%}
             <ul role="list">
               {%- for property in line_item.properties -%}
@@ -77,10 +77,14 @@ Supported variables
           {%- if line_item.line_level_discount_allocations != blank -%}
             <ul role="list" class="unstyled-list">
               {%- for discount_allocation in line_item.line_level_discount_allocations -%}
-                <li class="h-stack gap-2 subheading text-subdued">
-                  {%- render 'icon' with 'discount', width: 14 -%} 
-                  {{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})
-                </li>
+                {% if discount_allocation.amount > 0 %}
+
+                  <li class="h-stack gap-2 subheading text-subdued">
+                    {%- render 'icon' with 'discount', width: 14 -%}
+                    {{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})
+                  </li>
+
+                {%- endif -%}
               {%- endfor -%}
             </ul>
           {%- endif -%}
