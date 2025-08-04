@@ -8,6 +8,36 @@
     "theme_support_url": "https:\/\/support.maestrooo.com\/article\/203-contact-us"
   },
   {
+    "name": "Layout",
+    "settings": [
+      {
+        "type": "number",
+        "id": "tote_quantity",
+        "default": 40,
+        "label": "Tote Quantity"
+      },
+      {
+        "type": "color",
+        "id": "tote_progress_bar_color",
+        "default": "#D3D3D3",
+        "label": "Progress Bar Color"
+      },
+      {
+        "type": "color",
+        "id": "tote_progress_bar_handler_color",
+        "default": "#EB190E",
+        "label": "Progress Bar Handler Color"
+      },
+      {
+        "id": "sale_timer",
+        "type": "text",
+        "label": "t:settings_schema.layout.settings.sale_timer",
+        "info": "Please follow format: YYYY-MM-DD HH:mm"
+      },
+    ]
+  },
+
+  {
     "name": "t:theme_settings.appearance.name",
     "settings": [
       {

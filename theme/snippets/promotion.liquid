@@ -95,11 +95,9 @@
 
         height: 12px;
         border-radius: 12px;
-        background: #D3D3D3;
     }
 
     .promotion-progress-bar__handler {
-        background-color: #EB190E;
         border-radius: 12px;
         height: 100%;
     }
@@ -108,27 +106,29 @@
 </style>
 
 <div class="promotion-campaign"
-     style="{% render 'surface', background: settings.background, text_color: settings.text_color %} ">
+     style="{% render 'surface', background: block_settings.background, text_color: block_settings.text_color %} ">
     <div class="promotion-campaign__media">
-        {{- settings.image | image_url: width: settings.image.width | image_tag: sizes: '200,300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400' -}}
+        {{- block_settings.image | image_url: width: block_settings.image.width | image_tag: sizes: '200,300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400' -}}
     </div>
 
     <div class="promotion-campaign__detail">
         <p class="text-base" style="color: #0F172A">Tặng 1 túi tote cho đơn hàng trên 1 triệu</p>
-        <p class="text-sm font-light" style="color: #334155">Áp dụng cho 50 đơn hàng đầu tiên</p>
+        <p class="text-sm font-light" style="color: #334155">Áp dụng cho {{ max_quantity }} đơn hàng đầu tiên</p>
 
-        {% assign quantity = settings.inventory_quantity |  times: 1 %}
-        {% assign max_quantity = settings.inventory_max_quantity |  times: 1 %}
+        {% assign quantity = settings.tote_quantity | times: 1 %}
+        {% assign max_quantity = block_settings.inventory_max_quantity | times: 1 %}
 
-        {% assign currentVal = quantity |  times: 100 | divided_by: max_quantity %}
+        {% assign currentVal = quantity | times: 100 | divided_by: max_quantity %}
 
-        <div class="promotion-progress-bar" aria-valuenow="{{ settings.inventory_quantity }}" aria-valuemax="{{ settings.inventory_max_quantity }}">
-            <div class="promotion-progress-bar__handler" style="width:{{ currentVal }}%"></div>
+        <div class="promotion-progress-bar" aria-valuenow="{{ quantity }}" aria-valuemax="{{ max_quantity }}"
+             style="background-color: {{ settings.tote_progress_bar_color }}">
+            <div class="promotion-progress-bar__handler" style="width:{{ currentVal }}%; background-color: {{
+            settings.tote_progress_bar_handler_color }}"></div>
         </div>
 
 
         <div class="promotion-inventory">
-            <span class="promotion-inventory__text">Còn lại: {{ settings.inventory_quantity }}/{{ settings.inventory_max_quantity }}</span>
+            <span class="promotion-inventory__text">Còn lại: {{ quantity }}/{{ max_quantity }}</span>
         </div>
     </div>
 

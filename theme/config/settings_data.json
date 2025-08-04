@@ -28,6 +28,8 @@
     "heading_letter_spacing": 0,
     "heading_line_height": 1.4,
     "subheading_font": "inter_n4",
+    "tote_quantity": 40,
+    "sale_timer": "2025-11-06 00:00",
     "subheading_text_transform": "uppercase",
     "subheading_letter_spacing": 4,
     "subheading_icon": "square",
