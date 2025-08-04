@@ -14,11 +14,16 @@
       "blocks": {
         "totals": {
           "type": "totals",
-          "settings": {}
+          "settings": {
+            "show_order_weight": false,
+            "show_shipping_text": false
+          }
         },
         "cart_note": {
           "type": "cart_note",
-          "settings": {}
+          "settings": {
+            "open_by_default": false
+          }
         },
         "checkout_button": {
           "type": "checkout_button",
@@ -35,7 +40,10 @@
         "checkout_button",
         "payment_methods"
       ],
-      "settings": {}
+      "settings": {
+        "color_scheme": "",
+        "show_shipping_estimator": false
+      }
     }
   },
   "order": [

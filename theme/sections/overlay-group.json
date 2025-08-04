@@ -52,7 +52,7 @@
         "color_scheme": "",
         "show_cart_note": false,
         "show_shipping_estimator": false,
-        "show_shipping_text": true,
+        "show_shipping_text": false,
         "show_terms_of_service_checkbox": false,
         "show_view_cart_button": false,
         "show_checkout_button": true,

@@ -85,7 +85,6 @@
         /* identical to box height, or 133% */
         text-transform: uppercase;
 
-        color: #EB190E;
     }
 
     .promotion-progress-bar {
@@ -127,7 +126,7 @@
         </div>
 
 
-        <div class="promotion-inventory">
+        <div class="promotion-inventory" style="color: {{ settings.tote_progress_bar_handler_color }}">
             <span class="promotion-inventory__text">Còn lại: {{ quantity }}/{{ max_quantity }}</span>
         </div>
     </div>

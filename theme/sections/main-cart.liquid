@@ -173,6 +173,9 @@
                         {% endif %}
 
                       {%- when 'checkout_button' -%}
+
+                        <administrative-divisions-selector type="cart-page"></administrative-divisions-selector>
+
                         {%- assign checkout_button = 'cart.general.checkout' | t -%}
                         {%- render 'button', type: 'submit', content: checkout_button, name: 'checkout', stretch: true, form: 'cart-main-form', block: block -%}
 

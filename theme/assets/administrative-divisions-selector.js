@@ -17,11 +17,15 @@ if (!customElements.get("administrative-divisions-selector")) {
             this.$provinceSelect = $(this.provinceSelect)
             this.wardSelect = this.querySelector("#ward");
             this.$wardSelect = $(this.wardSelect)
+
+            const type = this.getAttribute('type')
+            const outlet = type === "cart-page" ? $('body') : $(`cart-drawer [slot="footer"]`)
+
             this.$provinceSelect.select2({
-                dropdownParent: $(`cart-drawer [slot="footer"]`)
+                dropdownParent: outlet
             });
             this.$wardSelect.select2({
-                dropdownParent: $(`cart-drawer [slot="footer"]`)
+                dropdownParent: outlet
             });
             if (!Cart.initialized) {
                 document.addEventListener(EVENTS.CART_LOADED, this.init.bind(this))
