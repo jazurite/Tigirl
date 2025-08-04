@@ -44,7 +44,7 @@ const checkCartTotalAndAddSpecialProduct = async (sectionsToBundle) => {
     if (totalPriceWithoutSpecialProduct >= 1000000) {
         if (!specialProductExists) {
             try {
-                await fetch('/cart/add.js', {
+              return  await fetch('/cart/add.js', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -66,9 +66,11 @@ const checkCartTotalAndAddSpecialProduct = async (sectionsToBundle) => {
             }
         }
     } else {
+        console.log(1)
+
         if (specialProductExists) {
             try {
-                await fetch('/cart/update.js', {
+                return await fetch('/cart/update.js', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -133,13 +135,14 @@ onSubmit_fn = async function (event) {
     });
     const responseJson = await response.json();
 
+    let updatedResponse
+
     // After successful add to cart, fetch cart data and check total
     try {
-        await checkCartTotalAndAddSpecialProduct(sectionsToBundle);
+        updatedResponse = await checkCartTotalAndAddSpecialProduct(sectionsToBundle);
     } catch (error) {
         console.error('Error fetching cart data:', error);
     }
-
 
     if (showLoadingBar) {
         document.documentElement.dispatchEvent(new CustomEvent("theme:loading:end", {bubbles: true}));
@@ -152,8 +155,13 @@ onSubmit_fn = async function (event) {
         const cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
         console.log("%c 1 --> Line: 123||product-form.js\n cartContent: ", "color:#f0f;", cartContent);
 
+        if(updatedResponse) {
+            const updatedResponseJson = await updatedResponse.json();
+            cartContent["sections"] = updatedResponseJson["sections"];
+        } else {
+            cartContent["sections"] = responseJson["sections"];
+        }
 
-        cartContent["sections"] = responseJson["sections"];
         const items = responseJson.hasOwnProperty("items") ? responseJson["items"] : [responseJson];
         __privateGet(this, _ProductForm_instances, form_get2).dispatchEvent(new CustomEvent("variant:add", {
             bubbles: true,
