@@ -78,7 +78,7 @@
         "countdown_rHXaFU": {
           "type": "countdown",
           "settings": {
-            "text": "Grand opening 10% OFF",
+            "text": "Treat Deal 10% OFF",
             "background": "#fff1f2",
             "text_color": "#be123c",
             "expiration_date": "2025-12-31 00:00",
