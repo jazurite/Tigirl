@@ -29,7 +29,10 @@
         endif
       -%}
 
-      <countdown-timer class="countdown__timer {% if section.settings.show_timer_borders %}countdown__timer--bordered{% endif %}" role="timer" aria-label="{{ accessibility_text | escape }}" expires-at="{{ section.settings.expiration_date | date: '%FT%T%:z' | escape }}" expiration-behavior="{{ section.settings.expiration_behavior }}">
+      <countdown-timer class="countdown__timer {% if section.settings.show_timer_borders
+      %}countdown__timer--bordered{% endif %}" role="timer" aria-label="{{ accessibility_text | escape }}"
+
+       expires-at="{{ section.settings.expiration_date | date: '%FT%T%:z' | escape }}" expiration-behavior="{{ section.settings.expiration_behavior }}">
         <div class="countdown__timer-item" aria-hidden="true">
           <countdown-timer-flip type="days" {% if section.settings.animate_timer_numbers %}animate{% endif %} class="countdown__timer-flip {{ section.settings.timer_size }}">00</countdown-timer-flip>
           <span class="countdown__timer-unit subheading">{{ 'sections.countdown_timer.days_long' | t }}</span>

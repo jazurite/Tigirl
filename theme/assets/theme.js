@@ -5520,22 +5520,27 @@ if (!window.customElements.get("cart-drawer")) {
     window.customElements.define("cart-drawer", CartDrawer);
 }
 
-var _flips, _expirationDate, _interval, _isVisible, _CountdownTimer_instances, recalculateFlips_fn;
+var _flips, _expirationDate, _startDate, _interval, _isVisible, _CountdownTimer_instances, recalculateFlips_fn;
 var CountdownTimer = class extends HTMLElement {
     constructor() {
         super(...arguments);
         __privateAdd(this, _CountdownTimer_instances);
         __privateAdd(this, _flips);
         __privateAdd(this, _expirationDate);
+        __privateAdd(this, _startDate);
         __privateAdd(this, _interval);
         __privateAdd(this, _isVisible);
     }
 
     connectedCallback() {
         __privateSet(this, _flips, Array.from(this.querySelectorAll("countdown-timer-flip")));
+
+        const startsAt = this.getAttribute("starts-at");
+
         const expiresAt = this.getAttribute("expires-at");
         if (expiresAt !== "") {
             __privateSet(this, _expirationDate, new Date(expiresAt));
+            __privateSet(this, _startDate, !!startsAt && new Date(startsAt));
             __privateSet(this, _interval, setInterval(__privateMethod(this, _CountdownTimer_instances, recalculateFlips_fn).bind(this), 1e3));
             __privateMethod(this, _CountdownTimer_instances, recalculateFlips_fn).call(this);
         }
@@ -5567,11 +5572,14 @@ var CountdownTimer = class extends HTMLElement {
 };
 _flips = new WeakMap();
 _expirationDate = new WeakMap();
+_startDate = new WeakMap();
 _interval = new WeakMap();
 _isVisible = new WeakMap();
 _CountdownTimer_instances = new WeakSet();
+
 recalculateFlips_fn = function () {
-    const dateNow = /* @__PURE__ */ new Date();
+    const dateNow = __privateGet(this, _startDate) || new Date();
+
     if (__privateGet(this, _expirationDate) < dateNow) {
         if (this.getAttribute("expiration-behavior") === "hide") {
             this.closest(".shopify-section, [data-block-id]").remove();

@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "tote_quantity": 50,
+    "tote_quantity": 30,
     "tote_progress_bar_handler_color": "#168342",
     "sale_timer": "2025-11-06 00:00",
     "section_spacing": "normal",
