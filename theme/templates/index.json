@@ -131,7 +131,7 @@
       "type": "countdown",
       "settings": {
         "color_scheme": "scheme-2",
-        "image": "shopify://shop_images/Home_Collections_0003s_0000_img_home_03.jpg",
+        "image": "shopify://shop_images/TREAT_DEAL.png",
         "image_position": "split",
         "image_size": "md",
         "add_image_spacing": true,
@@ -147,7 +147,7 @@
         "timer_size": "h1",
         "show_timer_borders": true,
         "animate_timer_numbers": true,
-        "caption_text": "Don't Miss It",
+        "caption_text": "TREAT YOURSELF SEASON",
         "caption_scrolling": true,
         "caption_text_color": "#ffffff"
       }
