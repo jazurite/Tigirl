@@ -74,6 +74,11 @@
         "type": "shopify://apps/bundler/blocks/bundler-script-append/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
         "disabled": false,
         "settings": {}
+      },
+      "8035815586522894503": {
+        "type": "shopify://apps/salepify-gifts-upsell/blocks/free-gift.embed/f616e94d-36ae-45cb-9d98-57804196c7a7",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {

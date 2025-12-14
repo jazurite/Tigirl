@@ -2134,7 +2134,10 @@ const checkCartTotalAndAddSpecialProduct = async (original_line_price, sectionsT
 
     const specialProductExists = cartContent.items.find(item => item.id === specialProductId || item.product_id === specialProductId);
     let totalPriceWithoutSpecialProduct = (original_line_price / 100) - ((specialProductExists?.price ?? 0) / 100);
-    if (totalPriceWithoutSpecialProduct >= 1000000) {
+
+    const TOTE_GIVEAWAY_THRESHOLD = 500000;
+
+    if (totalPriceWithoutSpecialProduct >= TOTE_GIVEAWAY_THRESHOLD) {
         if (!specialProductExists) {
             try {
                 return fetch('/cart/add.js', {

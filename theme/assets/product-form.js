@@ -38,10 +38,12 @@ const checkCartTotalAndAddSpecialProduct = async (sectionsToBundle) => {
 
     const specialProductId = 7257497894983;
     const specialProductExists = cartContent.items.find(item => item.id === specialProductId || item.product_id === specialProductId);
-    console.log("%c 1 --> Line: 41||product-form.js\n specialProductExists: ","color:#f0f;", specialProductExists);
+
     let totalPriceWithoutSpecialProduct = (cartContent.original_total_price / 100) - ((specialProductExists?.price ?? 0) / 100);
-    console.log("%c 1 --> Line: 43||product-form.js\n totalPriceWithoutSpecialProduct: ","color:#f0f;", totalPriceWithoutSpecialProduct);
-    if (totalPriceWithoutSpecialProduct >= 1000000) {
+
+    const TOTE_GIVEAWAY_THRESHOLD = 500000;
+
+    if (totalPriceWithoutSpecialProduct >= TOTE_GIVEAWAY_THRESHOLD) {
         if (!specialProductExists) {
             try {
               return  await fetch('/cart/add.js', {
