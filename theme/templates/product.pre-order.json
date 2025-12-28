@@ -42,6 +42,7 @@
         },
         "promotion_n3giPm": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/tote_img.png",
             "background": "#ddf9f0",
