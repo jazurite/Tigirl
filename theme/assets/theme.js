@@ -2128,59 +2128,59 @@ var LineItem = class extends HTMLElement {
  * @returns {Promise<void>}
  */
 const checkCartTotalAndAddSpecialProduct = async (original_line_price, sectionsToBundle) => {
-    if (!original_line_price) return
-    const cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
-    const specialProductId = 7257497894983;
-
-    const specialProductExists = cartContent.items.find(item => item.id === specialProductId || item.product_id === specialProductId);
-    let totalPriceWithoutSpecialProduct = (original_line_price / 100) - ((specialProductExists?.price ?? 0) / 100);
-
-    const TOTE_GIVEAWAY_THRESHOLD = 500000;
-
-    if (totalPriceWithoutSpecialProduct >= TOTE_GIVEAWAY_THRESHOLD) {
-        if (!specialProductExists) {
-            try {
-                return fetch('/cart/add.js', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        "form_type": "product",
-                        id: 41857750827079,
-                        "product-id": specialProductId,
-                        quantity: 1,
-                        sections: [...sectionsToBundle].join(",")
-                    })
-                });
-                // Refresh the cart sections to reflect changes
-                document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
-                    bubbles: true
-                }));
-            } catch (error) {
-                console.error('Error adding special product to cart:', error);
-            }
-        }
-    } else {
-        if (specialProductExists) {
-            try {
-                return fetch('/cart/update.js', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        updates: {
-                            [specialProductExists.key]: 0
-                        },
-                        sections: [...sectionsToBundle].join(",")
-                    })
-                })
-            } catch (error) {
-                console.error('Error adding special product to cart:', error);
-            }
-        }
-    }
+    // if (!original_line_price) return
+    // const cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
+    // const specialProductId = 7257497894983;
+    //
+    // const specialProductExists = cartContent.items.find(item => item.id === specialProductId || item.product_id === specialProductId);
+    // let totalPriceWithoutSpecialProduct = (original_line_price / 100) - ((specialProductExists?.price ?? 0) / 100);
+    //
+    // const TOTE_GIVEAWAY_THRESHOLD = 500000;
+    //
+    // if (totalPriceWithoutSpecialProduct >= TOTE_GIVEAWAY_THRESHOLD) {
+    //     if (!specialProductExists) {
+    //         try {
+    //             return fetch('/cart/add.js', {
+    //                 method: 'POST',
+    //                 headers: {
+    //                     'Content-Type': 'application/json'
+    //                 },
+    //                 body: JSON.stringify({
+    //                     "form_type": "product",
+    //                     id: 41857750827079,
+    //                     "product-id": specialProductId,
+    //                     quantity: 1,
+    //                     sections: [...sectionsToBundle].join(",")
+    //                 })
+    //             });
+    //             // Refresh the cart sections to reflect changes
+    //             document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
+    //                 bubbles: true
+    //             }));
+    //         } catch (error) {
+    //             console.error('Error adding special product to cart:', error);
+    //         }
+    //     }
+    // } else {
+    //     if (specialProductExists) {
+    //         try {
+    //             return fetch('/cart/update.js', {
+    //                 method: 'POST',
+    //                 headers: {
+    //                     'Content-Type': 'application/json'
+    //                 },
+    //                 body: JSON.stringify({
+    //                     updates: {
+    //                         [specialProductExists.key]: 0
+    //                     },
+    //                     sections: [...sectionsToBundle].join(",")
+    //                 })
+    //             })
+    //         } catch (error) {
+    //             console.error('Error adding special product to cart:', error);
+    //         }
+    //     }
+    // }
 }
 
 _delegate = new WeakMap();
